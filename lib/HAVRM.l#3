@@ -1,0 +1,3175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="PDIP_28P3">
+<description>DIP 14*2 PIN Atmel package</description>
+<wire x1="-0.9525" y1="7.3025" x2="33.9725" y2="7.3025" width="0.127" layer="21"/>
+<wire x1="33.9725" y1="7.3025" x2="33.9725" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="33.9725" y1="0.3175" x2="-0.9525" y2="0.3175" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="0.3175" x2="-0.9525" y2="2.8575" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="2.8575" x2="-0.9525" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="4.7625" x2="-0.9525" y2="7.3025" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="4.7625" x2="-0.9525" y2="2.8575" width="0.127" layer="21" curve="-180"/>
+<rectangle x1="1.905" y1="7.3025" x2="3.175" y2="7.62" layer="21"/>
+<rectangle x1="4.7625" y1="7.3025" x2="5.715" y2="7.62" layer="21"/>
+<rectangle x1="4.445" y1="7.3025" x2="4.7625" y2="7.62" layer="21"/>
+<rectangle x1="6.985" y1="7.3025" x2="8.255" y2="7.62" layer="21"/>
+<rectangle x1="9.8425" y1="7.3025" x2="10.795" y2="7.62" layer="21"/>
+<rectangle x1="9.525" y1="7.3025" x2="9.8425" y2="7.62" layer="21"/>
+<rectangle x1="12.065" y1="7.3025" x2="13.335" y2="7.62" layer="21"/>
+<rectangle x1="14.9225" y1="7.3025" x2="15.875" y2="7.62" layer="21"/>
+<rectangle x1="14.605" y1="7.3025" x2="14.9225" y2="7.62" layer="21"/>
+<rectangle x1="17.145" y1="7.3025" x2="18.415" y2="7.62" layer="21"/>
+<rectangle x1="19.685" y1="7.3025" x2="20.955" y2="7.62" layer="21"/>
+<rectangle x1="22.225" y1="7.3025" x2="23.1775" y2="7.62" layer="21"/>
+<rectangle x1="23.1775" y1="7.3025" x2="23.495" y2="7.62" layer="21"/>
+<rectangle x1="24.765" y1="7.3025" x2="26.035" y2="7.62" layer="21"/>
+<rectangle x1="27.305" y1="7.3025" x2="28.575" y2="7.62" layer="21"/>
+<rectangle x1="29.845" y1="7.3025" x2="31.115" y2="7.62" layer="21"/>
+<rectangle x1="32.385" y1="7.3025" x2="33.3375" y2="7.62" layer="21"/>
+<rectangle x1="-0.3175" y1="7.3025" x2="0.635" y2="7.62" layer="21"/>
+<pad name="P$1" x="0" y="7.62" drill="0.8"/>
+<pad name="P$2" x="2.54" y="7.62" drill="0.8"/>
+<pad name="P$3" x="5.08" y="7.62" drill="0.8"/>
+<pad name="P$4" x="7.62" y="7.62" drill="0.8"/>
+<pad name="P$5" x="10.16" y="7.62" drill="0.8"/>
+<pad name="P$6" x="12.7" y="7.62" drill="0.8"/>
+<pad name="P$7" x="15.24" y="7.62" drill="0.8"/>
+<pad name="P$8" x="17.78" y="7.62" drill="0.8"/>
+<pad name="P$9" x="20.32" y="7.62" drill="0.8"/>
+<pad name="P$10" x="22.86" y="7.62" drill="0.8"/>
+<pad name="P$11" x="25.4" y="7.62" drill="0.8"/>
+<pad name="P$12" x="27.94" y="7.62" drill="0.8"/>
+<pad name="P$13" x="30.48" y="7.62" drill="0.8"/>
+<pad name="P$14" x="33.02" y="7.62" drill="0.8"/>
+<rectangle x1="29.845" y1="0" x2="31.115" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="27.305" y1="0" x2="28.2575" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="28.2575" y1="0" x2="28.575" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="24.765" y1="0" x2="26.035" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="22.225" y1="0" x2="23.1775" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="23.1775" y1="0" x2="23.495" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="19.685" y1="0" x2="20.955" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="17.145" y1="0" x2="18.0975" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="18.0975" y1="0" x2="18.415" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="14.605" y1="0" x2="15.875" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="12.065" y1="0" x2="13.335" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="9.8425" y1="0" x2="10.795" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="9.525" y1="0" x2="9.8425" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="6.985" y1="0" x2="8.255" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="4.445" y1="0" x2="5.715" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="1.905" y1="0" x2="3.175" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="-0.3175" y1="0" x2="0.635" y2="0.3175" layer="21" rot="R180"/>
+<rectangle x1="32.385" y1="0" x2="33.3375" y2="0.3175" layer="21" rot="R180"/>
+<pad name="P$15" x="33.02" y="0" drill="0.8" rot="R180"/>
+<pad name="P$16" x="30.48" y="0" drill="0.8" rot="R180"/>
+<pad name="P$17" x="27.94" y="0" drill="0.8" rot="R180"/>
+<pad name="P$18" x="25.4" y="0" drill="0.8" rot="R180"/>
+<pad name="P$19" x="22.86" y="0" drill="0.8" rot="R180"/>
+<pad name="P$20" x="20.32" y="0" drill="0.8" rot="R180"/>
+<pad name="P$21" x="17.78" y="0" drill="0.8" rot="R180"/>
+<pad name="P$22" x="15.24" y="0" drill="0.8" rot="R180"/>
+<pad name="P$23" x="12.7" y="0" drill="0.8" rot="R180"/>
+<pad name="P$24" x="10.16" y="0" drill="0.8" rot="R180"/>
+<pad name="P$25" x="7.62" y="0" drill="0.8" rot="R180"/>
+<pad name="P$26" x="5.08" y="0" drill="0.8" rot="R180"/>
+<pad name="P$27" x="2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="P$28" x="0" y="0" drill="0.8" rot="R180"/>
+<text x="0.635" y="3.175" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-1.27" y="0.635" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="PDIP/SOIC_8P">
+<description>DIP 4*2 PIN MICROCHIP package</description>
+<wire x1="-0.635" y1="6.985" x2="8.255" y2="6.985" width="0.127" layer="21"/>
+<wire x1="8.255" y1="6.985" x2="8.255" y2="0.635" width="0.127" layer="21"/>
+<wire x1="8.255" y1="0.635" x2="-0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="2.8575" width="0.127" layer="21"/>
+<rectangle x1="-0.3175" y1="6.985" x2="0.635" y2="7.62" layer="21"/>
+<rectangle x1="1.905" y1="6.985" x2="3.175" y2="7.62" layer="21"/>
+<rectangle x1="4.445" y1="6.985" x2="5.715" y2="7.62" layer="21"/>
+<rectangle x1="6.985" y1="6.985" x2="7.9375" y2="7.62" layer="21"/>
+<rectangle x1="-0.3175" y1="0" x2="0.635" y2="0.635" layer="21"/>
+<rectangle x1="1.905" y1="0" x2="3.175" y2="0.635" layer="21"/>
+<rectangle x1="4.445" y1="0" x2="5.715" y2="0.635" layer="21"/>
+<rectangle x1="6.985" y1="0" x2="7.9375" y2="0.635" layer="21"/>
+<pad name="P$1" x="0" y="7.62" drill="0.8"/>
+<pad name="P$2" x="2.54" y="7.62" drill="0.8"/>
+<pad name="P$3" x="5.08" y="7.62" drill="0.8"/>
+<pad name="P$4" x="7.62" y="7.62" drill="0.8"/>
+<pad name="P$5" x="0" y="0" drill="0.8"/>
+<pad name="P$6" x="2.54" y="0" drill="0.8"/>
+<pad name="P$7" x="5.08" y="0" drill="0.8"/>
+<pad name="P$8" x="7.62" y="0" drill="0.8"/>
+<wire x1="-0.635" y1="2.8575" x2="-0.635" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="4.7625" x2="-0.635" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="4.7625" x2="-0.635" y2="2.8575" width="0.127" layer="21" curve="-180"/>
+<text x="-1.27" y="0.635" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<text x="0.635" y="3.175" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="PDIP/SOIC_18P">
+<description>DIP 9*2 PIN MICROCHIP package</description>
+<wire x1="-0.635" y1="6.985" x2="20.955" y2="6.985" width="0.127" layer="21"/>
+<wire x1="20.955" y1="6.985" x2="20.955" y2="0.635" width="0.127" layer="21"/>
+<wire x1="20.955" y1="0.635" x2="-0.635" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="2.8575" width="0.127" layer="21"/>
+<rectangle x1="-0.3175" y1="6.985" x2="0.635" y2="7.62" layer="21"/>
+<rectangle x1="1.905" y1="6.985" x2="3.175" y2="7.62" layer="21"/>
+<rectangle x1="4.445" y1="6.985" x2="5.715" y2="7.62" layer="21"/>
+<rectangle x1="19.685" y1="6.985" x2="20.6375" y2="7.62" layer="21"/>
+<rectangle x1="-0.3175" y1="0" x2="0.635" y2="0.635" layer="21"/>
+<rectangle x1="1.905" y1="0" x2="3.175" y2="0.635" layer="21"/>
+<rectangle x1="4.445" y1="0" x2="5.715" y2="0.635" layer="21"/>
+<rectangle x1="19.685" y1="0" x2="20.6375" y2="0.635" layer="21"/>
+<pad name="P$1" x="0" y="7.62" drill="0.8"/>
+<pad name="P$2" x="2.54" y="7.62" drill="0.8"/>
+<pad name="P$3" x="5.08" y="7.62" drill="0.8"/>
+<pad name="P$4" x="20.32" y="7.62" drill="0.8"/>
+<pad name="P$5" x="0" y="0" drill="0.8"/>
+<pad name="P$6" x="2.54" y="0" drill="0.8"/>
+<pad name="P$7" x="5.08" y="0" drill="0.8"/>
+<pad name="P$8" x="20.32" y="0" drill="0.8"/>
+<wire x1="-0.635" y1="2.8575" x2="-0.635" y2="4.7625" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="4.7625" x2="-0.635" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="4.7625" x2="-0.635" y2="2.8575" width="0.127" layer="21" curve="-180"/>
+<text x="-1.27" y="0.635" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<text x="0.635" y="3.175" size="1.27" layer="21">&gt;VALUE</text>
+<rectangle x1="6.985" y1="6.985" x2="8.255" y2="7.62" layer="21"/>
+<rectangle x1="9.525" y1="6.985" x2="10.795" y2="7.62" layer="21"/>
+<rectangle x1="6.985" y1="0" x2="8.255" y2="0.635" layer="21"/>
+<rectangle x1="9.525" y1="0" x2="10.795" y2="0.635" layer="21"/>
+<pad name="P$9" x="7.62" y="7.62" drill="0.8"/>
+<pad name="P$10" x="10.16" y="7.62" drill="0.8"/>
+<pad name="P$11" x="7.62" y="0" drill="0.8"/>
+<pad name="P$12" x="10.16" y="0" drill="0.8"/>
+<rectangle x1="12.065" y1="6.985" x2="13.335" y2="7.62" layer="21"/>
+<rectangle x1="12.065" y1="0" x2="13.335" y2="0.635" layer="21"/>
+<pad name="P$13" x="12.7" y="7.62" drill="0.8"/>
+<pad name="P$14" x="12.7" y="0" drill="0.8"/>
+<rectangle x1="14.605" y1="6.985" x2="15.875" y2="7.62" layer="21"/>
+<rectangle x1="17.145" y1="6.985" x2="18.415" y2="7.62" layer="21"/>
+<rectangle x1="14.605" y1="0" x2="15.875" y2="0.635" layer="21"/>
+<rectangle x1="17.145" y1="0" x2="18.415" y2="0.635" layer="21"/>
+<pad name="P$15" x="15.24" y="7.62" drill="0.8"/>
+<pad name="P$16" x="17.78" y="7.62" drill="0.8"/>
+<pad name="P$17" x="15.24" y="0" drill="0.8"/>
+<pad name="P$18" x="17.78" y="0" drill="0.8"/>
+</package>
+<package name="1179FN1-28N">
+<description>IC socket 14*2 pin</description>
+<wire x1="-0.95" y1="4.7525" x2="-0.95" y2="8.88" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="8.88" x2="33.975" y2="8.88" width="0.127" layer="21"/>
+<wire x1="33.975" y1="8.88" x2="33.975" y2="4.7525" width="0.127" layer="21"/>
+<wire x1="33.975" y1="4.7525" x2="32.3875" y2="4.7525" width="0.127" layer="21"/>
+<wire x1="32.3875" y1="4.7525" x2="0.6375" y2="4.7525" width="0.127" layer="21"/>
+<wire x1="0.6375" y1="4.7525" x2="-0.95" y2="4.7525" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="-1.28" x2="-0.95" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="2.8475" x2="0.6375" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="0.6375" y1="2.8475" x2="32.3875" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="32.3875" y1="2.8475" x2="33.975" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="33.975" y1="2.8475" x2="33.975" y2="-1.28" width="0.127" layer="21"/>
+<wire x1="33.975" y1="-1.28" x2="-0.95" y2="-1.28" width="0.127" layer="21"/>
+<pad name="P$1" x="0.0025" y="7.61" drill="0.8"/>
+<pad name="P$2" x="2.5425" y="7.61" drill="0.8"/>
+<pad name="P$3" x="5.0825" y="7.61" drill="0.8"/>
+<pad name="P$4" x="7.6225" y="7.61" drill="0.8"/>
+<pad name="P$5" x="10.1625" y="7.61" drill="0.8"/>
+<pad name="P$6" x="12.7025" y="7.61" drill="0.8"/>
+<pad name="P$7" x="15.2425" y="7.61" drill="0.8"/>
+<pad name="P$8" x="17.7825" y="7.61" drill="0.8"/>
+<pad name="P$9" x="20.3225" y="7.61" drill="0.8"/>
+<pad name="P$10" x="22.8625" y="7.61" drill="0.8"/>
+<pad name="P$11" x="25.4025" y="7.61" drill="0.8"/>
+<pad name="P$12" x="27.9425" y="7.61" drill="0.8"/>
+<pad name="P$13" x="30.4825" y="7.61" drill="0.8"/>
+<pad name="P$14" x="33.0225" y="7.61" drill="0.8"/>
+<pad name="P$15" x="33.0225" y="-0.01" drill="0.8"/>
+<pad name="P$16" x="30.4825" y="-0.01" drill="0.8"/>
+<pad name="P$17" x="27.9425" y="-0.01" drill="0.8"/>
+<pad name="P$18" x="25.4025" y="-0.01" drill="0.8"/>
+<pad name="P$19" x="22.8625" y="-0.01" drill="0.8"/>
+<pad name="P$20" x="20.3225" y="-0.01" drill="0.8"/>
+<pad name="P$21" x="17.7825" y="-0.01" drill="0.8"/>
+<pad name="P$22" x="15.2425" y="-0.01" drill="0.8"/>
+<pad name="P$23" x="12.7025" y="-0.01" drill="0.8"/>
+<pad name="P$24" x="10.1625" y="-0.01" drill="0.8"/>
+<pad name="P$25" x="7.6225" y="-0.01" drill="0.8"/>
+<pad name="P$26" x="5.0825" y="-0.01" drill="0.8"/>
+<pad name="P$27" x="2.5425" y="-0.01" drill="0.8"/>
+<pad name="P$28" x="0.0025" y="-0.01" drill="0.8"/>
+<rectangle x1="0.0025" y1="3.8" x2="0.6375" y2="4.7525" layer="21"/>
+<rectangle x1="32.3875" y1="3.8" x2="33.0225" y2="4.7525" layer="21"/>
+<wire x1="-0.95" y1="4.7525" x2="-0.95" y2="4.435" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="4.435" x2="-0.95" y2="3.165" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="3.165" x2="-0.95" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="33.975" y1="4.7525" x2="33.975" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="32.3875" y1="4.7525" x2="32.3875" y2="2.8475" width="0.127" layer="21"/>
+<wire x1="0.6375" y1="4.7525" x2="0.6375" y2="2.8475" width="0.127" layer="21"/>
+<rectangle x1="15.8775" y1="2.8475" x2="17.1475" y2="4.7525" layer="21"/>
+<wire x1="-0.95" y1="4.435" x2="-0.95" y2="3.165" width="0.127" layer="21" curve="-180"/>
+</package>
+<package name="BOARD_95_72">
+<wire x1="-3" y1="-3" x2="-3" y2="69" width="0.127" layer="21"/>
+<wire x1="-3" y1="69" x2="92" y2="69" width="0.127" layer="21"/>
+<wire x1="92" y1="69" x2="92" y2="-3" width="0.127" layer="21"/>
+<wire x1="92" y1="-3" x2="-3" y2="-3" width="0.127" layer="21"/>
+<hole x="0" y="0" drill="3.2"/>
+<hole x="0" y="66.04" drill="3.2"/>
+<hole x="88.9" y="66.04" drill="3.2"/>
+<hole x="88.9" y="0" drill="3.2"/>
+<hole x="0" y="5.08" drill="1"/>
+<hole x="2.54" y="2.54" drill="1"/>
+<hole x="5.08" y="0" drill="1"/>
+<hole x="7.62" y="0" drill="1"/>
+<hole x="10.16" y="0" drill="1"/>
+<hole x="12.7" y="0" drill="1"/>
+<hole x="15.24" y="0" drill="1"/>
+<hole x="17.78" y="0" drill="1"/>
+<hole x="20.32" y="0" drill="1"/>
+<hole x="22.86" y="0" drill="1"/>
+<hole x="25.4" y="0" drill="1"/>
+<hole x="27.94" y="0" drill="1"/>
+<hole x="30.48" y="0" drill="1"/>
+<hole x="33.02" y="0" drill="1"/>
+<hole x="35.56" y="0" drill="1"/>
+<hole x="38.1" y="0" drill="1"/>
+<hole x="40.64" y="0" drill="1"/>
+<hole x="43.18" y="0" drill="1"/>
+<hole x="45.72" y="0" drill="1"/>
+<hole x="50.8" y="0" drill="1"/>
+<hole x="48.26" y="0" drill="1"/>
+<hole x="53.34" y="0" drill="1"/>
+<hole x="55.88" y="0" drill="1"/>
+<hole x="58.42" y="0" drill="1"/>
+<hole x="60.96" y="0" drill="1"/>
+<hole x="63.5" y="0" drill="1"/>
+<hole x="66.04" y="0" drill="1"/>
+<hole x="71.12" y="0" drill="1"/>
+<hole x="68.58" y="0" drill="1"/>
+<hole x="76.2" y="0" drill="1"/>
+<hole x="73.66" y="0" drill="1"/>
+<hole x="78.74" y="0" drill="1"/>
+<hole x="83.82" y="0" drill="1"/>
+<hole x="81.28" y="0" drill="1"/>
+<hole x="86.36" y="2.54" drill="1"/>
+<hole x="88.9" y="5.08" drill="1"/>
+<hole x="88.9" y="7.62" drill="1"/>
+<hole x="88.9" y="10.16" drill="1"/>
+<hole x="88.9" y="12.7" drill="1"/>
+<hole x="88.9" y="17.78" drill="1"/>
+<hole x="88.9" y="15.24" drill="1"/>
+<hole x="88.9" y="20.32" drill="1"/>
+<hole x="88.9" y="22.86" drill="1"/>
+<hole x="88.9" y="27.94" drill="1"/>
+<hole x="88.9" y="25.4" drill="1"/>
+<hole x="88.9" y="30.48" drill="1"/>
+<hole x="88.9" y="33.02" drill="1"/>
+<hole x="88.9" y="35.56" drill="1"/>
+<hole x="88.9" y="38.1" drill="1"/>
+<hole x="88.9" y="40.64" drill="1"/>
+<hole x="88.9" y="43.18" drill="1"/>
+<hole x="88.9" y="45.72" drill="1"/>
+<hole x="88.9" y="48.26" drill="1"/>
+<hole x="88.9" y="50.8" drill="1"/>
+<hole x="88.9" y="53.34" drill="1"/>
+<hole x="88.9" y="55.88" drill="1"/>
+<hole x="88.9" y="58.42" drill="1"/>
+<hole x="88.9" y="60.96" drill="1"/>
+<hole x="86.36" y="63.5" drill="1"/>
+<hole x="83.82" y="66.04" drill="1"/>
+<hole x="81.28" y="66.04" drill="1"/>
+<hole x="78.74" y="66.04" drill="1"/>
+<hole x="73.66" y="66.04" drill="1"/>
+<hole x="76.2" y="66.04" drill="1"/>
+<hole x="68.58" y="66.04" drill="1"/>
+<hole x="71.12" y="66.04" drill="1"/>
+<hole x="66.04" y="66.04" drill="1"/>
+<hole x="63.5" y="66.04" drill="1"/>
+<hole x="60.96" y="66.04" drill="1"/>
+<hole x="58.42" y="66.04" drill="1"/>
+<hole x="53.34" y="66.04" drill="1"/>
+<hole x="55.88" y="66.04" drill="1"/>
+<hole x="50.8" y="66.04" drill="1"/>
+<hole x="48.26" y="66.04" drill="1"/>
+<hole x="45.72" y="66.04" drill="1"/>
+<hole x="43.18" y="66.04" drill="1"/>
+<hole x="40.64" y="66.04" drill="1"/>
+<hole x="38.1" y="66.04" drill="1"/>
+<hole x="35.56" y="66.04" drill="1"/>
+<hole x="33.02" y="66.04" drill="1"/>
+<hole x="30.48" y="66.04" drill="1"/>
+<hole x="27.94" y="66.04" drill="1"/>
+<hole x="25.4" y="66.04" drill="1"/>
+<hole x="22.86" y="66.04" drill="1"/>
+<hole x="20.32" y="66.04" drill="1"/>
+<hole x="17.78" y="66.04" drill="1"/>
+<hole x="17.78" y="66.04" drill="1"/>
+<hole x="15.24" y="66.04" drill="1"/>
+<hole x="10.16" y="66.04" drill="1"/>
+<hole x="12.7" y="66.04" drill="1"/>
+<hole x="7.62" y="66.04" drill="1"/>
+<hole x="5.08" y="66.04" drill="1"/>
+<hole x="2.54" y="63.5" drill="1"/>
+<hole x="0" y="60.96" drill="1"/>
+<hole x="0" y="58.42" drill="1"/>
+<hole x="0" y="55.88" drill="1"/>
+<hole x="0" y="53.34" drill="1"/>
+<hole x="0" y="50.8" drill="1"/>
+<hole x="0" y="48.26" drill="1"/>
+<hole x="0" y="43.18" drill="1"/>
+<hole x="0" y="45.72" drill="1"/>
+<hole x="0" y="40.64" drill="1"/>
+<hole x="0" y="38.1" drill="1"/>
+<hole x="0" y="33.02" drill="1"/>
+<hole x="0" y="35.56" drill="1"/>
+<hole x="0" y="30.48" drill="1"/>
+<hole x="0" y="25.4" drill="1"/>
+<hole x="0" y="27.94" drill="1"/>
+<hole x="0" y="20.32" drill="1"/>
+<hole x="0" y="22.86" drill="1"/>
+<hole x="0" y="17.78" drill="1"/>
+<hole x="0" y="15.24" drill="1"/>
+<hole x="0" y="12.7" drill="1"/>
+<hole x="0" y="10.16" drill="1"/>
+<hole x="0" y="7.62" drill="1"/>
+</package>
+<package name="BOARD_72_47.5">
+<wire x1="69.04" y1="-3" x2="-2.96" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.96" y1="-3" x2="-2.96" y2="43.74" width="0.127" layer="21"/>
+<wire x1="-2.96" y1="43.74" x2="69.04" y2="43.74" width="0.127" layer="21"/>
+<wire x1="69.04" y1="43.74" x2="69.04" y2="-3" width="0.127" layer="21"/>
+<hole x="66.04" y="0" drill="3.2"/>
+<hole x="0" y="0" drill="3.2"/>
+<hole x="0" y="40.64" drill="3.2"/>
+<hole x="66.04" y="40.64" drill="3.2"/>
+<hole x="60.96" y="0" drill="1"/>
+<hole x="63.5" y="2.54" drill="1"/>
+<hole x="66.04" y="5.08" drill="1"/>
+<hole x="66.04" y="7.62" drill="1"/>
+<hole x="66.04" y="10.16" drill="1"/>
+<hole x="66.04" y="12.7" drill="1"/>
+<hole x="66.04" y="15.24" drill="1"/>
+<hole x="66.04" y="17.78" drill="1"/>
+<hole x="66.04" y="20.32" drill="1"/>
+<hole x="66.04" y="22.86" drill="1"/>
+<hole x="66.04" y="25.4" drill="1"/>
+<hole x="66.04" y="27.94" drill="1"/>
+<hole x="66.04" y="30.48" drill="1"/>
+<hole x="66.04" y="33.02" drill="1"/>
+<hole x="66.04" y="35.56" drill="1"/>
+<hole x="63.5" y="38.1" drill="1"/>
+<hole x="60.96" y="40.64" drill="1"/>
+<hole x="58.42" y="40.64" drill="1"/>
+<hole x="55.88" y="40.64" drill="1"/>
+<hole x="53.34" y="40.64" drill="1"/>
+<hole x="48.26" y="40.64" drill="1"/>
+<hole x="50.8" y="40.64" drill="1"/>
+<hole x="45.72" y="40.64" drill="1"/>
+<hole x="43.18" y="40.64" drill="1"/>
+<hole x="38.1" y="40.64" drill="1"/>
+<hole x="40.64" y="40.64" drill="1"/>
+<hole x="35.56" y="40.64" drill="1"/>
+<hole x="33.02" y="40.64" drill="1"/>
+<hole x="30.48" y="40.64" drill="1"/>
+<hole x="27.94" y="40.64" drill="1"/>
+<hole x="25.4" y="40.64" drill="1"/>
+<hole x="22.86" y="40.64" drill="1"/>
+<hole x="20.32" y="40.64" drill="1"/>
+<hole x="17.78" y="40.64" drill="1"/>
+<hole x="15.24" y="40.64" drill="1"/>
+<hole x="12.7" y="40.64" drill="1"/>
+<hole x="10.16" y="40.64" drill="1"/>
+<hole x="7.62" y="40.64" drill="1"/>
+<hole x="5.08" y="40.64" drill="1"/>
+<hole x="2.54" y="38.1" drill="1"/>
+<hole x="0" y="35.56" drill="1"/>
+<hole x="0" y="33.02" drill="1"/>
+<hole x="0" y="30.48" drill="1"/>
+<hole x="0" y="27.94" drill="1"/>
+<hole x="0" y="25.4" drill="1"/>
+<hole x="0" y="22.86" drill="1"/>
+<hole x="0" y="20.32" drill="1"/>
+<hole x="0" y="17.78" drill="1"/>
+<hole x="0" y="17.78" drill="1"/>
+<hole x="0" y="15.24" drill="1"/>
+<hole x="0" y="10.16" drill="1"/>
+<hole x="0" y="12.7" drill="1"/>
+<hole x="0" y="7.62" drill="1"/>
+<hole x="0" y="5.08" drill="1"/>
+<hole x="2.54" y="2.54" drill="1"/>
+<hole x="5.08" y="0" drill="1"/>
+<hole x="7.62" y="0" drill="1"/>
+<hole x="10.16" y="0" drill="1"/>
+<hole x="12.7" y="0" drill="1"/>
+<hole x="15.24" y="0" drill="1"/>
+<hole x="17.78" y="0" drill="1"/>
+<hole x="22.86" y="0" drill="1"/>
+<hole x="20.32" y="0" drill="1"/>
+<hole x="25.4" y="0" drill="1"/>
+<hole x="27.94" y="0" drill="1"/>
+<hole x="33.02" y="0" drill="1"/>
+<hole x="30.48" y="0" drill="1"/>
+<hole x="35.56" y="0" drill="1"/>
+<hole x="40.64" y="0" drill="1"/>
+<hole x="38.1" y="0" drill="1"/>
+<hole x="45.72" y="0" drill="1"/>
+<hole x="43.18" y="0" drill="1"/>
+<hole x="48.26" y="0" drill="1"/>
+<hole x="50.8" y="0" drill="1"/>
+<hole x="53.34" y="0" drill="1"/>
+<hole x="55.88" y="0" drill="1"/>
+<hole x="58.42" y="0" drill="1"/>
+</package>
+<package name="HUS">
+<description>XTAL package 2 pin</description>
+<pad name="P$1" x="2.4" y="0" drill="0.8"/>
+<pad name="P$2" x="-2.4" y="0" drill="0.8"/>
+<wire x1="-3.2" y1="2.2" x2="-3.2" y2="-2.2" width="0.127" layer="21" curve="180"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="-2.2" width="0.127" layer="21" curve="-180"/>
+<wire x1="3.2" y1="2.2" x2="-3.2" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-2.2" x2="3.2" y2="-2.2" width="0.127" layer="21"/>
+<text x="-3.1" y="-3.8" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.1" y="-5.4" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="BOARD_71.12_60.96_WRD">
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="29.21" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="29.21" x2="-1.27" y2="59.69" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="59.69" x2="29.21" y2="59.69" width="0.127" layer="21"/>
+<wire x1="29.21" y1="59.69" x2="59.69" y2="59.69" width="0.127" layer="21"/>
+<wire x1="59.69" y1="59.69" x2="69.85" y2="59.69" width="0.127" layer="21"/>
+<wire x1="69.85" y1="59.69" x2="69.85" y2="29.21" width="0.127" layer="21"/>
+<wire x1="69.85" y1="29.21" x2="69.85" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="69.85" y1="-1.27" x2="59.69" y2="-1.27" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$2" x="0" y="55.88" drill="0.9"/>
+<pad name="P$3" x="0" y="53.34" drill="0.9"/>
+<pad name="P$4" x="0" y="50.8" drill="0.9"/>
+<pad name="P$5" x="0" y="48.26" drill="0.9"/>
+<pad name="P$6" x="0" y="45.72" drill="0.9"/>
+<pad name="P$7" x="0" y="43.18" drill="0.9"/>
+<pad name="P$8" x="0" y="40.64" drill="0.9"/>
+<pad name="P$9" x="0" y="38.1" drill="0.9"/>
+<pad name="P$10" x="0" y="35.56" drill="0.9"/>
+<pad name="P$11" x="0" y="33.02" drill="0.9"/>
+<pad name="P$12" x="0" y="30.48" drill="0.9" shape="square"/>
+<wire x1="59.69" y1="-1.27" x2="29.21" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="29.21" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="58.42" x2="0" y2="55.88" width="0.127" layer="18"/>
+<wire x1="0" y1="55.88" x2="0" y2="53.34" width="0.127" layer="18"/>
+<wire x1="0" y1="53.34" x2="0" y2="50.8" width="0.127" layer="18"/>
+<wire x1="0" y1="50.8" x2="0" y2="48.26" width="0.127" layer="18"/>
+<wire x1="0" y1="48.26" x2="0" y2="45.72" width="0.127" layer="18"/>
+<wire x1="0" y1="45.72" x2="0" y2="43.18" width="0.127" layer="18"/>
+<wire x1="0" y1="43.18" x2="0" y2="40.64" width="0.127" layer="18"/>
+<wire x1="0" y1="40.64" x2="0" y2="38.1" width="0.127" layer="18"/>
+<wire x1="0" y1="38.1" x2="0" y2="35.56" width="0.127" layer="18"/>
+<wire x1="0" y1="35.56" x2="0" y2="33.02" width="0.127" layer="18"/>
+<wire x1="0" y1="33.02" x2="0" y2="30.48" width="0.127" layer="18"/>
+<wire x1="0" y1="30.48" x2="2.54" y2="30.48" width="0.127" layer="18"/>
+<wire x1="0" y1="33.02" x2="2.54" y2="33.02" width="0.127" layer="18"/>
+<wire x1="2.54" y1="35.56" x2="0" y2="35.56" width="0.127" layer="18"/>
+<wire x1="0" y1="38.1" x2="2.54" y2="38.1" width="0.127" layer="18"/>
+<wire x1="2.54" y1="40.64" x2="0" y2="40.64" width="0.127" layer="18"/>
+<wire x1="0" y1="43.18" x2="2.54" y2="43.18" width="0.127" layer="18"/>
+<wire x1="2.54" y1="45.72" x2="0" y2="45.72" width="0.127" layer="18"/>
+<wire x1="0" y1="48.26" x2="2.54" y2="48.26" width="0.127" layer="18"/>
+<wire x1="2.54" y1="50.8" x2="0" y2="50.8" width="0.127" layer="18"/>
+<wire x1="0" y1="53.34" x2="2.54" y2="53.34" width="0.127" layer="18"/>
+<wire x1="2.54" y1="55.88" x2="0" y2="55.88" width="0.127" layer="18"/>
+<wire x1="0" y1="58.42" x2="2.54" y2="58.42" width="0.127" layer="18"/>
+<pad name="P$13" x="2.54" y="58.42" drill="0.9"/>
+<pad name="P$14" x="2.54" y="55.88" drill="0.9"/>
+<pad name="P$15" x="2.54" y="53.34" drill="0.9"/>
+<pad name="P$16" x="2.54" y="50.8" drill="0.9"/>
+<pad name="P$17" x="2.54" y="48.26" drill="0.9"/>
+<pad name="P$18" x="2.54" y="45.72" drill="0.9"/>
+<pad name="P$19" x="2.54" y="43.18" drill="0.9"/>
+<pad name="P$20" x="2.54" y="40.64" drill="0.9"/>
+<pad name="P$21" x="2.54" y="38.1" drill="0.9"/>
+<pad name="P$22" x="2.54" y="35.56" drill="0.9"/>
+<pad name="P$23" x="2.54" y="33.02" drill="0.9"/>
+<wire x1="2.54" y1="58.42" x2="2.54" y2="55.88" width="0.127" layer="18"/>
+<wire x1="2.54" y1="55.88" x2="2.54" y2="53.34" width="0.127" layer="18"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="50.8" width="0.127" layer="18"/>
+<wire x1="2.54" y1="50.8" x2="2.54" y2="48.26" width="0.127" layer="18"/>
+<wire x1="2.54" y1="48.26" x2="2.54" y2="45.72" width="0.127" layer="18"/>
+<wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.127" layer="18"/>
+<wire x1="2.54" y1="43.18" x2="2.54" y2="40.64" width="0.127" layer="18"/>
+<wire x1="2.54" y1="40.64" x2="2.54" y2="38.1" width="0.127" layer="18"/>
+<wire x1="2.54" y1="38.1" x2="2.54" y2="35.56" width="0.127" layer="18"/>
+<wire x1="2.54" y1="35.56" x2="2.54" y2="33.02" width="0.127" layer="18"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="30.48" width="0.127" layer="18"/>
+<wire x1="2.54" y1="33.02" x2="5.08" y2="33.02" width="0.127" layer="18"/>
+<wire x1="5.08" y1="35.56" x2="2.54" y2="35.56" width="0.127" layer="18"/>
+<wire x1="2.54" y1="38.1" x2="5.08" y2="38.1" width="0.127" layer="18"/>
+<wire x1="5.08" y1="40.64" x2="2.54" y2="40.64" width="0.127" layer="18"/>
+<wire x1="2.54" y1="43.18" x2="5.08" y2="43.18" width="0.127" layer="18"/>
+<wire x1="5.08" y1="45.72" x2="2.54" y2="45.72" width="0.127" layer="18"/>
+<wire x1="2.54" y1="48.26" x2="5.08" y2="48.26" width="0.127" layer="18"/>
+<wire x1="5.08" y1="50.8" x2="2.54" y2="50.8" width="0.127" layer="18"/>
+<wire x1="2.54" y1="53.34" x2="5.08" y2="53.34" width="0.127" layer="18"/>
+<wire x1="5.08" y1="55.88" x2="2.54" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$24" x="2.54" y="30.48" drill="0.9"/>
+<wire x1="2.54" y1="58.42" x2="5.08" y2="58.42" width="0.127" layer="18"/>
+<wire x1="2.54" y1="30.48" x2="5.08" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$25" x="5.08" y="58.42" drill="0.9"/>
+<pad name="P$26" x="5.08" y="55.88" drill="0.9"/>
+<pad name="P$27" x="5.08" y="53.34" drill="0.9"/>
+<pad name="P$28" x="5.08" y="50.8" drill="0.9"/>
+<pad name="P$29" x="5.08" y="48.26" drill="0.9"/>
+<pad name="P$30" x="5.08" y="45.72" drill="0.9"/>
+<pad name="P$31" x="5.08" y="43.18" drill="0.9"/>
+<pad name="P$32" x="5.08" y="40.64" drill="0.9"/>
+<pad name="P$33" x="5.08" y="38.1" drill="0.9"/>
+<pad name="P$34" x="5.08" y="35.56" drill="0.9"/>
+<pad name="P$35" x="5.08" y="33.02" drill="0.9"/>
+<wire x1="5.08" y1="58.42" x2="5.08" y2="55.88" width="0.127" layer="18"/>
+<wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.127" layer="18"/>
+<wire x1="5.08" y1="53.34" x2="5.08" y2="50.8" width="0.127" layer="18"/>
+<wire x1="5.08" y1="50.8" x2="5.08" y2="48.26" width="0.127" layer="18"/>
+<wire x1="5.08" y1="48.26" x2="5.08" y2="45.72" width="0.127" layer="18"/>
+<wire x1="5.08" y1="45.72" x2="5.08" y2="43.18" width="0.127" layer="18"/>
+<wire x1="5.08" y1="43.18" x2="5.08" y2="40.64" width="0.127" layer="18"/>
+<wire x1="5.08" y1="40.64" x2="5.08" y2="38.1" width="0.127" layer="18"/>
+<wire x1="5.08" y1="38.1" x2="5.08" y2="35.56" width="0.127" layer="18"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="33.02" width="0.127" layer="18"/>
+<wire x1="5.08" y1="33.02" x2="5.08" y2="30.48" width="0.127" layer="18"/>
+<wire x1="5.08" y1="33.02" x2="7.62" y2="33.02" width="0.127" layer="18"/>
+<wire x1="7.62" y1="35.56" x2="5.08" y2="35.56" width="0.127" layer="18"/>
+<wire x1="5.08" y1="38.1" x2="7.62" y2="38.1" width="0.127" layer="18"/>
+<wire x1="7.62" y1="40.64" x2="5.08" y2="40.64" width="0.127" layer="18"/>
+<wire x1="5.08" y1="43.18" x2="7.62" y2="43.18" width="0.127" layer="18"/>
+<wire x1="7.62" y1="45.72" x2="5.08" y2="45.72" width="0.127" layer="18"/>
+<wire x1="5.08" y1="48.26" x2="7.62" y2="48.26" width="0.127" layer="18"/>
+<wire x1="7.62" y1="50.8" x2="5.08" y2="50.8" width="0.127" layer="18"/>
+<wire x1="5.08" y1="53.34" x2="7.62" y2="53.34" width="0.127" layer="18"/>
+<wire x1="7.62" y1="55.88" x2="5.08" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$36" x="5.08" y="30.48" drill="0.9"/>
+<wire x1="5.08" y1="58.42" x2="7.62" y2="58.42" width="0.127" layer="18"/>
+<wire x1="5.08" y1="30.48" x2="7.62" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$37" x="7.62" y="58.42" drill="0.9"/>
+<pad name="P$38" x="7.62" y="55.88" drill="0.9"/>
+<pad name="P$39" x="7.62" y="53.34" drill="0.9"/>
+<pad name="P$40" x="7.62" y="50.8" drill="0.9"/>
+<pad name="P$41" x="7.62" y="48.26" drill="0.9"/>
+<pad name="P$42" x="7.62" y="45.72" drill="0.9"/>
+<pad name="P$43" x="7.62" y="43.18" drill="0.9"/>
+<pad name="P$44" x="7.62" y="40.64" drill="0.9"/>
+<pad name="P$45" x="7.62" y="38.1" drill="0.9"/>
+<pad name="P$46" x="7.62" y="35.56" drill="0.9"/>
+<pad name="P$47" x="7.62" y="33.02" drill="0.9"/>
+<wire x1="7.62" y1="58.42" x2="7.62" y2="55.88" width="0.127" layer="18"/>
+<wire x1="7.62" y1="55.88" x2="7.62" y2="53.34" width="0.127" layer="18"/>
+<wire x1="7.62" y1="53.34" x2="7.62" y2="50.8" width="0.127" layer="18"/>
+<wire x1="7.62" y1="50.8" x2="7.62" y2="48.26" width="0.127" layer="18"/>
+<wire x1="7.62" y1="48.26" x2="7.62" y2="45.72" width="0.127" layer="18"/>
+<wire x1="7.62" y1="45.72" x2="7.62" y2="43.18" width="0.127" layer="18"/>
+<wire x1="7.62" y1="43.18" x2="7.62" y2="40.64" width="0.127" layer="18"/>
+<wire x1="7.62" y1="40.64" x2="7.62" y2="38.1" width="0.127" layer="18"/>
+<wire x1="7.62" y1="38.1" x2="7.62" y2="35.56" width="0.127" layer="18"/>
+<wire x1="7.62" y1="35.56" x2="7.62" y2="33.02" width="0.127" layer="18"/>
+<wire x1="7.62" y1="33.02" x2="7.62" y2="30.48" width="0.127" layer="18"/>
+<wire x1="7.62" y1="33.02" x2="10.16" y2="33.02" width="0.127" layer="18"/>
+<wire x1="10.16" y1="35.56" x2="7.62" y2="35.56" width="0.127" layer="18"/>
+<wire x1="7.62" y1="38.1" x2="10.16" y2="38.1" width="0.127" layer="18"/>
+<wire x1="10.16" y1="40.64" x2="7.62" y2="40.64" width="0.127" layer="18"/>
+<wire x1="7.62" y1="43.18" x2="10.16" y2="43.18" width="0.127" layer="18"/>
+<wire x1="10.16" y1="45.72" x2="7.62" y2="45.72" width="0.127" layer="18"/>
+<wire x1="7.62" y1="48.26" x2="10.16" y2="48.26" width="0.127" layer="18"/>
+<wire x1="10.16" y1="50.8" x2="7.62" y2="50.8" width="0.127" layer="18"/>
+<wire x1="7.62" y1="53.34" x2="10.16" y2="53.34" width="0.127" layer="18"/>
+<wire x1="10.16" y1="55.88" x2="7.62" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$48" x="7.62" y="30.48" drill="0.9"/>
+<wire x1="7.62" y1="58.42" x2="10.16" y2="58.42" width="0.127" layer="18"/>
+<wire x1="7.62" y1="30.48" x2="10.16" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$49" x="10.16" y="58.42" drill="0.9"/>
+<pad name="P$50" x="10.16" y="55.88" drill="0.9"/>
+<pad name="P$51" x="10.16" y="53.34" drill="0.9"/>
+<pad name="P$52" x="10.16" y="50.8" drill="0.9"/>
+<pad name="P$53" x="10.16" y="48.26" drill="0.9"/>
+<pad name="P$54" x="10.16" y="45.72" drill="0.9"/>
+<pad name="P$55" x="10.16" y="43.18" drill="0.9"/>
+<pad name="P$56" x="10.16" y="40.64" drill="0.9"/>
+<pad name="P$57" x="10.16" y="38.1" drill="0.9"/>
+<pad name="P$58" x="10.16" y="35.56" drill="0.9"/>
+<pad name="P$59" x="10.16" y="33.02" drill="0.9"/>
+<wire x1="10.16" y1="58.42" x2="10.16" y2="55.88" width="0.127" layer="18"/>
+<wire x1="10.16" y1="55.88" x2="10.16" y2="53.34" width="0.127" layer="18"/>
+<wire x1="10.16" y1="53.34" x2="10.16" y2="50.8" width="0.127" layer="18"/>
+<wire x1="10.16" y1="50.8" x2="10.16" y2="48.26" width="0.127" layer="18"/>
+<wire x1="10.16" y1="48.26" x2="10.16" y2="45.72" width="0.127" layer="18"/>
+<wire x1="10.16" y1="45.72" x2="10.16" y2="43.18" width="0.127" layer="18"/>
+<wire x1="10.16" y1="43.18" x2="10.16" y2="40.64" width="0.127" layer="18"/>
+<wire x1="10.16" y1="40.64" x2="10.16" y2="38.1" width="0.127" layer="18"/>
+<wire x1="10.16" y1="38.1" x2="10.16" y2="35.56" width="0.127" layer="18"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="33.02" width="0.127" layer="18"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="30.48" width="0.127" layer="18"/>
+<wire x1="10.16" y1="33.02" x2="12.7" y2="33.02" width="0.127" layer="18"/>
+<wire x1="12.7" y1="35.56" x2="10.16" y2="35.56" width="0.127" layer="18"/>
+<wire x1="10.16" y1="38.1" x2="12.7" y2="38.1" width="0.127" layer="18"/>
+<wire x1="12.7" y1="40.64" x2="10.16" y2="40.64" width="0.127" layer="18"/>
+<wire x1="10.16" y1="43.18" x2="12.7" y2="43.18" width="0.127" layer="18"/>
+<wire x1="12.7" y1="45.72" x2="10.16" y2="45.72" width="0.127" layer="18"/>
+<wire x1="10.16" y1="48.26" x2="12.7" y2="48.26" width="0.127" layer="18"/>
+<wire x1="12.7" y1="50.8" x2="10.16" y2="50.8" width="0.127" layer="18"/>
+<wire x1="10.16" y1="53.34" x2="12.7" y2="53.34" width="0.127" layer="18"/>
+<wire x1="12.7" y1="55.88" x2="10.16" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$60" x="10.16" y="30.48" drill="0.9"/>
+<wire x1="10.16" y1="58.42" x2="12.7" y2="58.42" width="0.127" layer="18"/>
+<wire x1="10.16" y1="30.48" x2="12.7" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$61" x="12.7" y="58.42" drill="0.9"/>
+<pad name="P$62" x="12.7" y="55.88" drill="0.9"/>
+<pad name="P$63" x="12.7" y="53.34" drill="0.9"/>
+<pad name="P$64" x="12.7" y="50.8" drill="0.9"/>
+<pad name="P$65" x="12.7" y="48.26" drill="0.9"/>
+<pad name="P$66" x="12.7" y="45.72" drill="0.9"/>
+<pad name="P$67" x="12.7" y="43.18" drill="0.9"/>
+<pad name="P$68" x="12.7" y="40.64" drill="0.9"/>
+<pad name="P$69" x="12.7" y="38.1" drill="0.9"/>
+<pad name="P$70" x="12.7" y="35.56" drill="0.9"/>
+<pad name="P$71" x="12.7" y="33.02" drill="0.9"/>
+<wire x1="12.7" y1="58.42" x2="12.7" y2="55.88" width="0.127" layer="18"/>
+<wire x1="12.7" y1="55.88" x2="12.7" y2="53.34" width="0.127" layer="18"/>
+<wire x1="12.7" y1="53.34" x2="12.7" y2="50.8" width="0.127" layer="18"/>
+<wire x1="12.7" y1="50.8" x2="12.7" y2="48.26" width="0.127" layer="18"/>
+<wire x1="12.7" y1="48.26" x2="12.7" y2="45.72" width="0.127" layer="18"/>
+<wire x1="12.7" y1="45.72" x2="12.7" y2="43.18" width="0.127" layer="18"/>
+<wire x1="12.7" y1="43.18" x2="12.7" y2="40.64" width="0.127" layer="18"/>
+<wire x1="12.7" y1="40.64" x2="12.7" y2="38.1" width="0.127" layer="18"/>
+<wire x1="12.7" y1="38.1" x2="12.7" y2="35.56" width="0.127" layer="18"/>
+<wire x1="12.7" y1="35.56" x2="12.7" y2="33.02" width="0.127" layer="18"/>
+<wire x1="12.7" y1="33.02" x2="12.7" y2="30.48" width="0.127" layer="18"/>
+<wire x1="12.7" y1="33.02" x2="15.24" y2="33.02" width="0.127" layer="18"/>
+<wire x1="15.24" y1="35.56" x2="12.7" y2="35.56" width="0.127" layer="18"/>
+<wire x1="12.7" y1="38.1" x2="15.24" y2="38.1" width="0.127" layer="18"/>
+<wire x1="15.24" y1="40.64" x2="12.7" y2="40.64" width="0.127" layer="18"/>
+<wire x1="12.7" y1="43.18" x2="15.24" y2="43.18" width="0.127" layer="18"/>
+<wire x1="15.24" y1="45.72" x2="12.7" y2="45.72" width="0.127" layer="18"/>
+<wire x1="12.7" y1="48.26" x2="15.24" y2="48.26" width="0.127" layer="18"/>
+<wire x1="15.24" y1="50.8" x2="12.7" y2="50.8" width="0.127" layer="18"/>
+<wire x1="12.7" y1="53.34" x2="15.24" y2="53.34" width="0.127" layer="18"/>
+<wire x1="15.24" y1="55.88" x2="12.7" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$72" x="12.7" y="30.48" drill="0.9"/>
+<wire x1="12.7" y1="58.42" x2="15.24" y2="58.42" width="0.127" layer="18"/>
+<wire x1="12.7" y1="30.48" x2="15.24" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$73" x="15.24" y="58.42" drill="0.9"/>
+<pad name="P$74" x="15.24" y="55.88" drill="0.9"/>
+<pad name="P$75" x="15.24" y="53.34" drill="0.9"/>
+<pad name="P$76" x="15.24" y="50.8" drill="0.9"/>
+<pad name="P$77" x="15.24" y="48.26" drill="0.9"/>
+<pad name="P$78" x="15.24" y="45.72" drill="0.9"/>
+<pad name="P$79" x="15.24" y="43.18" drill="0.9"/>
+<pad name="P$80" x="15.24" y="40.64" drill="0.9"/>
+<pad name="P$81" x="15.24" y="38.1" drill="0.9"/>
+<pad name="P$82" x="15.24" y="35.56" drill="0.9"/>
+<pad name="P$83" x="15.24" y="33.02" drill="0.9"/>
+<wire x1="15.24" y1="58.42" x2="15.24" y2="55.88" width="0.127" layer="18"/>
+<wire x1="15.24" y1="55.88" x2="15.24" y2="53.34" width="0.127" layer="18"/>
+<wire x1="15.24" y1="53.34" x2="15.24" y2="50.8" width="0.127" layer="18"/>
+<wire x1="15.24" y1="50.8" x2="15.24" y2="48.26" width="0.127" layer="18"/>
+<wire x1="15.24" y1="48.26" x2="15.24" y2="45.72" width="0.127" layer="18"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="43.18" width="0.127" layer="18"/>
+<wire x1="15.24" y1="43.18" x2="15.24" y2="40.64" width="0.127" layer="18"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="38.1" width="0.127" layer="18"/>
+<wire x1="15.24" y1="38.1" x2="15.24" y2="35.56" width="0.127" layer="18"/>
+<wire x1="15.24" y1="35.56" x2="15.24" y2="33.02" width="0.127" layer="18"/>
+<wire x1="15.24" y1="33.02" x2="15.24" y2="30.48" width="0.127" layer="18"/>
+<wire x1="15.24" y1="33.02" x2="17.78" y2="33.02" width="0.127" layer="18"/>
+<wire x1="17.78" y1="35.56" x2="15.24" y2="35.56" width="0.127" layer="18"/>
+<wire x1="15.24" y1="38.1" x2="17.78" y2="38.1" width="0.127" layer="18"/>
+<wire x1="17.78" y1="40.64" x2="15.24" y2="40.64" width="0.127" layer="18"/>
+<wire x1="15.24" y1="43.18" x2="17.78" y2="43.18" width="0.127" layer="18"/>
+<wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.127" layer="18"/>
+<wire x1="15.24" y1="48.26" x2="17.78" y2="48.26" width="0.127" layer="18"/>
+<wire x1="17.78" y1="50.8" x2="15.24" y2="50.8" width="0.127" layer="18"/>
+<wire x1="15.24" y1="53.34" x2="17.78" y2="53.34" width="0.127" layer="18"/>
+<wire x1="17.78" y1="55.88" x2="15.24" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$84" x="15.24" y="30.48" drill="0.9"/>
+<wire x1="15.24" y1="58.42" x2="17.78" y2="58.42" width="0.127" layer="18"/>
+<wire x1="15.24" y1="30.48" x2="17.78" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$85" x="17.78" y="58.42" drill="0.9"/>
+<pad name="P$86" x="17.78" y="55.88" drill="0.9"/>
+<pad name="P$87" x="17.78" y="53.34" drill="0.9"/>
+<pad name="P$88" x="17.78" y="50.8" drill="0.9"/>
+<pad name="P$89" x="17.78" y="48.26" drill="0.9"/>
+<pad name="P$90" x="17.78" y="45.72" drill="0.9"/>
+<pad name="P$91" x="17.78" y="43.18" drill="0.9"/>
+<pad name="P$92" x="17.78" y="40.64" drill="0.9"/>
+<pad name="P$93" x="17.78" y="38.1" drill="0.9"/>
+<pad name="P$94" x="17.78" y="35.56" drill="0.9"/>
+<pad name="P$95" x="17.78" y="33.02" drill="0.9"/>
+<wire x1="17.78" y1="58.42" x2="17.78" y2="55.88" width="0.127" layer="18"/>
+<wire x1="17.78" y1="55.88" x2="17.78" y2="53.34" width="0.127" layer="18"/>
+<wire x1="17.78" y1="53.34" x2="17.78" y2="50.8" width="0.127" layer="18"/>
+<wire x1="17.78" y1="50.8" x2="17.78" y2="48.26" width="0.127" layer="18"/>
+<wire x1="17.78" y1="48.26" x2="17.78" y2="45.72" width="0.127" layer="18"/>
+<wire x1="17.78" y1="45.72" x2="17.78" y2="43.18" width="0.127" layer="18"/>
+<wire x1="17.78" y1="43.18" x2="17.78" y2="40.64" width="0.127" layer="18"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="38.1" width="0.127" layer="18"/>
+<wire x1="17.78" y1="38.1" x2="17.78" y2="35.56" width="0.127" layer="18"/>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="33.02" width="0.127" layer="18"/>
+<wire x1="17.78" y1="33.02" x2="17.78" y2="30.48" width="0.127" layer="18"/>
+<wire x1="17.78" y1="33.02" x2="20.32" y2="33.02" width="0.127" layer="18"/>
+<wire x1="20.32" y1="35.56" x2="17.78" y2="35.56" width="0.127" layer="18"/>
+<wire x1="17.78" y1="38.1" x2="20.32" y2="38.1" width="0.127" layer="18"/>
+<wire x1="20.32" y1="40.64" x2="17.78" y2="40.64" width="0.127" layer="18"/>
+<wire x1="17.78" y1="43.18" x2="20.32" y2="43.18" width="0.127" layer="18"/>
+<wire x1="20.32" y1="45.72" x2="17.78" y2="45.72" width="0.127" layer="18"/>
+<wire x1="17.78" y1="48.26" x2="20.32" y2="48.26" width="0.127" layer="18"/>
+<wire x1="20.32" y1="50.8" x2="17.78" y2="50.8" width="0.127" layer="18"/>
+<wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.127" layer="18"/>
+<wire x1="20.32" y1="55.88" x2="17.78" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$96" x="17.78" y="30.48" drill="0.9"/>
+<wire x1="17.78" y1="58.42" x2="20.32" y2="58.42" width="0.127" layer="18"/>
+<wire x1="17.78" y1="30.48" x2="20.32" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$97" x="20.32" y="58.42" drill="0.9"/>
+<pad name="P$98" x="20.32" y="55.88" drill="0.9"/>
+<pad name="P$99" x="20.32" y="53.34" drill="0.9"/>
+<pad name="P$100" x="20.32" y="50.8" drill="0.9"/>
+<pad name="P$101" x="20.32" y="48.26" drill="0.9"/>
+<pad name="P$102" x="20.32" y="45.72" drill="0.9"/>
+<pad name="P$103" x="20.32" y="43.18" drill="0.9"/>
+<pad name="P$104" x="20.32" y="40.64" drill="0.9"/>
+<pad name="P$105" x="20.32" y="38.1" drill="0.9"/>
+<pad name="P$106" x="20.32" y="35.56" drill="0.9"/>
+<pad name="P$107" x="20.32" y="33.02" drill="0.9"/>
+<wire x1="20.32" y1="58.42" x2="20.32" y2="55.88" width="0.127" layer="18"/>
+<wire x1="20.32" y1="55.88" x2="20.32" y2="53.34" width="0.127" layer="18"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="50.8" width="0.127" layer="18"/>
+<wire x1="20.32" y1="50.8" x2="20.32" y2="48.26" width="0.127" layer="18"/>
+<wire x1="20.32" y1="48.26" x2="20.32" y2="45.72" width="0.127" layer="18"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="43.18" width="0.127" layer="18"/>
+<wire x1="20.32" y1="43.18" x2="20.32" y2="40.64" width="0.127" layer="18"/>
+<wire x1="20.32" y1="40.64" x2="20.32" y2="38.1" width="0.127" layer="18"/>
+<wire x1="20.32" y1="38.1" x2="20.32" y2="35.56" width="0.127" layer="18"/>
+<wire x1="20.32" y1="35.56" x2="20.32" y2="33.02" width="0.127" layer="18"/>
+<wire x1="20.32" y1="33.02" x2="20.32" y2="30.48" width="0.127" layer="18"/>
+<wire x1="20.32" y1="33.02" x2="22.86" y2="33.02" width="0.127" layer="18"/>
+<wire x1="22.86" y1="35.56" x2="20.32" y2="35.56" width="0.127" layer="18"/>
+<wire x1="20.32" y1="38.1" x2="22.86" y2="38.1" width="0.127" layer="18"/>
+<wire x1="22.86" y1="40.64" x2="20.32" y2="40.64" width="0.127" layer="18"/>
+<wire x1="20.32" y1="43.18" x2="22.86" y2="43.18" width="0.127" layer="18"/>
+<wire x1="22.86" y1="45.72" x2="20.32" y2="45.72" width="0.127" layer="18"/>
+<wire x1="20.32" y1="48.26" x2="22.86" y2="48.26" width="0.127" layer="18"/>
+<wire x1="22.86" y1="50.8" x2="20.32" y2="50.8" width="0.127" layer="18"/>
+<wire x1="20.32" y1="53.34" x2="22.86" y2="53.34" width="0.127" layer="18"/>
+<wire x1="22.86" y1="55.88" x2="20.32" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$108" x="20.32" y="30.48" drill="0.9"/>
+<wire x1="20.32" y1="58.42" x2="22.86" y2="58.42" width="0.127" layer="18"/>
+<wire x1="20.32" y1="30.48" x2="22.86" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$109" x="22.86" y="58.42" drill="0.9"/>
+<pad name="P$110" x="22.86" y="55.88" drill="0.9"/>
+<pad name="P$111" x="22.86" y="53.34" drill="0.9"/>
+<pad name="P$112" x="22.86" y="50.8" drill="0.9"/>
+<pad name="P$113" x="22.86" y="48.26" drill="0.9"/>
+<pad name="P$114" x="22.86" y="45.72" drill="0.9"/>
+<pad name="P$115" x="22.86" y="43.18" drill="0.9"/>
+<pad name="P$116" x="22.86" y="40.64" drill="0.9"/>
+<pad name="P$117" x="22.86" y="38.1" drill="0.9"/>
+<pad name="P$118" x="22.86" y="35.56" drill="0.9"/>
+<pad name="P$119" x="22.86" y="33.02" drill="0.9"/>
+<wire x1="22.86" y1="58.42" x2="22.86" y2="55.88" width="0.127" layer="18"/>
+<wire x1="22.86" y1="55.88" x2="22.86" y2="53.34" width="0.127" layer="18"/>
+<wire x1="22.86" y1="53.34" x2="22.86" y2="50.8" width="0.127" layer="18"/>
+<wire x1="22.86" y1="50.8" x2="22.86" y2="48.26" width="0.127" layer="18"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="45.72" width="0.127" layer="18"/>
+<wire x1="22.86" y1="45.72" x2="22.86" y2="43.18" width="0.127" layer="18"/>
+<wire x1="22.86" y1="43.18" x2="22.86" y2="40.64" width="0.127" layer="18"/>
+<wire x1="22.86" y1="40.64" x2="22.86" y2="38.1" width="0.127" layer="18"/>
+<wire x1="22.86" y1="38.1" x2="22.86" y2="35.56" width="0.127" layer="18"/>
+<wire x1="22.86" y1="35.56" x2="22.86" y2="33.02" width="0.127" layer="18"/>
+<wire x1="22.86" y1="33.02" x2="22.86" y2="30.48" width="0.127" layer="18"/>
+<wire x1="22.86" y1="33.02" x2="25.4" y2="33.02" width="0.127" layer="18"/>
+<wire x1="25.4" y1="35.56" x2="22.86" y2="35.56" width="0.127" layer="18"/>
+<wire x1="22.86" y1="38.1" x2="25.4" y2="38.1" width="0.127" layer="18"/>
+<wire x1="25.4" y1="40.64" x2="22.86" y2="40.64" width="0.127" layer="18"/>
+<wire x1="22.86" y1="43.18" x2="25.4" y2="43.18" width="0.127" layer="18"/>
+<wire x1="25.4" y1="45.72" x2="22.86" y2="45.72" width="0.127" layer="18"/>
+<wire x1="22.86" y1="48.26" x2="25.4" y2="48.26" width="0.127" layer="18"/>
+<wire x1="25.4" y1="50.8" x2="22.86" y2="50.8" width="0.127" layer="18"/>
+<wire x1="22.86" y1="53.34" x2="25.4" y2="53.34" width="0.127" layer="18"/>
+<wire x1="25.4" y1="55.88" x2="22.86" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$120" x="22.86" y="30.48" drill="0.9"/>
+<wire x1="22.86" y1="58.42" x2="25.4" y2="58.42" width="0.127" layer="18"/>
+<wire x1="22.86" y1="30.48" x2="25.4" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$121" x="25.4" y="58.42" drill="0.9"/>
+<pad name="P$122" x="25.4" y="55.88" drill="0.9"/>
+<pad name="P$123" x="25.4" y="53.34" drill="0.9"/>
+<pad name="P$124" x="25.4" y="50.8" drill="0.9"/>
+<pad name="P$125" x="25.4" y="48.26" drill="0.9"/>
+<pad name="P$126" x="25.4" y="45.72" drill="0.9"/>
+<pad name="P$127" x="25.4" y="43.18" drill="0.9"/>
+<pad name="P$128" x="25.4" y="40.64" drill="0.9"/>
+<pad name="P$129" x="25.4" y="38.1" drill="0.9"/>
+<pad name="P$130" x="25.4" y="35.56" drill="0.9"/>
+<pad name="P$131" x="25.4" y="33.02" drill="0.9"/>
+<wire x1="25.4" y1="58.42" x2="25.4" y2="55.88" width="0.127" layer="18"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.127" layer="18"/>
+<wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.127" layer="18"/>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.127" layer="18"/>
+<wire x1="25.4" y1="48.26" x2="25.4" y2="45.72" width="0.127" layer="18"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.127" layer="18"/>
+<wire x1="25.4" y1="43.18" x2="25.4" y2="40.64" width="0.127" layer="18"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.127" layer="18"/>
+<wire x1="25.4" y1="38.1" x2="25.4" y2="35.56" width="0.127" layer="18"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.127" layer="18"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="30.48" width="0.127" layer="18"/>
+<wire x1="25.4" y1="33.02" x2="27.94" y2="33.02" width="0.127" layer="18"/>
+<wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.127" layer="18"/>
+<wire x1="25.4" y1="38.1" x2="27.94" y2="38.1" width="0.127" layer="18"/>
+<wire x1="27.94" y1="40.64" x2="25.4" y2="40.64" width="0.127" layer="18"/>
+<wire x1="25.4" y1="43.18" x2="27.94" y2="43.18" width="0.127" layer="18"/>
+<wire x1="27.94" y1="45.72" x2="25.4" y2="45.72" width="0.127" layer="18"/>
+<wire x1="25.4" y1="48.26" x2="27.94" y2="48.26" width="0.127" layer="18"/>
+<wire x1="27.94" y1="50.8" x2="25.4" y2="50.8" width="0.127" layer="18"/>
+<wire x1="25.4" y1="53.34" x2="27.94" y2="53.34" width="0.127" layer="18"/>
+<wire x1="27.94" y1="55.88" x2="25.4" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$132" x="25.4" y="30.48" drill="0.9"/>
+<wire x1="25.4" y1="58.42" x2="27.94" y2="58.42" width="0.127" layer="18"/>
+<wire x1="25.4" y1="30.48" x2="27.94" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$133" x="27.94" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$134" x="27.94" y="55.88" drill="0.9"/>
+<pad name="P$135" x="27.94" y="53.34" drill="0.9"/>
+<pad name="P$136" x="27.94" y="50.8" drill="0.9"/>
+<pad name="P$137" x="27.94" y="48.26" drill="0.9"/>
+<pad name="P$138" x="27.94" y="45.72" drill="0.9"/>
+<pad name="P$139" x="27.94" y="43.18" drill="0.9"/>
+<pad name="P$140" x="27.94" y="40.64" drill="0.9"/>
+<pad name="P$141" x="27.94" y="38.1" drill="0.9"/>
+<pad name="P$142" x="27.94" y="35.56" drill="0.9"/>
+<pad name="P$143" x="27.94" y="33.02" drill="0.9"/>
+<pad name="P$144" x="27.94" y="30.48" drill="0.9" shape="square"/>
+<wire x1="27.94" y1="58.42" x2="27.94" y2="55.88" width="0.127" layer="18"/>
+<wire x1="27.94" y1="55.88" x2="27.94" y2="53.34" width="0.127" layer="18"/>
+<wire x1="27.94" y1="53.34" x2="27.94" y2="50.8" width="0.127" layer="18"/>
+<wire x1="27.94" y1="50.8" x2="27.94" y2="48.26" width="0.127" layer="18"/>
+<wire x1="27.94" y1="48.26" x2="27.94" y2="45.72" width="0.127" layer="18"/>
+<wire x1="27.94" y1="45.72" x2="27.94" y2="43.18" width="0.127" layer="18"/>
+<wire x1="27.94" y1="43.18" x2="27.94" y2="40.64" width="0.127" layer="18"/>
+<wire x1="27.94" y1="40.64" x2="27.94" y2="38.1" width="0.127" layer="18"/>
+<wire x1="27.94" y1="38.1" x2="27.94" y2="35.56" width="0.127" layer="18"/>
+<wire x1="27.94" y1="35.56" x2="27.94" y2="33.02" width="0.127" layer="18"/>
+<wire x1="27.94" y1="33.02" x2="27.94" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$145" x="0" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$146" x="0" y="25.4" drill="0.9"/>
+<pad name="P$147" x="0" y="22.86" drill="0.9"/>
+<pad name="P$148" x="0" y="20.32" drill="0.9"/>
+<pad name="P$149" x="0" y="17.78" drill="0.9"/>
+<pad name="P$150" x="0" y="15.24" drill="0.9"/>
+<pad name="P$151" x="0" y="12.7" drill="0.9"/>
+<pad name="P$152" x="0" y="10.16" drill="0.9"/>
+<pad name="P$153" x="0" y="7.62" drill="0.9"/>
+<pad name="P$154" x="0" y="5.08" drill="0.9"/>
+<pad name="P$155" x="0" y="2.54" drill="0.9"/>
+<pad name="P$156" x="0" y="0" drill="0.9" shape="square"/>
+<wire x1="0" y1="27.94" x2="0" y2="25.4" width="0.127" layer="18"/>
+<wire x1="0" y1="25.4" x2="0" y2="22.86" width="0.127" layer="18"/>
+<wire x1="0" y1="22.86" x2="0" y2="20.32" width="0.127" layer="18"/>
+<wire x1="0" y1="20.32" x2="0" y2="17.78" width="0.127" layer="18"/>
+<wire x1="0" y1="17.78" x2="0" y2="15.24" width="0.127" layer="18"/>
+<wire x1="0" y1="15.24" x2="0" y2="12.7" width="0.127" layer="18"/>
+<wire x1="0" y1="12.7" x2="0" y2="10.16" width="0.127" layer="18"/>
+<wire x1="0" y1="10.16" x2="0" y2="7.62" width="0.127" layer="18"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.127" layer="18"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.127" layer="18"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.127" layer="18"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.127" layer="18"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="18"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.127" layer="18"/>
+<wire x1="0" y1="7.62" x2="2.54" y2="7.62" width="0.127" layer="18"/>
+<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.127" layer="18"/>
+<wire x1="0" y1="12.7" x2="2.54" y2="12.7" width="0.127" layer="18"/>
+<wire x1="2.54" y1="15.24" x2="0" y2="15.24" width="0.127" layer="18"/>
+<wire x1="0" y1="17.78" x2="2.54" y2="17.78" width="0.127" layer="18"/>
+<wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.127" layer="18"/>
+<wire x1="0" y1="22.86" x2="2.54" y2="22.86" width="0.127" layer="18"/>
+<wire x1="2.54" y1="25.4" x2="0" y2="25.4" width="0.127" layer="18"/>
+<wire x1="0" y1="27.94" x2="2.54" y2="27.94" width="0.127" layer="18"/>
+<pad name="P$157" x="2.54" y="27.94" drill="0.9"/>
+<pad name="P$158" x="2.54" y="25.4" drill="0.9"/>
+<pad name="P$159" x="2.54" y="22.86" drill="0.9"/>
+<pad name="P$160" x="2.54" y="20.32" drill="0.9"/>
+<pad name="P$161" x="2.54" y="17.78" drill="0.9"/>
+<pad name="P$162" x="2.54" y="15.24" drill="0.9"/>
+<pad name="P$163" x="2.54" y="12.7" drill="0.9"/>
+<pad name="P$164" x="2.54" y="10.16" drill="0.9"/>
+<pad name="P$165" x="2.54" y="7.62" drill="0.9"/>
+<pad name="P$166" x="2.54" y="5.08" drill="0.9"/>
+<pad name="P$167" x="2.54" y="2.54" drill="0.9"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="25.4" width="0.127" layer="18"/>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="22.86" width="0.127" layer="18"/>
+<wire x1="2.54" y1="22.86" x2="2.54" y2="20.32" width="0.127" layer="18"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="17.78" width="0.127" layer="18"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="15.24" width="0.127" layer="18"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="12.7" width="0.127" layer="18"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="10.16" width="0.127" layer="18"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="7.62" width="0.127" layer="18"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="5.08" width="0.127" layer="18"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.127" layer="18"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.127" layer="18"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="18"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="18"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.127" layer="18"/>
+<wire x1="5.08" y1="10.16" x2="2.54" y2="10.16" width="0.127" layer="18"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.127" layer="18"/>
+<wire x1="5.08" y1="15.24" x2="2.54" y2="15.24" width="0.127" layer="18"/>
+<wire x1="2.54" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="18"/>
+<wire x1="5.08" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="18"/>
+<wire x1="2.54" y1="22.86" x2="5.08" y2="22.86" width="0.127" layer="18"/>
+<wire x1="5.08" y1="25.4" x2="2.54" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$168" x="2.54" y="0" drill="0.9"/>
+<wire x1="2.54" y1="27.94" x2="5.08" y2="27.94" width="0.127" layer="18"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.127" layer="18"/>
+<pad name="P$169" x="5.08" y="27.94" drill="0.9"/>
+<pad name="P$170" x="5.08" y="25.4" drill="0.9"/>
+<pad name="P$171" x="5.08" y="22.86" drill="0.9"/>
+<pad name="P$172" x="5.08" y="20.32" drill="0.9"/>
+<pad name="P$173" x="5.08" y="17.78" drill="0.9"/>
+<pad name="P$174" x="5.08" y="15.24" drill="0.9"/>
+<pad name="P$175" x="5.08" y="12.7" drill="0.9"/>
+<pad name="P$176" x="5.08" y="10.16" drill="0.9"/>
+<pad name="P$177" x="5.08" y="7.62" drill="0.9"/>
+<pad name="P$178" x="5.08" y="5.08" drill="0.9"/>
+<pad name="P$179" x="5.08" y="2.54" drill="0.9"/>
+<wire x1="5.08" y1="27.94" x2="5.08" y2="25.4" width="0.127" layer="18"/>
+<wire x1="5.08" y1="25.4" x2="5.08" y2="22.86" width="0.127" layer="18"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="20.32" width="0.127" layer="18"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="17.78" width="0.127" layer="18"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.127" layer="18"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.127" layer="18"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="10.16" width="0.127" layer="18"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.127" layer="18"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.127" layer="18"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.127" layer="18"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.127" layer="18"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="18"/>
+<wire x1="7.62" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="18"/>
+<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="18"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.127" layer="18"/>
+<wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.127" layer="18"/>
+<wire x1="7.62" y1="15.24" x2="5.08" y2="15.24" width="0.127" layer="18"/>
+<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.127" layer="18"/>
+<wire x1="7.62" y1="20.32" x2="5.08" y2="20.32" width="0.127" layer="18"/>
+<wire x1="5.08" y1="22.86" x2="7.62" y2="22.86" width="0.127" layer="18"/>
+<wire x1="7.62" y1="25.4" x2="5.08" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$180" x="5.08" y="0" drill="0.9"/>
+<wire x1="5.08" y1="27.94" x2="7.62" y2="27.94" width="0.127" layer="18"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.127" layer="18"/>
+<pad name="P$181" x="7.62" y="27.94" drill="0.9"/>
+<pad name="P$182" x="7.62" y="25.4" drill="0.9"/>
+<pad name="P$183" x="7.62" y="22.86" drill="0.9"/>
+<pad name="P$184" x="7.62" y="20.32" drill="0.9"/>
+<pad name="P$185" x="7.62" y="17.78" drill="0.9"/>
+<pad name="P$186" x="7.62" y="15.24" drill="0.9"/>
+<pad name="P$187" x="7.62" y="12.7" drill="0.9"/>
+<pad name="P$188" x="7.62" y="10.16" drill="0.9"/>
+<pad name="P$189" x="7.62" y="7.62" drill="0.9"/>
+<pad name="P$190" x="7.62" y="5.08" drill="0.9"/>
+<pad name="P$191" x="7.62" y="2.54" drill="0.9"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="25.4" width="0.127" layer="18"/>
+<wire x1="7.62" y1="25.4" x2="7.62" y2="22.86" width="0.127" layer="18"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="20.32" width="0.127" layer="18"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="17.78" width="0.127" layer="18"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="15.24" width="0.127" layer="18"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="12.7" width="0.127" layer="18"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="10.16" width="0.127" layer="18"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="7.62" width="0.127" layer="18"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.127" layer="18"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="2.54" width="0.127" layer="18"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.127" layer="18"/>
+<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="18"/>
+<wire x1="10.16" y1="5.08" x2="7.62" y2="5.08" width="0.127" layer="18"/>
+<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.127" layer="18"/>
+<wire x1="10.16" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="18"/>
+<wire x1="7.62" y1="12.7" x2="10.16" y2="12.7" width="0.127" layer="18"/>
+<wire x1="10.16" y1="15.24" x2="7.62" y2="15.24" width="0.127" layer="18"/>
+<wire x1="7.62" y1="17.78" x2="10.16" y2="17.78" width="0.127" layer="18"/>
+<wire x1="10.16" y1="20.32" x2="7.62" y2="20.32" width="0.127" layer="18"/>
+<wire x1="7.62" y1="22.86" x2="10.16" y2="22.86" width="0.127" layer="18"/>
+<wire x1="10.16" y1="25.4" x2="7.62" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$192" x="7.62" y="0" drill="0.9"/>
+<wire x1="7.62" y1="27.94" x2="10.16" y2="27.94" width="0.127" layer="18"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.127" layer="18"/>
+<pad name="P$193" x="10.16" y="27.94" drill="0.9"/>
+<pad name="P$194" x="10.16" y="25.4" drill="0.9"/>
+<pad name="P$195" x="10.16" y="22.86" drill="0.9"/>
+<pad name="P$196" x="10.16" y="20.32" drill="0.9"/>
+<pad name="P$197" x="10.16" y="17.78" drill="0.9"/>
+<pad name="P$198" x="10.16" y="15.24" drill="0.9"/>
+<pad name="P$199" x="10.16" y="12.7" drill="0.9"/>
+<pad name="P$200" x="10.16" y="10.16" drill="0.9"/>
+<pad name="P$201" x="10.16" y="7.62" drill="0.9"/>
+<pad name="P$202" x="10.16" y="5.08" drill="0.9"/>
+<pad name="P$203" x="10.16" y="2.54" drill="0.9"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="25.4" width="0.127" layer="18"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="22.86" width="0.127" layer="18"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="0.127" layer="18"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="17.78" width="0.127" layer="18"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="15.24" width="0.127" layer="18"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="12.7" width="0.127" layer="18"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="10.16" width="0.127" layer="18"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="7.62" width="0.127" layer="18"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="5.08" width="0.127" layer="18"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="2.54" width="0.127" layer="18"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="0" width="0.127" layer="18"/>
+<wire x1="10.16" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="18"/>
+<wire x1="12.7" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="18"/>
+<wire x1="10.16" y1="7.62" x2="12.7" y2="7.62" width="0.127" layer="18"/>
+<wire x1="12.7" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="18"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="18"/>
+<wire x1="12.7" y1="15.24" x2="10.16" y2="15.24" width="0.127" layer="18"/>
+<wire x1="10.16" y1="17.78" x2="12.7" y2="17.78" width="0.127" layer="18"/>
+<wire x1="12.7" y1="20.32" x2="10.16" y2="20.32" width="0.127" layer="18"/>
+<wire x1="10.16" y1="22.86" x2="12.7" y2="22.86" width="0.127" layer="18"/>
+<wire x1="12.7" y1="25.4" x2="10.16" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$204" x="10.16" y="0" drill="0.9"/>
+<wire x1="10.16" y1="27.94" x2="12.7" y2="27.94" width="0.127" layer="18"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.127" layer="18"/>
+<pad name="P$205" x="12.7" y="27.94" drill="0.9"/>
+<pad name="P$206" x="12.7" y="25.4" drill="0.9"/>
+<pad name="P$207" x="12.7" y="22.86" drill="0.9"/>
+<pad name="P$208" x="12.7" y="20.32" drill="0.9"/>
+<pad name="P$209" x="12.7" y="17.78" drill="0.9"/>
+<pad name="P$210" x="12.7" y="15.24" drill="0.9"/>
+<pad name="P$211" x="12.7" y="12.7" drill="0.9"/>
+<pad name="P$212" x="12.7" y="10.16" drill="0.9"/>
+<pad name="P$213" x="12.7" y="7.62" drill="0.9"/>
+<pad name="P$214" x="12.7" y="5.08" drill="0.9"/>
+<pad name="P$215" x="12.7" y="2.54" drill="0.9"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="25.4" width="0.127" layer="18"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="22.86" width="0.127" layer="18"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.127" layer="18"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.127" layer="18"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="15.24" width="0.127" layer="18"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="12.7" width="0.127" layer="18"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="10.16" width="0.127" layer="18"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="7.62" width="0.127" layer="18"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="5.08" width="0.127" layer="18"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="2.54" width="0.127" layer="18"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="0" width="0.127" layer="18"/>
+<wire x1="12.7" y1="2.54" x2="15.24" y2="2.54" width="0.127" layer="18"/>
+<wire x1="15.24" y1="5.08" x2="12.7" y2="5.08" width="0.127" layer="18"/>
+<wire x1="12.7" y1="7.62" x2="15.24" y2="7.62" width="0.127" layer="18"/>
+<wire x1="15.24" y1="10.16" x2="12.7" y2="10.16" width="0.127" layer="18"/>
+<wire x1="12.7" y1="12.7" x2="15.24" y2="12.7" width="0.127" layer="18"/>
+<wire x1="15.24" y1="15.24" x2="12.7" y2="15.24" width="0.127" layer="18"/>
+<wire x1="12.7" y1="17.78" x2="15.24" y2="17.78" width="0.127" layer="18"/>
+<wire x1="15.24" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="18"/>
+<wire x1="12.7" y1="22.86" x2="15.24" y2="22.86" width="0.127" layer="18"/>
+<wire x1="15.24" y1="25.4" x2="12.7" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$216" x="12.7" y="0" drill="0.9"/>
+<wire x1="12.7" y1="27.94" x2="15.24" y2="27.94" width="0.127" layer="18"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.127" layer="18"/>
+<pad name="P$217" x="15.24" y="27.94" drill="0.9"/>
+<pad name="P$218" x="15.24" y="25.4" drill="0.9"/>
+<pad name="P$219" x="15.24" y="22.86" drill="0.9"/>
+<pad name="P$220" x="15.24" y="20.32" drill="0.9"/>
+<pad name="P$221" x="15.24" y="17.78" drill="0.9"/>
+<pad name="P$222" x="15.24" y="15.24" drill="0.9"/>
+<pad name="P$223" x="15.24" y="12.7" drill="0.9"/>
+<pad name="P$224" x="15.24" y="10.16" drill="0.9"/>
+<pad name="P$225" x="15.24" y="7.62" drill="0.9"/>
+<pad name="P$226" x="15.24" y="5.08" drill="0.9"/>
+<pad name="P$227" x="15.24" y="2.54" drill="0.9"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="25.4" width="0.127" layer="18"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="22.86" width="0.127" layer="18"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.127" layer="18"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="17.78" width="0.127" layer="18"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="15.24" width="0.127" layer="18"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0.127" layer="18"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.127" layer="18"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="7.62" width="0.127" layer="18"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="5.08" width="0.127" layer="18"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="2.54" width="0.127" layer="18"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.127" layer="18"/>
+<wire x1="15.24" y1="2.54" x2="17.78" y2="2.54" width="0.127" layer="18"/>
+<wire x1="17.78" y1="5.08" x2="15.24" y2="5.08" width="0.127" layer="18"/>
+<wire x1="15.24" y1="7.62" x2="17.78" y2="7.62" width="0.127" layer="18"/>
+<wire x1="17.78" y1="10.16" x2="15.24" y2="10.16" width="0.127" layer="18"/>
+<wire x1="15.24" y1="12.7" x2="17.78" y2="12.7" width="0.127" layer="18"/>
+<wire x1="17.78" y1="15.24" x2="15.24" y2="15.24" width="0.127" layer="18"/>
+<wire x1="15.24" y1="17.78" x2="17.78" y2="17.78" width="0.127" layer="18"/>
+<wire x1="17.78" y1="20.32" x2="15.24" y2="20.32" width="0.127" layer="18"/>
+<wire x1="15.24" y1="22.86" x2="17.78" y2="22.86" width="0.127" layer="18"/>
+<wire x1="17.78" y1="25.4" x2="15.24" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$228" x="15.24" y="0" drill="0.9"/>
+<wire x1="15.24" y1="27.94" x2="17.78" y2="27.94" width="0.127" layer="18"/>
+<wire x1="15.24" y1="0" x2="17.78" y2="0" width="0.127" layer="18"/>
+<pad name="P$229" x="17.78" y="27.94" drill="0.9"/>
+<pad name="P$230" x="17.78" y="25.4" drill="0.9"/>
+<pad name="P$231" x="17.78" y="22.86" drill="0.9"/>
+<pad name="P$232" x="17.78" y="20.32" drill="0.9"/>
+<pad name="P$233" x="17.78" y="17.78" drill="0.9"/>
+<pad name="P$234" x="17.78" y="15.24" drill="0.9"/>
+<pad name="P$235" x="17.78" y="12.7" drill="0.9"/>
+<pad name="P$236" x="17.78" y="10.16" drill="0.9"/>
+<pad name="P$237" x="17.78" y="7.62" drill="0.9"/>
+<pad name="P$238" x="17.78" y="5.08" drill="0.9"/>
+<pad name="P$239" x="17.78" y="2.54" drill="0.9"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="25.4" width="0.127" layer="18"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="22.86" width="0.127" layer="18"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="20.32" width="0.127" layer="18"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="17.78" width="0.127" layer="18"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="15.24" width="0.127" layer="18"/>
+<wire x1="17.78" y1="15.24" x2="17.78" y2="12.7" width="0.127" layer="18"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.127" layer="18"/>
+<wire x1="17.78" y1="10.16" x2="17.78" y2="7.62" width="0.127" layer="18"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="5.08" width="0.127" layer="18"/>
+<wire x1="17.78" y1="5.08" x2="17.78" y2="2.54" width="0.127" layer="18"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="0" width="0.127" layer="18"/>
+<wire x1="17.78" y1="2.54" x2="20.32" y2="2.54" width="0.127" layer="18"/>
+<wire x1="20.32" y1="5.08" x2="17.78" y2="5.08" width="0.127" layer="18"/>
+<wire x1="17.78" y1="7.62" x2="20.32" y2="7.62" width="0.127" layer="18"/>
+<wire x1="20.32" y1="10.16" x2="17.78" y2="10.16" width="0.127" layer="18"/>
+<wire x1="17.78" y1="12.7" x2="20.32" y2="12.7" width="0.127" layer="18"/>
+<wire x1="20.32" y1="15.24" x2="17.78" y2="15.24" width="0.127" layer="18"/>
+<wire x1="17.78" y1="17.78" x2="20.32" y2="17.78" width="0.127" layer="18"/>
+<wire x1="20.32" y1="20.32" x2="17.78" y2="20.32" width="0.127" layer="18"/>
+<wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.127" layer="18"/>
+<wire x1="20.32" y1="25.4" x2="17.78" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$240" x="17.78" y="0" drill="0.9"/>
+<wire x1="17.78" y1="27.94" x2="20.32" y2="27.94" width="0.127" layer="18"/>
+<wire x1="17.78" y1="0" x2="20.32" y2="0" width="0.127" layer="18"/>
+<pad name="P$241" x="20.32" y="27.94" drill="0.9"/>
+<pad name="P$242" x="20.32" y="25.4" drill="0.9"/>
+<pad name="P$243" x="20.32" y="22.86" drill="0.9"/>
+<pad name="P$244" x="20.32" y="20.32" drill="0.9"/>
+<pad name="P$245" x="20.32" y="17.78" drill="0.9"/>
+<pad name="P$246" x="20.32" y="15.24" drill="0.9"/>
+<pad name="P$247" x="20.32" y="12.7" drill="0.9"/>
+<pad name="P$248" x="20.32" y="10.16" drill="0.9"/>
+<pad name="P$249" x="20.32" y="7.62" drill="0.9"/>
+<pad name="P$250" x="20.32" y="5.08" drill="0.9"/>
+<pad name="P$251" x="20.32" y="2.54" drill="0.9"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="25.4" width="0.127" layer="18"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="22.86" width="0.127" layer="18"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="20.32" width="0.127" layer="18"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="17.78" width="0.127" layer="18"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="15.24" width="0.127" layer="18"/>
+<wire x1="20.32" y1="15.24" x2="20.32" y2="12.7" width="0.127" layer="18"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="10.16" width="0.127" layer="18"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="7.62" width="0.127" layer="18"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="5.08" width="0.127" layer="18"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="2.54" width="0.127" layer="18"/>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="0" width="0.127" layer="18"/>
+<wire x1="20.32" y1="2.54" x2="22.86" y2="2.54" width="0.127" layer="18"/>
+<wire x1="22.86" y1="5.08" x2="20.32" y2="5.08" width="0.127" layer="18"/>
+<wire x1="20.32" y1="7.62" x2="22.86" y2="7.62" width="0.127" layer="18"/>
+<wire x1="22.86" y1="10.16" x2="20.32" y2="10.16" width="0.127" layer="18"/>
+<wire x1="20.32" y1="12.7" x2="22.86" y2="12.7" width="0.127" layer="18"/>
+<wire x1="22.86" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="18"/>
+<wire x1="20.32" y1="17.78" x2="22.86" y2="17.78" width="0.127" layer="18"/>
+<wire x1="22.86" y1="20.32" x2="20.32" y2="20.32" width="0.127" layer="18"/>
+<wire x1="20.32" y1="22.86" x2="22.86" y2="22.86" width="0.127" layer="18"/>
+<wire x1="22.86" y1="25.4" x2="20.32" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$252" x="20.32" y="0" drill="0.9"/>
+<wire x1="20.32" y1="27.94" x2="22.86" y2="27.94" width="0.127" layer="18"/>
+<wire x1="20.32" y1="0" x2="22.86" y2="0" width="0.127" layer="18"/>
+<pad name="P$253" x="22.86" y="27.94" drill="0.9"/>
+<pad name="P$254" x="22.86" y="25.4" drill="0.9"/>
+<pad name="P$255" x="22.86" y="22.86" drill="0.9"/>
+<pad name="P$256" x="22.86" y="20.32" drill="0.9"/>
+<pad name="P$257" x="22.86" y="17.78" drill="0.9"/>
+<pad name="P$258" x="22.86" y="15.24" drill="0.9"/>
+<pad name="P$259" x="22.86" y="12.7" drill="0.9"/>
+<pad name="P$260" x="22.86" y="10.16" drill="0.9"/>
+<pad name="P$261" x="22.86" y="7.62" drill="0.9"/>
+<pad name="P$262" x="22.86" y="5.08" drill="0.9"/>
+<pad name="P$263" x="22.86" y="2.54" drill="0.9"/>
+<wire x1="22.86" y1="27.94" x2="22.86" y2="25.4" width="0.127" layer="18"/>
+<wire x1="22.86" y1="25.4" x2="22.86" y2="22.86" width="0.127" layer="18"/>
+<wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.127" layer="18"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="17.78" width="0.127" layer="18"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="15.24" width="0.127" layer="18"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.127" layer="18"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="10.16" width="0.127" layer="18"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="7.62" width="0.127" layer="18"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="5.08" width="0.127" layer="18"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="2.54" width="0.127" layer="18"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.127" layer="18"/>
+<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.127" layer="18"/>
+<wire x1="25.4" y1="5.08" x2="22.86" y2="5.08" width="0.127" layer="18"/>
+<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.127" layer="18"/>
+<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.127" layer="18"/>
+<wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.127" layer="18"/>
+<wire x1="25.4" y1="15.24" x2="22.86" y2="15.24" width="0.127" layer="18"/>
+<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.127" layer="18"/>
+<wire x1="25.4" y1="20.32" x2="22.86" y2="20.32" width="0.127" layer="18"/>
+<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="18"/>
+<wire x1="25.4" y1="25.4" x2="22.86" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$264" x="22.86" y="0" drill="0.9"/>
+<wire x1="22.86" y1="27.94" x2="25.4" y2="27.94" width="0.127" layer="18"/>
+<wire x1="22.86" y1="0" x2="25.4" y2="0" width="0.127" layer="18"/>
+<pad name="P$265" x="25.4" y="27.94" drill="0.9"/>
+<pad name="P$266" x="25.4" y="25.4" drill="0.9"/>
+<pad name="P$267" x="25.4" y="22.86" drill="0.9"/>
+<pad name="P$268" x="25.4" y="20.32" drill="0.9"/>
+<pad name="P$269" x="25.4" y="17.78" drill="0.9"/>
+<pad name="P$270" x="25.4" y="15.24" drill="0.9"/>
+<pad name="P$271" x="25.4" y="12.7" drill="0.9"/>
+<pad name="P$272" x="25.4" y="10.16" drill="0.9"/>
+<pad name="P$273" x="25.4" y="7.62" drill="0.9"/>
+<pad name="P$274" x="25.4" y="5.08" drill="0.9"/>
+<pad name="P$275" x="25.4" y="2.54" drill="0.9"/>
+<wire x1="25.4" y1="27.94" x2="25.4" y2="25.4" width="0.127" layer="18"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.127" layer="18"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.127" layer="18"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="17.78" width="0.127" layer="18"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="15.24" width="0.127" layer="18"/>
+<wire x1="25.4" y1="15.24" x2="25.4" y2="12.7" width="0.127" layer="18"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="10.16" width="0.127" layer="18"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.127" layer="18"/>
+<wire x1="25.4" y1="7.62" x2="25.4" y2="5.08" width="0.127" layer="18"/>
+<wire x1="25.4" y1="5.08" x2="25.4" y2="2.54" width="0.127" layer="18"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="0" width="0.127" layer="18"/>
+<wire x1="25.4" y1="2.54" x2="27.94" y2="2.54" width="0.127" layer="18"/>
+<wire x1="27.94" y1="5.08" x2="25.4" y2="5.08" width="0.127" layer="18"/>
+<wire x1="25.4" y1="7.62" x2="27.94" y2="7.62" width="0.127" layer="18"/>
+<wire x1="27.94" y1="10.16" x2="25.4" y2="10.16" width="0.127" layer="18"/>
+<wire x1="25.4" y1="12.7" x2="27.94" y2="12.7" width="0.127" layer="18"/>
+<wire x1="27.94" y1="15.24" x2="25.4" y2="15.24" width="0.127" layer="18"/>
+<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.127" layer="18"/>
+<wire x1="27.94" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="18"/>
+<wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.127" layer="18"/>
+<wire x1="27.94" y1="25.4" x2="25.4" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$276" x="25.4" y="0" drill="0.9"/>
+<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.127" layer="18"/>
+<wire x1="25.4" y1="0" x2="27.94" y2="0" width="0.127" layer="18"/>
+<pad name="P$277" x="27.94" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$278" x="27.94" y="25.4" drill="0.9"/>
+<pad name="P$279" x="27.94" y="22.86" drill="0.9"/>
+<pad name="P$280" x="27.94" y="20.32" drill="0.9"/>
+<pad name="P$281" x="27.94" y="17.78" drill="0.9"/>
+<pad name="P$282" x="27.94" y="15.24" drill="0.9"/>
+<pad name="P$283" x="27.94" y="12.7" drill="0.9"/>
+<pad name="P$284" x="27.94" y="10.16" drill="0.9"/>
+<pad name="P$285" x="27.94" y="7.62" drill="0.9"/>
+<pad name="P$286" x="27.94" y="5.08" drill="0.9"/>
+<pad name="P$287" x="27.94" y="2.54" drill="0.9"/>
+<pad name="P$288" x="27.94" y="0" drill="0.9" shape="square"/>
+<wire x1="27.94" y1="27.94" x2="27.94" y2="25.4" width="0.127" layer="18"/>
+<wire x1="27.94" y1="25.4" x2="27.94" y2="22.86" width="0.127" layer="18"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="20.32" width="0.127" layer="18"/>
+<wire x1="27.94" y1="20.32" x2="27.94" y2="17.78" width="0.127" layer="18"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.127" layer="18"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.127" layer="18"/>
+<wire x1="27.94" y1="12.7" x2="27.94" y2="10.16" width="0.127" layer="18"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="7.62" width="0.127" layer="18"/>
+<wire x1="27.94" y1="7.62" x2="27.94" y2="5.08" width="0.127" layer="18"/>
+<wire x1="27.94" y1="5.08" x2="27.94" y2="2.54" width="0.127" layer="18"/>
+<wire x1="27.94" y1="2.54" x2="27.94" y2="0" width="0.127" layer="18"/>
+<wire x1="-1.27" y1="29.21" x2="69.85" y2="29.21" width="0.127" layer="21"/>
+<wire x1="29.21" y1="59.69" x2="29.21" y2="-1.27" width="0.127" layer="21"/>
+<pad name="P$289" x="30.48" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$290" x="30.48" y="55.88" drill="0.9"/>
+<pad name="P$291" x="30.48" y="53.34" drill="0.9"/>
+<pad name="P$292" x="30.48" y="50.8" drill="0.9"/>
+<pad name="P$293" x="30.48" y="48.26" drill="0.9"/>
+<pad name="P$294" x="30.48" y="45.72" drill="0.9"/>
+<pad name="P$295" x="30.48" y="43.18" drill="0.9"/>
+<pad name="P$296" x="30.48" y="40.64" drill="0.9"/>
+<pad name="P$297" x="30.48" y="38.1" drill="0.9"/>
+<pad name="P$298" x="30.48" y="35.56" drill="0.9"/>
+<pad name="P$299" x="30.48" y="33.02" drill="0.9"/>
+<pad name="P$300" x="30.48" y="30.48" drill="0.9" shape="square"/>
+<wire x1="30.48" y1="58.42" x2="30.48" y2="55.88" width="0.127" layer="18"/>
+<wire x1="30.48" y1="55.88" x2="30.48" y2="53.34" width="0.127" layer="18"/>
+<wire x1="30.48" y1="53.34" x2="30.48" y2="50.8" width="0.127" layer="18"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="48.26" width="0.127" layer="18"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="45.72" width="0.127" layer="18"/>
+<wire x1="30.48" y1="45.72" x2="30.48" y2="43.18" width="0.127" layer="18"/>
+<wire x1="30.48" y1="43.18" x2="30.48" y2="40.64" width="0.127" layer="18"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="38.1" width="0.127" layer="18"/>
+<wire x1="30.48" y1="38.1" x2="30.48" y2="35.56" width="0.127" layer="18"/>
+<wire x1="30.48" y1="35.56" x2="30.48" y2="33.02" width="0.127" layer="18"/>
+<wire x1="30.48" y1="33.02" x2="30.48" y2="30.48" width="0.127" layer="18"/>
+<wire x1="30.48" y1="30.48" x2="33.02" y2="30.48" width="0.127" layer="18"/>
+<wire x1="30.48" y1="33.02" x2="33.02" y2="33.02" width="0.127" layer="18"/>
+<wire x1="33.02" y1="35.56" x2="30.48" y2="35.56" width="0.127" layer="18"/>
+<wire x1="30.48" y1="38.1" x2="33.02" y2="38.1" width="0.127" layer="18"/>
+<wire x1="33.02" y1="40.64" x2="30.48" y2="40.64" width="0.127" layer="18"/>
+<wire x1="30.48" y1="43.18" x2="33.02" y2="43.18" width="0.127" layer="18"/>
+<wire x1="33.02" y1="45.72" x2="30.48" y2="45.72" width="0.127" layer="18"/>
+<wire x1="30.48" y1="48.26" x2="33.02" y2="48.26" width="0.127" layer="18"/>
+<wire x1="33.02" y1="50.8" x2="30.48" y2="50.8" width="0.127" layer="18"/>
+<wire x1="30.48" y1="53.34" x2="33.02" y2="53.34" width="0.127" layer="18"/>
+<wire x1="33.02" y1="55.88" x2="30.48" y2="55.88" width="0.127" layer="18"/>
+<wire x1="30.48" y1="58.42" x2="33.02" y2="58.42" width="0.127" layer="18"/>
+<pad name="P$301" x="33.02" y="58.42" drill="0.9"/>
+<pad name="P$302" x="33.02" y="55.88" drill="0.9"/>
+<pad name="P$303" x="33.02" y="53.34" drill="0.9"/>
+<pad name="P$304" x="33.02" y="50.8" drill="0.9"/>
+<pad name="P$305" x="33.02" y="48.26" drill="0.9"/>
+<pad name="P$306" x="33.02" y="45.72" drill="0.9"/>
+<pad name="P$307" x="33.02" y="43.18" drill="0.9"/>
+<pad name="P$308" x="33.02" y="40.64" drill="0.9"/>
+<pad name="P$309" x="33.02" y="38.1" drill="0.9"/>
+<pad name="P$310" x="33.02" y="35.56" drill="0.9"/>
+<pad name="P$311" x="33.02" y="33.02" drill="0.9"/>
+<wire x1="33.02" y1="58.42" x2="33.02" y2="55.88" width="0.127" layer="18"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="53.34" width="0.127" layer="18"/>
+<wire x1="33.02" y1="53.34" x2="33.02" y2="50.8" width="0.127" layer="18"/>
+<wire x1="33.02" y1="50.8" x2="33.02" y2="48.26" width="0.127" layer="18"/>
+<wire x1="33.02" y1="48.26" x2="33.02" y2="45.72" width="0.127" layer="18"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="43.18" width="0.127" layer="18"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="40.64" width="0.127" layer="18"/>
+<wire x1="33.02" y1="40.64" x2="33.02" y2="38.1" width="0.127" layer="18"/>
+<wire x1="33.02" y1="38.1" x2="33.02" y2="35.56" width="0.127" layer="18"/>
+<wire x1="33.02" y1="35.56" x2="33.02" y2="33.02" width="0.127" layer="18"/>
+<wire x1="33.02" y1="33.02" x2="33.02" y2="30.48" width="0.127" layer="18"/>
+<wire x1="33.02" y1="33.02" x2="35.56" y2="33.02" width="0.127" layer="18"/>
+<wire x1="35.56" y1="35.56" x2="33.02" y2="35.56" width="0.127" layer="18"/>
+<wire x1="33.02" y1="38.1" x2="35.56" y2="38.1" width="0.127" layer="18"/>
+<wire x1="35.56" y1="40.64" x2="33.02" y2="40.64" width="0.127" layer="18"/>
+<wire x1="33.02" y1="43.18" x2="35.56" y2="43.18" width="0.127" layer="18"/>
+<wire x1="35.56" y1="45.72" x2="33.02" y2="45.72" width="0.127" layer="18"/>
+<wire x1="33.02" y1="48.26" x2="35.56" y2="48.26" width="0.127" layer="18"/>
+<wire x1="35.56" y1="50.8" x2="33.02" y2="50.8" width="0.127" layer="18"/>
+<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.127" layer="18"/>
+<wire x1="35.56" y1="55.88" x2="33.02" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$312" x="33.02" y="30.48" drill="0.9"/>
+<wire x1="33.02" y1="58.42" x2="35.56" y2="58.42" width="0.127" layer="18"/>
+<wire x1="33.02" y1="30.48" x2="35.56" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$313" x="35.56" y="58.42" drill="0.9"/>
+<pad name="P$314" x="35.56" y="55.88" drill="0.9"/>
+<pad name="P$315" x="35.56" y="53.34" drill="0.9"/>
+<pad name="P$316" x="35.56" y="50.8" drill="0.9"/>
+<pad name="P$317" x="35.56" y="48.26" drill="0.9"/>
+<pad name="P$318" x="35.56" y="45.72" drill="0.9"/>
+<pad name="P$319" x="35.56" y="43.18" drill="0.9"/>
+<pad name="P$320" x="35.56" y="40.64" drill="0.9"/>
+<pad name="P$321" x="35.56" y="38.1" drill="0.9"/>
+<pad name="P$322" x="35.56" y="35.56" drill="0.9"/>
+<pad name="P$323" x="35.56" y="33.02" drill="0.9"/>
+<wire x1="35.56" y1="58.42" x2="35.56" y2="55.88" width="0.127" layer="18"/>
+<wire x1="35.56" y1="55.88" x2="35.56" y2="53.34" width="0.127" layer="18"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="50.8" width="0.127" layer="18"/>
+<wire x1="35.56" y1="50.8" x2="35.56" y2="48.26" width="0.127" layer="18"/>
+<wire x1="35.56" y1="48.26" x2="35.56" y2="45.72" width="0.127" layer="18"/>
+<wire x1="35.56" y1="45.72" x2="35.56" y2="43.18" width="0.127" layer="18"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="40.64" width="0.127" layer="18"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="38.1" width="0.127" layer="18"/>
+<wire x1="35.56" y1="38.1" x2="35.56" y2="35.56" width="0.127" layer="18"/>
+<wire x1="35.56" y1="35.56" x2="35.56" y2="33.02" width="0.127" layer="18"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="30.48" width="0.127" layer="18"/>
+<wire x1="35.56" y1="33.02" x2="38.1" y2="33.02" width="0.127" layer="18"/>
+<wire x1="38.1" y1="35.56" x2="35.56" y2="35.56" width="0.127" layer="18"/>
+<wire x1="35.56" y1="38.1" x2="38.1" y2="38.1" width="0.127" layer="18"/>
+<wire x1="38.1" y1="40.64" x2="35.56" y2="40.64" width="0.127" layer="18"/>
+<wire x1="35.56" y1="43.18" x2="38.1" y2="43.18" width="0.127" layer="18"/>
+<wire x1="38.1" y1="45.72" x2="35.56" y2="45.72" width="0.127" layer="18"/>
+<wire x1="35.56" y1="48.26" x2="38.1" y2="48.26" width="0.127" layer="18"/>
+<wire x1="38.1" y1="50.8" x2="35.56" y2="50.8" width="0.127" layer="18"/>
+<wire x1="35.56" y1="53.34" x2="38.1" y2="53.34" width="0.127" layer="18"/>
+<wire x1="38.1" y1="55.88" x2="35.56" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$324" x="35.56" y="30.48" drill="0.9"/>
+<wire x1="35.56" y1="58.42" x2="38.1" y2="58.42" width="0.127" layer="18"/>
+<wire x1="35.56" y1="30.48" x2="38.1" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$325" x="38.1" y="58.42" drill="0.9"/>
+<pad name="P$326" x="38.1" y="55.88" drill="0.9"/>
+<pad name="P$327" x="38.1" y="53.34" drill="0.9"/>
+<pad name="P$328" x="38.1" y="50.8" drill="0.9"/>
+<pad name="P$329" x="38.1" y="48.26" drill="0.9"/>
+<pad name="P$330" x="38.1" y="45.72" drill="0.9"/>
+<pad name="P$331" x="38.1" y="43.18" drill="0.9"/>
+<pad name="P$332" x="38.1" y="40.64" drill="0.9"/>
+<pad name="P$333" x="38.1" y="38.1" drill="0.9"/>
+<pad name="P$334" x="38.1" y="35.56" drill="0.9"/>
+<pad name="P$335" x="38.1" y="33.02" drill="0.9"/>
+<wire x1="38.1" y1="58.42" x2="38.1" y2="55.88" width="0.127" layer="18"/>
+<wire x1="38.1" y1="55.88" x2="38.1" y2="53.34" width="0.127" layer="18"/>
+<wire x1="38.1" y1="53.34" x2="38.1" y2="50.8" width="0.127" layer="18"/>
+<wire x1="38.1" y1="50.8" x2="38.1" y2="48.26" width="0.127" layer="18"/>
+<wire x1="38.1" y1="48.26" x2="38.1" y2="45.72" width="0.127" layer="18"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="43.18" width="0.127" layer="18"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="40.64" width="0.127" layer="18"/>
+<wire x1="38.1" y1="40.64" x2="38.1" y2="38.1" width="0.127" layer="18"/>
+<wire x1="38.1" y1="38.1" x2="38.1" y2="35.56" width="0.127" layer="18"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="33.02" width="0.127" layer="18"/>
+<wire x1="38.1" y1="33.02" x2="38.1" y2="30.48" width="0.127" layer="18"/>
+<wire x1="38.1" y1="33.02" x2="40.64" y2="33.02" width="0.127" layer="18"/>
+<wire x1="40.64" y1="35.56" x2="38.1" y2="35.56" width="0.127" layer="18"/>
+<wire x1="38.1" y1="38.1" x2="40.64" y2="38.1" width="0.127" layer="18"/>
+<wire x1="40.64" y1="40.64" x2="38.1" y2="40.64" width="0.127" layer="18"/>
+<wire x1="38.1" y1="43.18" x2="40.64" y2="43.18" width="0.127" layer="18"/>
+<wire x1="40.64" y1="45.72" x2="38.1" y2="45.72" width="0.127" layer="18"/>
+<wire x1="38.1" y1="48.26" x2="40.64" y2="48.26" width="0.127" layer="18"/>
+<wire x1="40.64" y1="50.8" x2="38.1" y2="50.8" width="0.127" layer="18"/>
+<wire x1="38.1" y1="53.34" x2="40.64" y2="53.34" width="0.127" layer="18"/>
+<wire x1="40.64" y1="55.88" x2="38.1" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$336" x="38.1" y="30.48" drill="0.9"/>
+<wire x1="38.1" y1="58.42" x2="40.64" y2="58.42" width="0.127" layer="18"/>
+<wire x1="38.1" y1="30.48" x2="40.64" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$337" x="40.64" y="58.42" drill="0.9"/>
+<pad name="P$338" x="40.64" y="55.88" drill="0.9"/>
+<pad name="P$339" x="40.64" y="53.34" drill="0.9"/>
+<pad name="P$340" x="40.64" y="50.8" drill="0.9"/>
+<pad name="P$341" x="40.64" y="48.26" drill="0.9"/>
+<pad name="P$342" x="40.64" y="45.72" drill="0.9"/>
+<pad name="P$343" x="40.64" y="43.18" drill="0.9"/>
+<pad name="P$344" x="40.64" y="40.64" drill="0.9"/>
+<pad name="P$345" x="40.64" y="38.1" drill="0.9"/>
+<pad name="P$346" x="40.64" y="35.56" drill="0.9"/>
+<pad name="P$347" x="40.64" y="33.02" drill="0.9"/>
+<wire x1="40.64" y1="58.42" x2="40.64" y2="55.88" width="0.127" layer="18"/>
+<wire x1="40.64" y1="55.88" x2="40.64" y2="53.34" width="0.127" layer="18"/>
+<wire x1="40.64" y1="53.34" x2="40.64" y2="50.8" width="0.127" layer="18"/>
+<wire x1="40.64" y1="50.8" x2="40.64" y2="48.26" width="0.127" layer="18"/>
+<wire x1="40.64" y1="48.26" x2="40.64" y2="45.72" width="0.127" layer="18"/>
+<wire x1="40.64" y1="45.72" x2="40.64" y2="43.18" width="0.127" layer="18"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="40.64" width="0.127" layer="18"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="38.1" width="0.127" layer="18"/>
+<wire x1="40.64" y1="38.1" x2="40.64" y2="35.56" width="0.127" layer="18"/>
+<wire x1="40.64" y1="35.56" x2="40.64" y2="33.02" width="0.127" layer="18"/>
+<wire x1="40.64" y1="33.02" x2="40.64" y2="30.48" width="0.127" layer="18"/>
+<wire x1="40.64" y1="33.02" x2="43.18" y2="33.02" width="0.127" layer="18"/>
+<wire x1="43.18" y1="35.56" x2="40.64" y2="35.56" width="0.127" layer="18"/>
+<wire x1="40.64" y1="38.1" x2="43.18" y2="38.1" width="0.127" layer="18"/>
+<wire x1="43.18" y1="40.64" x2="40.64" y2="40.64" width="0.127" layer="18"/>
+<wire x1="40.64" y1="43.18" x2="43.18" y2="43.18" width="0.127" layer="18"/>
+<wire x1="43.18" y1="45.72" x2="40.64" y2="45.72" width="0.127" layer="18"/>
+<wire x1="40.64" y1="48.26" x2="43.18" y2="48.26" width="0.127" layer="18"/>
+<wire x1="43.18" y1="50.8" x2="40.64" y2="50.8" width="0.127" layer="18"/>
+<wire x1="40.64" y1="53.34" x2="43.18" y2="53.34" width="0.127" layer="18"/>
+<wire x1="43.18" y1="55.88" x2="40.64" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$348" x="40.64" y="30.48" drill="0.9"/>
+<wire x1="40.64" y1="58.42" x2="43.18" y2="58.42" width="0.127" layer="18"/>
+<wire x1="40.64" y1="30.48" x2="43.18" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$349" x="43.18" y="58.42" drill="0.9"/>
+<pad name="P$350" x="43.18" y="55.88" drill="0.9"/>
+<pad name="P$351" x="43.18" y="53.34" drill="0.9"/>
+<pad name="P$352" x="43.18" y="50.8" drill="0.9"/>
+<pad name="P$353" x="43.18" y="48.26" drill="0.9"/>
+<pad name="P$354" x="43.18" y="45.72" drill="0.9"/>
+<pad name="P$355" x="43.18" y="43.18" drill="0.9"/>
+<pad name="P$356" x="43.18" y="40.64" drill="0.9"/>
+<pad name="P$357" x="43.18" y="38.1" drill="0.9"/>
+<pad name="P$358" x="43.18" y="35.56" drill="0.9"/>
+<pad name="P$359" x="43.18" y="33.02" drill="0.9"/>
+<wire x1="43.18" y1="58.42" x2="43.18" y2="55.88" width="0.127" layer="18"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="53.34" width="0.127" layer="18"/>
+<wire x1="43.18" y1="53.34" x2="43.18" y2="50.8" width="0.127" layer="18"/>
+<wire x1="43.18" y1="50.8" x2="43.18" y2="48.26" width="0.127" layer="18"/>
+<wire x1="43.18" y1="48.26" x2="43.18" y2="45.72" width="0.127" layer="18"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="43.18" width="0.127" layer="18"/>
+<wire x1="43.18" y1="43.18" x2="43.18" y2="40.64" width="0.127" layer="18"/>
+<wire x1="43.18" y1="40.64" x2="43.18" y2="38.1" width="0.127" layer="18"/>
+<wire x1="43.18" y1="38.1" x2="43.18" y2="35.56" width="0.127" layer="18"/>
+<wire x1="43.18" y1="35.56" x2="43.18" y2="33.02" width="0.127" layer="18"/>
+<wire x1="43.18" y1="33.02" x2="43.18" y2="30.48" width="0.127" layer="18"/>
+<wire x1="43.18" y1="33.02" x2="45.72" y2="33.02" width="0.127" layer="18"/>
+<wire x1="45.72" y1="35.56" x2="43.18" y2="35.56" width="0.127" layer="18"/>
+<wire x1="43.18" y1="38.1" x2="45.72" y2="38.1" width="0.127" layer="18"/>
+<wire x1="45.72" y1="40.64" x2="43.18" y2="40.64" width="0.127" layer="18"/>
+<wire x1="43.18" y1="43.18" x2="45.72" y2="43.18" width="0.127" layer="18"/>
+<wire x1="45.72" y1="45.72" x2="43.18" y2="45.72" width="0.127" layer="18"/>
+<wire x1="43.18" y1="48.26" x2="45.72" y2="48.26" width="0.127" layer="18"/>
+<wire x1="45.72" y1="50.8" x2="43.18" y2="50.8" width="0.127" layer="18"/>
+<wire x1="43.18" y1="53.34" x2="45.72" y2="53.34" width="0.127" layer="18"/>
+<wire x1="45.72" y1="55.88" x2="43.18" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$360" x="43.18" y="30.48" drill="0.9"/>
+<wire x1="43.18" y1="58.42" x2="45.72" y2="58.42" width="0.127" layer="18"/>
+<wire x1="43.18" y1="30.48" x2="45.72" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$361" x="45.72" y="58.42" drill="0.9"/>
+<pad name="P$362" x="45.72" y="55.88" drill="0.9"/>
+<pad name="P$363" x="45.72" y="53.34" drill="0.9"/>
+<pad name="P$364" x="45.72" y="50.8" drill="0.9"/>
+<pad name="P$365" x="45.72" y="48.26" drill="0.9"/>
+<pad name="P$366" x="45.72" y="45.72" drill="0.9"/>
+<pad name="P$367" x="45.72" y="43.18" drill="0.9"/>
+<pad name="P$368" x="45.72" y="40.64" drill="0.9"/>
+<pad name="P$369" x="45.72" y="38.1" drill="0.9"/>
+<pad name="P$370" x="45.72" y="35.56" drill="0.9"/>
+<pad name="P$371" x="45.72" y="33.02" drill="0.9"/>
+<wire x1="45.72" y1="58.42" x2="45.72" y2="55.88" width="0.127" layer="18"/>
+<wire x1="45.72" y1="55.88" x2="45.72" y2="53.34" width="0.127" layer="18"/>
+<wire x1="45.72" y1="53.34" x2="45.72" y2="50.8" width="0.127" layer="18"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="48.26" width="0.127" layer="18"/>
+<wire x1="45.72" y1="48.26" x2="45.72" y2="45.72" width="0.127" layer="18"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="43.18" width="0.127" layer="18"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.127" layer="18"/>
+<wire x1="45.72" y1="40.64" x2="45.72" y2="38.1" width="0.127" layer="18"/>
+<wire x1="45.72" y1="38.1" x2="45.72" y2="35.56" width="0.127" layer="18"/>
+<wire x1="45.72" y1="35.56" x2="45.72" y2="33.02" width="0.127" layer="18"/>
+<wire x1="45.72" y1="33.02" x2="45.72" y2="30.48" width="0.127" layer="18"/>
+<wire x1="45.72" y1="33.02" x2="48.26" y2="33.02" width="0.127" layer="18"/>
+<wire x1="48.26" y1="35.56" x2="45.72" y2="35.56" width="0.127" layer="18"/>
+<wire x1="45.72" y1="38.1" x2="48.26" y2="38.1" width="0.127" layer="18"/>
+<wire x1="48.26" y1="40.64" x2="45.72" y2="40.64" width="0.127" layer="18"/>
+<wire x1="45.72" y1="43.18" x2="48.26" y2="43.18" width="0.127" layer="18"/>
+<wire x1="48.26" y1="45.72" x2="45.72" y2="45.72" width="0.127" layer="18"/>
+<wire x1="45.72" y1="48.26" x2="48.26" y2="48.26" width="0.127" layer="18"/>
+<wire x1="48.26" y1="50.8" x2="45.72" y2="50.8" width="0.127" layer="18"/>
+<wire x1="45.72" y1="53.34" x2="48.26" y2="53.34" width="0.127" layer="18"/>
+<wire x1="48.26" y1="55.88" x2="45.72" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$372" x="45.72" y="30.48" drill="0.9"/>
+<wire x1="45.72" y1="58.42" x2="48.26" y2="58.42" width="0.127" layer="18"/>
+<wire x1="45.72" y1="30.48" x2="48.26" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$373" x="48.26" y="58.42" drill="0.9"/>
+<pad name="P$374" x="48.26" y="55.88" drill="0.9"/>
+<pad name="P$375" x="48.26" y="53.34" drill="0.9"/>
+<pad name="P$376" x="48.26" y="50.8" drill="0.9"/>
+<pad name="P$377" x="48.26" y="48.26" drill="0.9"/>
+<pad name="P$378" x="48.26" y="45.72" drill="0.9"/>
+<pad name="P$379" x="48.26" y="43.18" drill="0.9"/>
+<pad name="P$380" x="48.26" y="40.64" drill="0.9"/>
+<pad name="P$381" x="48.26" y="38.1" drill="0.9"/>
+<pad name="P$382" x="48.26" y="35.56" drill="0.9"/>
+<pad name="P$383" x="48.26" y="33.02" drill="0.9"/>
+<wire x1="48.26" y1="58.42" x2="48.26" y2="55.88" width="0.127" layer="18"/>
+<wire x1="48.26" y1="55.88" x2="48.26" y2="53.34" width="0.127" layer="18"/>
+<wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0.127" layer="18"/>
+<wire x1="48.26" y1="50.8" x2="48.26" y2="48.26" width="0.127" layer="18"/>
+<wire x1="48.26" y1="48.26" x2="48.26" y2="45.72" width="0.127" layer="18"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="43.18" width="0.127" layer="18"/>
+<wire x1="48.26" y1="43.18" x2="48.26" y2="40.64" width="0.127" layer="18"/>
+<wire x1="48.26" y1="40.64" x2="48.26" y2="38.1" width="0.127" layer="18"/>
+<wire x1="48.26" y1="38.1" x2="48.26" y2="35.56" width="0.127" layer="18"/>
+<wire x1="48.26" y1="35.56" x2="48.26" y2="33.02" width="0.127" layer="18"/>
+<wire x1="48.26" y1="33.02" x2="48.26" y2="30.48" width="0.127" layer="18"/>
+<wire x1="48.26" y1="33.02" x2="50.8" y2="33.02" width="0.127" layer="18"/>
+<wire x1="50.8" y1="35.56" x2="48.26" y2="35.56" width="0.127" layer="18"/>
+<wire x1="48.26" y1="38.1" x2="50.8" y2="38.1" width="0.127" layer="18"/>
+<wire x1="50.8" y1="40.64" x2="48.26" y2="40.64" width="0.127" layer="18"/>
+<wire x1="48.26" y1="43.18" x2="50.8" y2="43.18" width="0.127" layer="18"/>
+<wire x1="50.8" y1="45.72" x2="48.26" y2="45.72" width="0.127" layer="18"/>
+<wire x1="48.26" y1="48.26" x2="50.8" y2="48.26" width="0.127" layer="18"/>
+<wire x1="50.8" y1="50.8" x2="48.26" y2="50.8" width="0.127" layer="18"/>
+<wire x1="48.26" y1="53.34" x2="50.8" y2="53.34" width="0.127" layer="18"/>
+<wire x1="50.8" y1="55.88" x2="48.26" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$384" x="48.26" y="30.48" drill="0.9"/>
+<wire x1="48.26" y1="58.42" x2="50.8" y2="58.42" width="0.127" layer="18"/>
+<wire x1="48.26" y1="30.48" x2="50.8" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$385" x="50.8" y="58.42" drill="0.9"/>
+<pad name="P$386" x="50.8" y="55.88" drill="0.9"/>
+<pad name="P$387" x="50.8" y="53.34" drill="0.9"/>
+<pad name="P$388" x="50.8" y="50.8" drill="0.9"/>
+<pad name="P$389" x="50.8" y="48.26" drill="0.9"/>
+<pad name="P$390" x="50.8" y="45.72" drill="0.9"/>
+<pad name="P$391" x="50.8" y="43.18" drill="0.9"/>
+<pad name="P$392" x="50.8" y="40.64" drill="0.9"/>
+<pad name="P$393" x="50.8" y="38.1" drill="0.9"/>
+<pad name="P$394" x="50.8" y="35.56" drill="0.9"/>
+<pad name="P$395" x="50.8" y="33.02" drill="0.9"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="55.88" width="0.127" layer="18"/>
+<wire x1="50.8" y1="55.88" x2="50.8" y2="53.34" width="0.127" layer="18"/>
+<wire x1="50.8" y1="53.34" x2="50.8" y2="50.8" width="0.127" layer="18"/>
+<wire x1="50.8" y1="50.8" x2="50.8" y2="48.26" width="0.127" layer="18"/>
+<wire x1="50.8" y1="48.26" x2="50.8" y2="45.72" width="0.127" layer="18"/>
+<wire x1="50.8" y1="45.72" x2="50.8" y2="43.18" width="0.127" layer="18"/>
+<wire x1="50.8" y1="43.18" x2="50.8" y2="40.64" width="0.127" layer="18"/>
+<wire x1="50.8" y1="40.64" x2="50.8" y2="38.1" width="0.127" layer="18"/>
+<wire x1="50.8" y1="38.1" x2="50.8" y2="35.56" width="0.127" layer="18"/>
+<wire x1="50.8" y1="35.56" x2="50.8" y2="33.02" width="0.127" layer="18"/>
+<wire x1="50.8" y1="33.02" x2="50.8" y2="30.48" width="0.127" layer="18"/>
+<wire x1="50.8" y1="33.02" x2="53.34" y2="33.02" width="0.127" layer="18"/>
+<wire x1="53.34" y1="35.56" x2="50.8" y2="35.56" width="0.127" layer="18"/>
+<wire x1="50.8" y1="38.1" x2="53.34" y2="38.1" width="0.127" layer="18"/>
+<wire x1="53.34" y1="40.64" x2="50.8" y2="40.64" width="0.127" layer="18"/>
+<wire x1="50.8" y1="43.18" x2="53.34" y2="43.18" width="0.127" layer="18"/>
+<wire x1="53.34" y1="45.72" x2="50.8" y2="45.72" width="0.127" layer="18"/>
+<wire x1="50.8" y1="48.26" x2="53.34" y2="48.26" width="0.127" layer="18"/>
+<wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.127" layer="18"/>
+<wire x1="50.8" y1="53.34" x2="53.34" y2="53.34" width="0.127" layer="18"/>
+<wire x1="53.34" y1="55.88" x2="50.8" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$396" x="50.8" y="30.48" drill="0.9"/>
+<wire x1="50.8" y1="58.42" x2="53.34" y2="58.42" width="0.127" layer="18"/>
+<wire x1="50.8" y1="30.48" x2="53.34" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$397" x="53.34" y="58.42" drill="0.9"/>
+<pad name="P$398" x="53.34" y="55.88" drill="0.9"/>
+<pad name="P$399" x="53.34" y="53.34" drill="0.9"/>
+<pad name="P$400" x="53.34" y="50.8" drill="0.9"/>
+<pad name="P$401" x="53.34" y="48.26" drill="0.9"/>
+<pad name="P$402" x="53.34" y="45.72" drill="0.9"/>
+<pad name="P$403" x="53.34" y="43.18" drill="0.9"/>
+<pad name="P$404" x="53.34" y="40.64" drill="0.9"/>
+<pad name="P$405" x="53.34" y="38.1" drill="0.9"/>
+<pad name="P$406" x="53.34" y="35.56" drill="0.9"/>
+<pad name="P$407" x="53.34" y="33.02" drill="0.9"/>
+<wire x1="53.34" y1="58.42" x2="53.34" y2="55.88" width="0.127" layer="18"/>
+<wire x1="53.34" y1="55.88" x2="53.34" y2="53.34" width="0.127" layer="18"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="50.8" width="0.127" layer="18"/>
+<wire x1="53.34" y1="50.8" x2="53.34" y2="48.26" width="0.127" layer="18"/>
+<wire x1="53.34" y1="48.26" x2="53.34" y2="45.72" width="0.127" layer="18"/>
+<wire x1="53.34" y1="45.72" x2="53.34" y2="43.18" width="0.127" layer="18"/>
+<wire x1="53.34" y1="43.18" x2="53.34" y2="40.64" width="0.127" layer="18"/>
+<wire x1="53.34" y1="40.64" x2="53.34" y2="38.1" width="0.127" layer="18"/>
+<wire x1="53.34" y1="38.1" x2="53.34" y2="35.56" width="0.127" layer="18"/>
+<wire x1="53.34" y1="35.56" x2="53.34" y2="33.02" width="0.127" layer="18"/>
+<wire x1="53.34" y1="33.02" x2="53.34" y2="30.48" width="0.127" layer="18"/>
+<wire x1="53.34" y1="33.02" x2="55.88" y2="33.02" width="0.127" layer="18"/>
+<wire x1="55.88" y1="35.56" x2="53.34" y2="35.56" width="0.127" layer="18"/>
+<wire x1="53.34" y1="38.1" x2="55.88" y2="38.1" width="0.127" layer="18"/>
+<wire x1="55.88" y1="40.64" x2="53.34" y2="40.64" width="0.127" layer="18"/>
+<wire x1="53.34" y1="43.18" x2="55.88" y2="43.18" width="0.127" layer="18"/>
+<wire x1="55.88" y1="45.72" x2="53.34" y2="45.72" width="0.127" layer="18"/>
+<wire x1="53.34" y1="48.26" x2="55.88" y2="48.26" width="0.127" layer="18"/>
+<wire x1="55.88" y1="50.8" x2="53.34" y2="50.8" width="0.127" layer="18"/>
+<wire x1="53.34" y1="53.34" x2="55.88" y2="53.34" width="0.127" layer="18"/>
+<wire x1="55.88" y1="55.88" x2="53.34" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$408" x="53.34" y="30.48" drill="0.9"/>
+<wire x1="53.34" y1="58.42" x2="55.88" y2="58.42" width="0.127" layer="18"/>
+<wire x1="53.34" y1="30.48" x2="55.88" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$409" x="55.88" y="58.42" drill="0.9"/>
+<pad name="P$410" x="55.88" y="55.88" drill="0.9"/>
+<pad name="P$411" x="55.88" y="53.34" drill="0.9"/>
+<pad name="P$412" x="55.88" y="50.8" drill="0.9"/>
+<pad name="P$413" x="55.88" y="48.26" drill="0.9"/>
+<pad name="P$414" x="55.88" y="45.72" drill="0.9"/>
+<pad name="P$415" x="55.88" y="43.18" drill="0.9"/>
+<pad name="P$416" x="55.88" y="40.64" drill="0.9"/>
+<pad name="P$417" x="55.88" y="38.1" drill="0.9"/>
+<pad name="P$418" x="55.88" y="35.56" drill="0.9"/>
+<pad name="P$419" x="55.88" y="33.02" drill="0.9"/>
+<wire x1="55.88" y1="58.42" x2="55.88" y2="55.88" width="0.127" layer="18"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="53.34" width="0.127" layer="18"/>
+<wire x1="55.88" y1="53.34" x2="55.88" y2="50.8" width="0.127" layer="18"/>
+<wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.127" layer="18"/>
+<wire x1="55.88" y1="48.26" x2="55.88" y2="45.72" width="0.127" layer="18"/>
+<wire x1="55.88" y1="45.72" x2="55.88" y2="43.18" width="0.127" layer="18"/>
+<wire x1="55.88" y1="43.18" x2="55.88" y2="40.64" width="0.127" layer="18"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="38.1" width="0.127" layer="18"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="35.56" width="0.127" layer="18"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="33.02" width="0.127" layer="18"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="30.48" width="0.127" layer="18"/>
+<wire x1="55.88" y1="33.02" x2="58.42" y2="33.02" width="0.127" layer="18"/>
+<wire x1="58.42" y1="35.56" x2="55.88" y2="35.56" width="0.127" layer="18"/>
+<wire x1="55.88" y1="38.1" x2="58.42" y2="38.1" width="0.127" layer="18"/>
+<wire x1="58.42" y1="40.64" x2="55.88" y2="40.64" width="0.127" layer="18"/>
+<wire x1="55.88" y1="43.18" x2="58.42" y2="43.18" width="0.127" layer="18"/>
+<wire x1="58.42" y1="45.72" x2="55.88" y2="45.72" width="0.127" layer="18"/>
+<wire x1="55.88" y1="48.26" x2="58.42" y2="48.26" width="0.127" layer="18"/>
+<wire x1="58.42" y1="50.8" x2="55.88" y2="50.8" width="0.127" layer="18"/>
+<wire x1="55.88" y1="53.34" x2="58.42" y2="53.34" width="0.127" layer="18"/>
+<wire x1="58.42" y1="55.88" x2="55.88" y2="55.88" width="0.127" layer="18"/>
+<pad name="P$420" x="55.88" y="30.48" drill="0.9"/>
+<wire x1="55.88" y1="58.42" x2="58.42" y2="58.42" width="0.127" layer="18"/>
+<wire x1="55.88" y1="30.48" x2="58.42" y2="30.48" width="0.127" layer="18"/>
+<pad name="P$421" x="58.42" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$422" x="58.42" y="55.88" drill="0.9"/>
+<pad name="P$423" x="58.42" y="53.34" drill="0.9"/>
+<pad name="P$424" x="58.42" y="50.8" drill="0.9"/>
+<pad name="P$425" x="58.42" y="48.26" drill="0.9"/>
+<pad name="P$426" x="58.42" y="45.72" drill="0.9"/>
+<pad name="P$427" x="58.42" y="43.18" drill="0.9"/>
+<pad name="P$428" x="58.42" y="40.64" drill="0.9"/>
+<pad name="P$429" x="58.42" y="38.1" drill="0.9"/>
+<pad name="P$430" x="58.42" y="35.56" drill="0.9"/>
+<pad name="P$431" x="58.42" y="33.02" drill="0.9"/>
+<pad name="P$432" x="58.42" y="30.48" drill="0.9" shape="square"/>
+<wire x1="58.42" y1="58.42" x2="58.42" y2="55.88" width="0.127" layer="18"/>
+<wire x1="58.42" y1="55.88" x2="58.42" y2="53.34" width="0.127" layer="18"/>
+<wire x1="58.42" y1="53.34" x2="58.42" y2="50.8" width="0.127" layer="18"/>
+<wire x1="58.42" y1="50.8" x2="58.42" y2="48.26" width="0.127" layer="18"/>
+<wire x1="58.42" y1="48.26" x2="58.42" y2="45.72" width="0.127" layer="18"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="43.18" width="0.127" layer="18"/>
+<wire x1="58.42" y1="43.18" x2="58.42" y2="40.64" width="0.127" layer="18"/>
+<wire x1="58.42" y1="40.64" x2="58.42" y2="38.1" width="0.127" layer="18"/>
+<wire x1="58.42" y1="38.1" x2="58.42" y2="35.56" width="0.127" layer="18"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="33.02" width="0.127" layer="18"/>
+<wire x1="58.42" y1="33.02" x2="58.42" y2="30.48" width="0.127" layer="18"/>
+<wire x1="59.69" y1="59.69" x2="59.69" y2="-1.27" width="0.127" layer="21"/>
+<pad name="P$433" x="30.48" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$434" x="30.48" y="25.4" drill="0.9"/>
+<pad name="P$435" x="30.48" y="22.86" drill="0.9"/>
+<pad name="P$436" x="30.48" y="20.32" drill="0.9"/>
+<pad name="P$437" x="30.48" y="17.78" drill="0.9"/>
+<pad name="P$438" x="30.48" y="15.24" drill="0.9"/>
+<pad name="P$439" x="30.48" y="12.7" drill="0.9"/>
+<pad name="P$440" x="30.48" y="10.16" drill="0.9"/>
+<pad name="P$441" x="30.48" y="7.62" drill="0.9"/>
+<pad name="P$442" x="30.48" y="5.08" drill="0.9"/>
+<pad name="P$443" x="30.48" y="2.54" drill="0.9"/>
+<pad name="P$444" x="30.48" y="0" drill="0.9" shape="square"/>
+<wire x1="30.48" y1="27.94" x2="30.48" y2="25.4" width="0.127" layer="18"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="22.86" width="0.127" layer="18"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.127" layer="18"/>
+<wire x1="30.48" y1="20.32" x2="30.48" y2="17.78" width="0.127" layer="18"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="15.24" width="0.127" layer="18"/>
+<wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.127" layer="18"/>
+<wire x1="30.48" y1="12.7" x2="30.48" y2="10.16" width="0.127" layer="18"/>
+<wire x1="30.48" y1="10.16" x2="30.48" y2="7.62" width="0.127" layer="18"/>
+<wire x1="30.48" y1="7.62" x2="30.48" y2="5.08" width="0.127" layer="18"/>
+<wire x1="30.48" y1="5.08" x2="30.48" y2="2.54" width="0.127" layer="18"/>
+<wire x1="30.48" y1="2.54" x2="30.48" y2="0" width="0.127" layer="18"/>
+<wire x1="30.48" y1="0" x2="33.02" y2="0" width="0.127" layer="18"/>
+<wire x1="30.48" y1="2.54" x2="33.02" y2="2.54" width="0.127" layer="18"/>
+<wire x1="33.02" y1="5.08" x2="30.48" y2="5.08" width="0.127" layer="18"/>
+<wire x1="30.48" y1="7.62" x2="33.02" y2="7.62" width="0.127" layer="18"/>
+<wire x1="33.02" y1="10.16" x2="30.48" y2="10.16" width="0.127" layer="18"/>
+<wire x1="30.48" y1="12.7" x2="33.02" y2="12.7" width="0.127" layer="18"/>
+<wire x1="33.02" y1="15.24" x2="30.48" y2="15.24" width="0.127" layer="18"/>
+<wire x1="30.48" y1="17.78" x2="33.02" y2="17.78" width="0.127" layer="18"/>
+<wire x1="33.02" y1="20.32" x2="30.48" y2="20.32" width="0.127" layer="18"/>
+<wire x1="30.48" y1="22.86" x2="33.02" y2="22.86" width="0.127" layer="18"/>
+<wire x1="33.02" y1="25.4" x2="30.48" y2="25.4" width="0.127" layer="18"/>
+<wire x1="30.48" y1="27.94" x2="33.02" y2="27.94" width="0.127" layer="18"/>
+<pad name="P$445" x="33.02" y="27.94" drill="0.9"/>
+<pad name="P$446" x="33.02" y="25.4" drill="0.9"/>
+<pad name="P$447" x="33.02" y="22.86" drill="0.9"/>
+<pad name="P$448" x="33.02" y="20.32" drill="0.9"/>
+<pad name="P$449" x="33.02" y="17.78" drill="0.9"/>
+<pad name="P$450" x="33.02" y="15.24" drill="0.9"/>
+<pad name="P$451" x="33.02" y="12.7" drill="0.9"/>
+<pad name="P$452" x="33.02" y="10.16" drill="0.9"/>
+<pad name="P$453" x="33.02" y="7.62" drill="0.9"/>
+<pad name="P$454" x="33.02" y="5.08" drill="0.9"/>
+<pad name="P$455" x="33.02" y="2.54" drill="0.9"/>
+<wire x1="33.02" y1="27.94" x2="33.02" y2="25.4" width="0.127" layer="18"/>
+<wire x1="33.02" y1="25.4" x2="33.02" y2="22.86" width="0.127" layer="18"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="20.32" width="0.127" layer="18"/>
+<wire x1="33.02" y1="20.32" x2="33.02" y2="17.78" width="0.127" layer="18"/>
+<wire x1="33.02" y1="17.78" x2="33.02" y2="15.24" width="0.127" layer="18"/>
+<wire x1="33.02" y1="15.24" x2="33.02" y2="12.7" width="0.127" layer="18"/>
+<wire x1="33.02" y1="12.7" x2="33.02" y2="10.16" width="0.127" layer="18"/>
+<wire x1="33.02" y1="10.16" x2="33.02" y2="7.62" width="0.127" layer="18"/>
+<wire x1="33.02" y1="7.62" x2="33.02" y2="5.08" width="0.127" layer="18"/>
+<wire x1="33.02" y1="5.08" x2="33.02" y2="2.54" width="0.127" layer="18"/>
+<wire x1="33.02" y1="2.54" x2="33.02" y2="0" width="0.127" layer="18"/>
+<wire x1="33.02" y1="2.54" x2="35.56" y2="2.54" width="0.127" layer="18"/>
+<wire x1="35.56" y1="5.08" x2="33.02" y2="5.08" width="0.127" layer="18"/>
+<wire x1="33.02" y1="7.62" x2="35.56" y2="7.62" width="0.127" layer="18"/>
+<wire x1="35.56" y1="10.16" x2="33.02" y2="10.16" width="0.127" layer="18"/>
+<wire x1="33.02" y1="12.7" x2="35.56" y2="12.7" width="0.127" layer="18"/>
+<wire x1="35.56" y1="15.24" x2="33.02" y2="15.24" width="0.127" layer="18"/>
+<wire x1="33.02" y1="17.78" x2="35.56" y2="17.78" width="0.127" layer="18"/>
+<wire x1="35.56" y1="20.32" x2="33.02" y2="20.32" width="0.127" layer="18"/>
+<wire x1="33.02" y1="22.86" x2="35.56" y2="22.86" width="0.127" layer="18"/>
+<wire x1="35.56" y1="25.4" x2="33.02" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$456" x="33.02" y="0" drill="0.9"/>
+<wire x1="33.02" y1="27.94" x2="35.56" y2="27.94" width="0.127" layer="18"/>
+<wire x1="33.02" y1="0" x2="35.56" y2="0" width="0.127" layer="18"/>
+<pad name="P$457" x="35.56" y="27.94" drill="0.9"/>
+<pad name="P$458" x="35.56" y="25.4" drill="0.9"/>
+<pad name="P$459" x="35.56" y="22.86" drill="0.9"/>
+<pad name="P$460" x="35.56" y="20.32" drill="0.9"/>
+<pad name="P$461" x="35.56" y="17.78" drill="0.9"/>
+<pad name="P$462" x="35.56" y="15.24" drill="0.9"/>
+<pad name="P$463" x="35.56" y="12.7" drill="0.9"/>
+<pad name="P$464" x="35.56" y="10.16" drill="0.9"/>
+<pad name="P$465" x="35.56" y="7.62" drill="0.9"/>
+<pad name="P$466" x="35.56" y="5.08" drill="0.9"/>
+<pad name="P$467" x="35.56" y="2.54" drill="0.9"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="25.4" width="0.127" layer="18"/>
+<wire x1="35.56" y1="25.4" x2="35.56" y2="22.86" width="0.127" layer="18"/>
+<wire x1="35.56" y1="22.86" x2="35.56" y2="20.32" width="0.127" layer="18"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="17.78" width="0.127" layer="18"/>
+<wire x1="35.56" y1="17.78" x2="35.56" y2="15.24" width="0.127" layer="18"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="12.7" width="0.127" layer="18"/>
+<wire x1="35.56" y1="12.7" x2="35.56" y2="10.16" width="0.127" layer="18"/>
+<wire x1="35.56" y1="10.16" x2="35.56" y2="7.62" width="0.127" layer="18"/>
+<wire x1="35.56" y1="7.62" x2="35.56" y2="5.08" width="0.127" layer="18"/>
+<wire x1="35.56" y1="5.08" x2="35.56" y2="2.54" width="0.127" layer="18"/>
+<wire x1="35.56" y1="2.54" x2="35.56" y2="0" width="0.127" layer="18"/>
+<wire x1="35.56" y1="2.54" x2="38.1" y2="2.54" width="0.127" layer="18"/>
+<wire x1="38.1" y1="5.08" x2="35.56" y2="5.08" width="0.127" layer="18"/>
+<wire x1="35.56" y1="7.62" x2="38.1" y2="7.62" width="0.127" layer="18"/>
+<wire x1="38.1" y1="10.16" x2="35.56" y2="10.16" width="0.127" layer="18"/>
+<wire x1="35.56" y1="12.7" x2="38.1" y2="12.7" width="0.127" layer="18"/>
+<wire x1="38.1" y1="15.24" x2="35.56" y2="15.24" width="0.127" layer="18"/>
+<wire x1="35.56" y1="17.78" x2="38.1" y2="17.78" width="0.127" layer="18"/>
+<wire x1="38.1" y1="20.32" x2="35.56" y2="20.32" width="0.127" layer="18"/>
+<wire x1="35.56" y1="22.86" x2="38.1" y2="22.86" width="0.127" layer="18"/>
+<wire x1="38.1" y1="25.4" x2="35.56" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$468" x="35.56" y="0" drill="0.9"/>
+<wire x1="35.56" y1="27.94" x2="38.1" y2="27.94" width="0.127" layer="18"/>
+<wire x1="35.56" y1="0" x2="38.1" y2="0" width="0.127" layer="18"/>
+<pad name="P$469" x="38.1" y="27.94" drill="0.9"/>
+<pad name="P$470" x="38.1" y="25.4" drill="0.9"/>
+<pad name="P$471" x="38.1" y="22.86" drill="0.9"/>
+<pad name="P$472" x="38.1" y="20.32" drill="0.9"/>
+<pad name="P$473" x="38.1" y="17.78" drill="0.9"/>
+<pad name="P$474" x="38.1" y="15.24" drill="0.9"/>
+<pad name="P$475" x="38.1" y="12.7" drill="0.9"/>
+<pad name="P$476" x="38.1" y="10.16" drill="0.9"/>
+<pad name="P$477" x="38.1" y="7.62" drill="0.9"/>
+<pad name="P$478" x="38.1" y="5.08" drill="0.9"/>
+<pad name="P$479" x="38.1" y="2.54" drill="0.9"/>
+<wire x1="38.1" y1="27.94" x2="38.1" y2="25.4" width="0.127" layer="18"/>
+<wire x1="38.1" y1="25.4" x2="38.1" y2="22.86" width="0.127" layer="18"/>
+<wire x1="38.1" y1="22.86" x2="38.1" y2="20.32" width="0.127" layer="18"/>
+<wire x1="38.1" y1="20.32" x2="38.1" y2="17.78" width="0.127" layer="18"/>
+<wire x1="38.1" y1="17.78" x2="38.1" y2="15.24" width="0.127" layer="18"/>
+<wire x1="38.1" y1="15.24" x2="38.1" y2="12.7" width="0.127" layer="18"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="10.16" width="0.127" layer="18"/>
+<wire x1="38.1" y1="10.16" x2="38.1" y2="7.62" width="0.127" layer="18"/>
+<wire x1="38.1" y1="7.62" x2="38.1" y2="5.08" width="0.127" layer="18"/>
+<wire x1="38.1" y1="5.08" x2="38.1" y2="2.54" width="0.127" layer="18"/>
+<wire x1="38.1" y1="2.54" x2="38.1" y2="0" width="0.127" layer="18"/>
+<wire x1="38.1" y1="2.54" x2="40.64" y2="2.54" width="0.127" layer="18"/>
+<wire x1="40.64" y1="5.08" x2="38.1" y2="5.08" width="0.127" layer="18"/>
+<wire x1="38.1" y1="7.62" x2="40.64" y2="7.62" width="0.127" layer="18"/>
+<wire x1="40.64" y1="10.16" x2="38.1" y2="10.16" width="0.127" layer="18"/>
+<wire x1="38.1" y1="12.7" x2="40.64" y2="12.7" width="0.127" layer="18"/>
+<wire x1="40.64" y1="15.24" x2="38.1" y2="15.24" width="0.127" layer="18"/>
+<wire x1="38.1" y1="17.78" x2="40.64" y2="17.78" width="0.127" layer="18"/>
+<wire x1="40.64" y1="20.32" x2="38.1" y2="20.32" width="0.127" layer="18"/>
+<wire x1="38.1" y1="22.86" x2="40.64" y2="22.86" width="0.127" layer="18"/>
+<wire x1="40.64" y1="25.4" x2="38.1" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$480" x="38.1" y="0" drill="0.9"/>
+<wire x1="38.1" y1="27.94" x2="40.64" y2="27.94" width="0.127" layer="18"/>
+<wire x1="38.1" y1="0" x2="40.64" y2="0" width="0.127" layer="18"/>
+<pad name="P$481" x="40.64" y="27.94" drill="0.9"/>
+<pad name="P$482" x="40.64" y="25.4" drill="0.9"/>
+<pad name="P$483" x="40.64" y="22.86" drill="0.9"/>
+<pad name="P$484" x="40.64" y="20.32" drill="0.9"/>
+<pad name="P$485" x="40.64" y="17.78" drill="0.9"/>
+<pad name="P$486" x="40.64" y="15.24" drill="0.9"/>
+<pad name="P$487" x="40.64" y="12.7" drill="0.9"/>
+<pad name="P$488" x="40.64" y="10.16" drill="0.9"/>
+<pad name="P$489" x="40.64" y="7.62" drill="0.9"/>
+<pad name="P$490" x="40.64" y="5.08" drill="0.9"/>
+<pad name="P$491" x="40.64" y="2.54" drill="0.9"/>
+<wire x1="40.64" y1="27.94" x2="40.64" y2="25.4" width="0.127" layer="18"/>
+<wire x1="40.64" y1="25.4" x2="40.64" y2="22.86" width="0.127" layer="18"/>
+<wire x1="40.64" y1="22.86" x2="40.64" y2="20.32" width="0.127" layer="18"/>
+<wire x1="40.64" y1="20.32" x2="40.64" y2="17.78" width="0.127" layer="18"/>
+<wire x1="40.64" y1="17.78" x2="40.64" y2="15.24" width="0.127" layer="18"/>
+<wire x1="40.64" y1="15.24" x2="40.64" y2="12.7" width="0.127" layer="18"/>
+<wire x1="40.64" y1="12.7" x2="40.64" y2="10.16" width="0.127" layer="18"/>
+<wire x1="40.64" y1="10.16" x2="40.64" y2="7.62" width="0.127" layer="18"/>
+<wire x1="40.64" y1="7.62" x2="40.64" y2="5.08" width="0.127" layer="18"/>
+<wire x1="40.64" y1="5.08" x2="40.64" y2="2.54" width="0.127" layer="18"/>
+<wire x1="40.64" y1="2.54" x2="40.64" y2="0" width="0.127" layer="18"/>
+<wire x1="40.64" y1="2.54" x2="43.18" y2="2.54" width="0.127" layer="18"/>
+<wire x1="43.18" y1="5.08" x2="40.64" y2="5.08" width="0.127" layer="18"/>
+<wire x1="40.64" y1="7.62" x2="43.18" y2="7.62" width="0.127" layer="18"/>
+<wire x1="43.18" y1="10.16" x2="40.64" y2="10.16" width="0.127" layer="18"/>
+<wire x1="40.64" y1="12.7" x2="43.18" y2="12.7" width="0.127" layer="18"/>
+<wire x1="43.18" y1="15.24" x2="40.64" y2="15.24" width="0.127" layer="18"/>
+<wire x1="40.64" y1="17.78" x2="43.18" y2="17.78" width="0.127" layer="18"/>
+<wire x1="43.18" y1="20.32" x2="40.64" y2="20.32" width="0.127" layer="18"/>
+<wire x1="40.64" y1="22.86" x2="43.18" y2="22.86" width="0.127" layer="18"/>
+<wire x1="43.18" y1="25.4" x2="40.64" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$492" x="40.64" y="0" drill="0.9"/>
+<wire x1="40.64" y1="27.94" x2="43.18" y2="27.94" width="0.127" layer="18"/>
+<wire x1="40.64" y1="0" x2="43.18" y2="0" width="0.127" layer="18"/>
+<pad name="P$493" x="43.18" y="27.94" drill="0.9"/>
+<pad name="P$494" x="43.18" y="25.4" drill="0.9"/>
+<pad name="P$495" x="43.18" y="22.86" drill="0.9"/>
+<pad name="P$496" x="43.18" y="20.32" drill="0.9"/>
+<pad name="P$497" x="43.18" y="17.78" drill="0.9"/>
+<pad name="P$498" x="43.18" y="15.24" drill="0.9"/>
+<pad name="P$499" x="43.18" y="12.7" drill="0.9"/>
+<pad name="P$500" x="43.18" y="10.16" drill="0.9"/>
+<pad name="P$501" x="43.18" y="7.62" drill="0.9"/>
+<pad name="P$502" x="43.18" y="5.08" drill="0.9"/>
+<pad name="P$503" x="43.18" y="2.54" drill="0.9"/>
+<wire x1="43.18" y1="27.94" x2="43.18" y2="25.4" width="0.127" layer="18"/>
+<wire x1="43.18" y1="25.4" x2="43.18" y2="22.86" width="0.127" layer="18"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="20.32" width="0.127" layer="18"/>
+<wire x1="43.18" y1="20.32" x2="43.18" y2="17.78" width="0.127" layer="18"/>
+<wire x1="43.18" y1="17.78" x2="43.18" y2="15.24" width="0.127" layer="18"/>
+<wire x1="43.18" y1="15.24" x2="43.18" y2="12.7" width="0.127" layer="18"/>
+<wire x1="43.18" y1="12.7" x2="43.18" y2="10.16" width="0.127" layer="18"/>
+<wire x1="43.18" y1="10.16" x2="43.18" y2="7.62" width="0.127" layer="18"/>
+<wire x1="43.18" y1="7.62" x2="43.18" y2="5.08" width="0.127" layer="18"/>
+<wire x1="43.18" y1="5.08" x2="43.18" y2="2.54" width="0.127" layer="18"/>
+<wire x1="43.18" y1="2.54" x2="43.18" y2="0" width="0.127" layer="18"/>
+<wire x1="43.18" y1="2.54" x2="45.72" y2="2.54" width="0.127" layer="18"/>
+<wire x1="45.72" y1="5.08" x2="43.18" y2="5.08" width="0.127" layer="18"/>
+<wire x1="43.18" y1="7.62" x2="45.72" y2="7.62" width="0.127" layer="18"/>
+<wire x1="45.72" y1="10.16" x2="43.18" y2="10.16" width="0.127" layer="18"/>
+<wire x1="43.18" y1="12.7" x2="45.72" y2="12.7" width="0.127" layer="18"/>
+<wire x1="45.72" y1="15.24" x2="43.18" y2="15.24" width="0.127" layer="18"/>
+<wire x1="43.18" y1="17.78" x2="45.72" y2="17.78" width="0.127" layer="18"/>
+<wire x1="45.72" y1="20.32" x2="43.18" y2="20.32" width="0.127" layer="18"/>
+<wire x1="43.18" y1="22.86" x2="45.72" y2="22.86" width="0.127" layer="18"/>
+<wire x1="45.72" y1="25.4" x2="43.18" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$504" x="43.18" y="0" drill="0.9"/>
+<wire x1="43.18" y1="27.94" x2="45.72" y2="27.94" width="0.127" layer="18"/>
+<wire x1="43.18" y1="0" x2="45.72" y2="0" width="0.127" layer="18"/>
+<pad name="P$505" x="45.72" y="27.94" drill="0.9"/>
+<pad name="P$506" x="45.72" y="25.4" drill="0.9"/>
+<pad name="P$507" x="45.72" y="22.86" drill="0.9"/>
+<pad name="P$508" x="45.72" y="20.32" drill="0.9"/>
+<pad name="P$509" x="45.72" y="17.78" drill="0.9"/>
+<pad name="P$510" x="45.72" y="15.24" drill="0.9"/>
+<pad name="P$511" x="45.72" y="12.7" drill="0.9"/>
+<pad name="P$512" x="45.72" y="10.16" drill="0.9"/>
+<pad name="P$513" x="45.72" y="7.62" drill="0.9"/>
+<pad name="P$514" x="45.72" y="5.08" drill="0.9"/>
+<pad name="P$515" x="45.72" y="2.54" drill="0.9"/>
+<wire x1="45.72" y1="27.94" x2="45.72" y2="25.4" width="0.127" layer="18"/>
+<wire x1="45.72" y1="25.4" x2="45.72" y2="22.86" width="0.127" layer="18"/>
+<wire x1="45.72" y1="22.86" x2="45.72" y2="20.32" width="0.127" layer="18"/>
+<wire x1="45.72" y1="20.32" x2="45.72" y2="17.78" width="0.127" layer="18"/>
+<wire x1="45.72" y1="17.78" x2="45.72" y2="15.24" width="0.127" layer="18"/>
+<wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.127" layer="18"/>
+<wire x1="45.72" y1="12.7" x2="45.72" y2="10.16" width="0.127" layer="18"/>
+<wire x1="45.72" y1="10.16" x2="45.72" y2="7.62" width="0.127" layer="18"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.127" layer="18"/>
+<wire x1="45.72" y1="5.08" x2="45.72" y2="2.54" width="0.127" layer="18"/>
+<wire x1="45.72" y1="2.54" x2="45.72" y2="0" width="0.127" layer="18"/>
+<wire x1="45.72" y1="2.54" x2="48.26" y2="2.54" width="0.127" layer="18"/>
+<wire x1="48.26" y1="5.08" x2="45.72" y2="5.08" width="0.127" layer="18"/>
+<wire x1="45.72" y1="7.62" x2="48.26" y2="7.62" width="0.127" layer="18"/>
+<wire x1="48.26" y1="10.16" x2="45.72" y2="10.16" width="0.127" layer="18"/>
+<wire x1="45.72" y1="12.7" x2="48.26" y2="12.7" width="0.127" layer="18"/>
+<wire x1="48.26" y1="15.24" x2="45.72" y2="15.24" width="0.127" layer="18"/>
+<wire x1="45.72" y1="17.78" x2="48.26" y2="17.78" width="0.127" layer="18"/>
+<wire x1="48.26" y1="20.32" x2="45.72" y2="20.32" width="0.127" layer="18"/>
+<wire x1="45.72" y1="22.86" x2="48.26" y2="22.86" width="0.127" layer="18"/>
+<wire x1="48.26" y1="25.4" x2="45.72" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$516" x="45.72" y="0" drill="0.9"/>
+<wire x1="45.72" y1="27.94" x2="48.26" y2="27.94" width="0.127" layer="18"/>
+<wire x1="45.72" y1="0" x2="48.26" y2="0" width="0.127" layer="18"/>
+<pad name="P$517" x="48.26" y="27.94" drill="0.9"/>
+<pad name="P$518" x="48.26" y="25.4" drill="0.9"/>
+<pad name="P$519" x="48.26" y="22.86" drill="0.9"/>
+<pad name="P$520" x="48.26" y="20.32" drill="0.9"/>
+<pad name="P$521" x="48.26" y="17.78" drill="0.9"/>
+<pad name="P$522" x="48.26" y="15.24" drill="0.9"/>
+<pad name="P$523" x="48.26" y="12.7" drill="0.9"/>
+<pad name="P$524" x="48.26" y="10.16" drill="0.9"/>
+<pad name="P$525" x="48.26" y="7.62" drill="0.9"/>
+<pad name="P$526" x="48.26" y="5.08" drill="0.9"/>
+<pad name="P$527" x="48.26" y="2.54" drill="0.9"/>
+<wire x1="48.26" y1="27.94" x2="48.26" y2="25.4" width="0.127" layer="18"/>
+<wire x1="48.26" y1="25.4" x2="48.26" y2="22.86" width="0.127" layer="18"/>
+<wire x1="48.26" y1="22.86" x2="48.26" y2="20.32" width="0.127" layer="18"/>
+<wire x1="48.26" y1="20.32" x2="48.26" y2="17.78" width="0.127" layer="18"/>
+<wire x1="48.26" y1="17.78" x2="48.26" y2="15.24" width="0.127" layer="18"/>
+<wire x1="48.26" y1="15.24" x2="48.26" y2="12.7" width="0.127" layer="18"/>
+<wire x1="48.26" y1="12.7" x2="48.26" y2="10.16" width="0.127" layer="18"/>
+<wire x1="48.26" y1="10.16" x2="48.26" y2="7.62" width="0.127" layer="18"/>
+<wire x1="48.26" y1="7.62" x2="48.26" y2="5.08" width="0.127" layer="18"/>
+<wire x1="48.26" y1="5.08" x2="48.26" y2="2.54" width="0.127" layer="18"/>
+<wire x1="48.26" y1="2.54" x2="48.26" y2="0" width="0.127" layer="18"/>
+<wire x1="48.26" y1="2.54" x2="50.8" y2="2.54" width="0.127" layer="18"/>
+<wire x1="50.8" y1="5.08" x2="48.26" y2="5.08" width="0.127" layer="18"/>
+<wire x1="48.26" y1="7.62" x2="50.8" y2="7.62" width="0.127" layer="18"/>
+<wire x1="50.8" y1="10.16" x2="48.26" y2="10.16" width="0.127" layer="18"/>
+<wire x1="48.26" y1="12.7" x2="50.8" y2="12.7" width="0.127" layer="18"/>
+<wire x1="50.8" y1="15.24" x2="48.26" y2="15.24" width="0.127" layer="18"/>
+<wire x1="48.26" y1="17.78" x2="50.8" y2="17.78" width="0.127" layer="18"/>
+<wire x1="50.8" y1="20.32" x2="48.26" y2="20.32" width="0.127" layer="18"/>
+<wire x1="48.26" y1="22.86" x2="50.8" y2="22.86" width="0.127" layer="18"/>
+<wire x1="50.8" y1="25.4" x2="48.26" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$528" x="48.26" y="0" drill="0.9"/>
+<wire x1="48.26" y1="27.94" x2="50.8" y2="27.94" width="0.127" layer="18"/>
+<wire x1="48.26" y1="0" x2="50.8" y2="0" width="0.127" layer="18"/>
+<pad name="P$529" x="50.8" y="27.94" drill="0.9"/>
+<pad name="P$530" x="50.8" y="25.4" drill="0.9"/>
+<pad name="P$531" x="50.8" y="22.86" drill="0.9"/>
+<pad name="P$532" x="50.8" y="20.32" drill="0.9"/>
+<pad name="P$533" x="50.8" y="17.78" drill="0.9"/>
+<pad name="P$534" x="50.8" y="15.24" drill="0.9"/>
+<pad name="P$535" x="50.8" y="12.7" drill="0.9"/>
+<pad name="P$536" x="50.8" y="10.16" drill="0.9"/>
+<pad name="P$537" x="50.8" y="7.62" drill="0.9"/>
+<pad name="P$538" x="50.8" y="5.08" drill="0.9"/>
+<pad name="P$539" x="50.8" y="2.54" drill="0.9"/>
+<wire x1="50.8" y1="27.94" x2="50.8" y2="25.4" width="0.127" layer="18"/>
+<wire x1="50.8" y1="25.4" x2="50.8" y2="22.86" width="0.127" layer="18"/>
+<wire x1="50.8" y1="22.86" x2="50.8" y2="20.32" width="0.127" layer="18"/>
+<wire x1="50.8" y1="20.32" x2="50.8" y2="17.78" width="0.127" layer="18"/>
+<wire x1="50.8" y1="17.78" x2="50.8" y2="15.24" width="0.127" layer="18"/>
+<wire x1="50.8" y1="15.24" x2="50.8" y2="12.7" width="0.127" layer="18"/>
+<wire x1="50.8" y1="12.7" x2="50.8" y2="10.16" width="0.127" layer="18"/>
+<wire x1="50.8" y1="10.16" x2="50.8" y2="7.62" width="0.127" layer="18"/>
+<wire x1="50.8" y1="7.62" x2="50.8" y2="5.08" width="0.127" layer="18"/>
+<wire x1="50.8" y1="5.08" x2="50.8" y2="2.54" width="0.127" layer="18"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="0" width="0.127" layer="18"/>
+<wire x1="50.8" y1="2.54" x2="53.34" y2="2.54" width="0.127" layer="18"/>
+<wire x1="53.34" y1="5.08" x2="50.8" y2="5.08" width="0.127" layer="18"/>
+<wire x1="50.8" y1="7.62" x2="53.34" y2="7.62" width="0.127" layer="18"/>
+<wire x1="53.34" y1="10.16" x2="50.8" y2="10.16" width="0.127" layer="18"/>
+<wire x1="50.8" y1="12.7" x2="53.34" y2="12.7" width="0.127" layer="18"/>
+<wire x1="53.34" y1="15.24" x2="50.8" y2="15.24" width="0.127" layer="18"/>
+<wire x1="50.8" y1="17.78" x2="53.34" y2="17.78" width="0.127" layer="18"/>
+<wire x1="53.34" y1="20.32" x2="50.8" y2="20.32" width="0.127" layer="18"/>
+<wire x1="50.8" y1="22.86" x2="53.34" y2="22.86" width="0.127" layer="18"/>
+<wire x1="53.34" y1="25.4" x2="50.8" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$540" x="50.8" y="0" drill="0.9"/>
+<wire x1="50.8" y1="27.94" x2="53.34" y2="27.94" width="0.127" layer="18"/>
+<wire x1="50.8" y1="0" x2="53.34" y2="0" width="0.127" layer="18"/>
+<pad name="P$541" x="53.34" y="27.94" drill="0.9"/>
+<pad name="P$542" x="53.34" y="25.4" drill="0.9"/>
+<pad name="P$543" x="53.34" y="22.86" drill="0.9"/>
+<pad name="P$544" x="53.34" y="20.32" drill="0.9"/>
+<pad name="P$545" x="53.34" y="17.78" drill="0.9"/>
+<pad name="P$546" x="53.34" y="15.24" drill="0.9"/>
+<pad name="P$547" x="53.34" y="12.7" drill="0.9"/>
+<pad name="P$548" x="53.34" y="10.16" drill="0.9"/>
+<pad name="P$549" x="53.34" y="7.62" drill="0.9"/>
+<pad name="P$550" x="53.34" y="5.08" drill="0.9"/>
+<pad name="P$551" x="53.34" y="2.54" drill="0.9"/>
+<wire x1="53.34" y1="27.94" x2="53.34" y2="25.4" width="0.127" layer="18"/>
+<wire x1="53.34" y1="25.4" x2="53.34" y2="22.86" width="0.127" layer="18"/>
+<wire x1="53.34" y1="22.86" x2="53.34" y2="20.32" width="0.127" layer="18"/>
+<wire x1="53.34" y1="20.32" x2="53.34" y2="17.78" width="0.127" layer="18"/>
+<wire x1="53.34" y1="17.78" x2="53.34" y2="15.24" width="0.127" layer="18"/>
+<wire x1="53.34" y1="15.24" x2="53.34" y2="12.7" width="0.127" layer="18"/>
+<wire x1="53.34" y1="12.7" x2="53.34" y2="10.16" width="0.127" layer="18"/>
+<wire x1="53.34" y1="10.16" x2="53.34" y2="7.62" width="0.127" layer="18"/>
+<wire x1="53.34" y1="7.62" x2="53.34" y2="5.08" width="0.127" layer="18"/>
+<wire x1="53.34" y1="5.08" x2="53.34" y2="2.54" width="0.127" layer="18"/>
+<wire x1="53.34" y1="2.54" x2="53.34" y2="0" width="0.127" layer="18"/>
+<wire x1="53.34" y1="2.54" x2="55.88" y2="2.54" width="0.127" layer="18"/>
+<wire x1="55.88" y1="5.08" x2="53.34" y2="5.08" width="0.127" layer="18"/>
+<wire x1="53.34" y1="7.62" x2="55.88" y2="7.62" width="0.127" layer="18"/>
+<wire x1="55.88" y1="10.16" x2="53.34" y2="10.16" width="0.127" layer="18"/>
+<wire x1="53.34" y1="12.7" x2="55.88" y2="12.7" width="0.127" layer="18"/>
+<wire x1="55.88" y1="15.24" x2="53.34" y2="15.24" width="0.127" layer="18"/>
+<wire x1="53.34" y1="17.78" x2="55.88" y2="17.78" width="0.127" layer="18"/>
+<wire x1="55.88" y1="20.32" x2="53.34" y2="20.32" width="0.127" layer="18"/>
+<wire x1="53.34" y1="22.86" x2="55.88" y2="22.86" width="0.127" layer="18"/>
+<wire x1="55.88" y1="25.4" x2="53.34" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$552" x="53.34" y="0" drill="0.9"/>
+<wire x1="53.34" y1="27.94" x2="55.88" y2="27.94" width="0.127" layer="18"/>
+<wire x1="53.34" y1="0" x2="55.88" y2="0" width="0.127" layer="18"/>
+<pad name="P$553" x="55.88" y="27.94" drill="0.9"/>
+<pad name="P$554" x="55.88" y="25.4" drill="0.9"/>
+<pad name="P$555" x="55.88" y="22.86" drill="0.9"/>
+<pad name="P$556" x="55.88" y="20.32" drill="0.9"/>
+<pad name="P$557" x="55.88" y="17.78" drill="0.9"/>
+<pad name="P$558" x="55.88" y="15.24" drill="0.9"/>
+<pad name="P$559" x="55.88" y="12.7" drill="0.9"/>
+<pad name="P$560" x="55.88" y="10.16" drill="0.9"/>
+<pad name="P$561" x="55.88" y="7.62" drill="0.9"/>
+<pad name="P$562" x="55.88" y="5.08" drill="0.9"/>
+<pad name="P$563" x="55.88" y="2.54" drill="0.9"/>
+<wire x1="55.88" y1="27.94" x2="55.88" y2="25.4" width="0.127" layer="18"/>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.127" layer="18"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="20.32" width="0.127" layer="18"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="17.78" width="0.127" layer="18"/>
+<wire x1="55.88" y1="17.78" x2="55.88" y2="15.24" width="0.127" layer="18"/>
+<wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.127" layer="18"/>
+<wire x1="55.88" y1="12.7" x2="55.88" y2="10.16" width="0.127" layer="18"/>
+<wire x1="55.88" y1="10.16" x2="55.88" y2="7.62" width="0.127" layer="18"/>
+<wire x1="55.88" y1="7.62" x2="55.88" y2="5.08" width="0.127" layer="18"/>
+<wire x1="55.88" y1="5.08" x2="55.88" y2="2.54" width="0.127" layer="18"/>
+<wire x1="55.88" y1="2.54" x2="55.88" y2="0" width="0.127" layer="18"/>
+<wire x1="55.88" y1="2.54" x2="58.42" y2="2.54" width="0.127" layer="18"/>
+<wire x1="58.42" y1="5.08" x2="55.88" y2="5.08" width="0.127" layer="18"/>
+<wire x1="55.88" y1="7.62" x2="58.42" y2="7.62" width="0.127" layer="18"/>
+<wire x1="58.42" y1="10.16" x2="55.88" y2="10.16" width="0.127" layer="18"/>
+<wire x1="55.88" y1="12.7" x2="58.42" y2="12.7" width="0.127" layer="18"/>
+<wire x1="58.42" y1="15.24" x2="55.88" y2="15.24" width="0.127" layer="18"/>
+<wire x1="55.88" y1="17.78" x2="58.42" y2="17.78" width="0.127" layer="18"/>
+<wire x1="58.42" y1="20.32" x2="55.88" y2="20.32" width="0.127" layer="18"/>
+<wire x1="55.88" y1="22.86" x2="58.42" y2="22.86" width="0.127" layer="18"/>
+<wire x1="58.42" y1="25.4" x2="55.88" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$564" x="55.88" y="0" drill="0.9"/>
+<wire x1="55.88" y1="27.94" x2="58.42" y2="27.94" width="0.127" layer="18"/>
+<wire x1="55.88" y1="0" x2="58.42" y2="0" width="0.127" layer="18"/>
+<pad name="P$565" x="58.42" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$566" x="58.42" y="25.4" drill="0.9"/>
+<pad name="P$567" x="58.42" y="22.86" drill="0.9"/>
+<pad name="P$568" x="58.42" y="20.32" drill="0.9"/>
+<pad name="P$569" x="58.42" y="17.78" drill="0.9"/>
+<pad name="P$570" x="58.42" y="15.24" drill="0.9"/>
+<pad name="P$571" x="58.42" y="12.7" drill="0.9"/>
+<pad name="P$572" x="58.42" y="10.16" drill="0.9"/>
+<pad name="P$573" x="58.42" y="7.62" drill="0.9"/>
+<pad name="P$574" x="58.42" y="5.08" drill="0.9"/>
+<pad name="P$575" x="58.42" y="2.54" drill="0.9"/>
+<pad name="P$576" x="58.42" y="0" drill="0.9" shape="square"/>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.127" layer="18"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="22.86" width="0.127" layer="18"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="20.32" width="0.127" layer="18"/>
+<wire x1="58.42" y1="20.32" x2="58.42" y2="17.78" width="0.127" layer="18"/>
+<wire x1="58.42" y1="17.78" x2="58.42" y2="15.24" width="0.127" layer="18"/>
+<wire x1="58.42" y1="15.24" x2="58.42" y2="12.7" width="0.127" layer="18"/>
+<wire x1="58.42" y1="12.7" x2="58.42" y2="10.16" width="0.127" layer="18"/>
+<wire x1="58.42" y1="10.16" x2="58.42" y2="7.62" width="0.127" layer="18"/>
+<wire x1="58.42" y1="7.62" x2="58.42" y2="5.08" width="0.127" layer="18"/>
+<wire x1="58.42" y1="5.08" x2="58.42" y2="2.54" width="0.127" layer="18"/>
+<wire x1="58.42" y1="2.54" x2="58.42" y2="0" width="0.127" layer="18"/>
+<pad name="P$577" x="60.96" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$578" x="60.96" y="55.88" drill="0.9" shape="square"/>
+<pad name="P$579" x="60.96" y="53.34" drill="0.9" shape="square"/>
+<pad name="P$580" x="60.96" y="50.8" drill="0.9" shape="square"/>
+<pad name="P$581" x="60.96" y="48.26" drill="0.9" shape="square"/>
+<pad name="P$582" x="60.96" y="45.72" drill="0.9" shape="square"/>
+<pad name="P$583" x="60.96" y="43.18" drill="0.9" shape="square"/>
+<pad name="P$584" x="60.96" y="40.64" drill="0.9" shape="square"/>
+<pad name="P$585" x="60.96" y="38.1" drill="0.9" shape="square"/>
+<pad name="P$586" x="60.96" y="35.56" drill="0.9" shape="square"/>
+<pad name="P$587" x="60.96" y="33.02" drill="0.9" shape="square"/>
+<pad name="P$588" x="60.96" y="30.48" drill="0.9" shape="square"/>
+<pad name="P$589" x="60.96" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$590" x="60.96" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$591" x="60.96" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$592" x="60.96" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$593" x="60.96" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$594" x="60.96" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$595" x="60.96" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$596" x="60.96" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$597" x="60.96" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$598" x="60.96" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$599" x="60.96" y="2.54" drill="0.9" shape="square"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="30.48" width="0.127" layer="18"/>
+<wire x1="60.96" y1="27.94" x2="60.96" y2="2.54" width="0.127" layer="18"/>
+<pad name="P$600" x="63.5" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$601" x="63.5" y="55.88" drill="0.9" shape="square"/>
+<pad name="P$602" x="63.5" y="53.34" drill="0.9" shape="square"/>
+<pad name="P$603" x="63.5" y="50.8" drill="0.9" shape="square"/>
+<pad name="P$604" x="63.5" y="48.26" drill="0.9" shape="square"/>
+<pad name="P$605" x="63.5" y="45.72" drill="0.9" shape="square"/>
+<pad name="P$606" x="63.5" y="43.18" drill="0.9" shape="square"/>
+<pad name="P$607" x="63.5" y="40.64" drill="0.9" shape="square"/>
+<pad name="P$608" x="63.5" y="38.1" drill="0.9" shape="square"/>
+<pad name="P$609" x="63.5" y="35.56" drill="0.9" shape="square"/>
+<pad name="P$610" x="63.5" y="33.02" drill="0.9" shape="square"/>
+<pad name="P$611" x="63.5" y="30.48" drill="0.9" shape="square"/>
+<pad name="P$612" x="63.5" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$613" x="63.5" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$614" x="63.5" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$615" x="63.5" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$616" x="63.5" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$617" x="63.5" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$618" x="63.5" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$619" x="63.5" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$620" x="63.5" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$621" x="63.5" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$622" x="63.5" y="2.54" drill="0.9" shape="square"/>
+<wire x1="63.5" y1="58.42" x2="63.5" y2="30.48" width="0.127" layer="18"/>
+<wire x1="63.5" y1="27.94" x2="63.5" y2="2.54" width="0.127" layer="18"/>
+<pad name="P$623" x="66.04" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$624" x="66.04" y="55.88" drill="0.9" shape="square"/>
+<pad name="P$625" x="66.04" y="53.34" drill="0.9" shape="square"/>
+<pad name="P$626" x="66.04" y="50.8" drill="0.9" shape="square"/>
+<pad name="P$627" x="66.04" y="48.26" drill="0.9" shape="square"/>
+<pad name="P$628" x="66.04" y="45.72" drill="0.9" shape="square"/>
+<pad name="P$629" x="66.04" y="43.18" drill="0.9" shape="square"/>
+<pad name="P$630" x="66.04" y="40.64" drill="0.9" shape="square"/>
+<pad name="P$631" x="66.04" y="38.1" drill="0.9" shape="square"/>
+<pad name="P$632" x="66.04" y="35.56" drill="0.9" shape="square"/>
+<pad name="P$633" x="66.04" y="33.02" drill="0.9" shape="square"/>
+<pad name="P$634" x="66.04" y="30.48" drill="0.9" shape="square"/>
+<pad name="P$635" x="66.04" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$636" x="66.04" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$637" x="66.04" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$638" x="66.04" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$639" x="66.04" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$640" x="66.04" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$641" x="66.04" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$642" x="66.04" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$643" x="66.04" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$644" x="66.04" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$645" x="66.04" y="2.54" drill="0.9" shape="square"/>
+<wire x1="66.04" y1="58.42" x2="66.04" y2="30.48" width="0.127" layer="18"/>
+<wire x1="66.04" y1="27.94" x2="66.04" y2="2.54" width="0.127" layer="18"/>
+<pad name="P$646" x="68.58" y="58.42" drill="0.9" shape="square"/>
+<pad name="P$647" x="68.58" y="55.88" drill="0.9" shape="square"/>
+<pad name="P$648" x="68.58" y="53.34" drill="0.9" shape="square"/>
+<pad name="P$649" x="68.58" y="50.8" drill="0.9" shape="square"/>
+<pad name="P$650" x="68.58" y="48.26" drill="0.9" shape="square"/>
+<pad name="P$651" x="68.58" y="45.72" drill="0.9" shape="square"/>
+<pad name="P$652" x="68.58" y="43.18" drill="0.9" shape="square"/>
+<pad name="P$653" x="68.58" y="40.64" drill="0.9" shape="square"/>
+<pad name="P$654" x="68.58" y="38.1" drill="0.9" shape="square"/>
+<pad name="P$655" x="68.58" y="35.56" drill="0.9" shape="square"/>
+<pad name="P$656" x="68.58" y="33.02" drill="0.9" shape="square"/>
+<pad name="P$657" x="68.58" y="30.48" drill="0.9" shape="square"/>
+<pad name="P$658" x="68.58" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$659" x="68.58" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$660" x="68.58" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$661" x="68.58" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$662" x="68.58" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$663" x="68.58" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$664" x="68.58" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$665" x="68.58" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$666" x="68.58" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$667" x="68.58" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$668" x="68.58" y="2.54" drill="0.9" shape="square"/>
+<wire x1="68.58" y1="58.42" x2="68.58" y2="30.48" width="0.127" layer="18"/>
+<wire x1="68.58" y1="27.94" x2="68.58" y2="2.54" width="0.127" layer="18"/>
+<text x="60.325" y="-0.3175" size="1.27" layer="21">Sunhayato</text>
+</package>
+<package name="BOARD_30.48_30.48_WRD">
+<pad name="P$1" x="0" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$2" x="0" y="25.4" drill="0.9"/>
+<pad name="P$3" x="0" y="22.86" drill="0.9"/>
+<pad name="P$4" x="0" y="20.32" drill="0.9"/>
+<pad name="P$5" x="0" y="17.78" drill="0.9"/>
+<pad name="P$6" x="0" y="15.24" drill="0.9"/>
+<pad name="P$7" x="0" y="12.7" drill="0.9"/>
+<pad name="P$8" x="0" y="10.16" drill="0.9"/>
+<pad name="P$9" x="0" y="7.62" drill="0.9"/>
+<pad name="P$10" x="0" y="5.08" drill="0.9"/>
+<pad name="P$11" x="0" y="2.54" drill="0.9"/>
+<pad name="P$12" x="0" y="0" drill="0.9" shape="square"/>
+<wire x1="0" y1="27.94" x2="0" y2="25.4" width="0.127" layer="18"/>
+<wire x1="0" y1="25.4" x2="0" y2="22.86" width="0.127" layer="18"/>
+<wire x1="0" y1="22.86" x2="0" y2="20.32" width="0.127" layer="18"/>
+<wire x1="0" y1="20.32" x2="0" y2="17.78" width="0.127" layer="18"/>
+<wire x1="0" y1="17.78" x2="0" y2="15.24" width="0.127" layer="18"/>
+<wire x1="0" y1="15.24" x2="0" y2="12.7" width="0.127" layer="18"/>
+<wire x1="0" y1="12.7" x2="0" y2="10.16" width="0.127" layer="18"/>
+<wire x1="0" y1="10.16" x2="0" y2="7.62" width="0.127" layer="18"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.127" layer="18"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.127" layer="18"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.127" layer="18"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.127" layer="18"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="18"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="5.08" width="0.127" layer="18"/>
+<wire x1="0" y1="7.62" x2="2.54" y2="7.62" width="0.127" layer="18"/>
+<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.127" layer="18"/>
+<wire x1="0" y1="12.7" x2="2.54" y2="12.7" width="0.127" layer="18"/>
+<wire x1="2.54" y1="15.24" x2="0" y2="15.24" width="0.127" layer="18"/>
+<wire x1="0" y1="17.78" x2="2.54" y2="17.78" width="0.127" layer="18"/>
+<wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.127" layer="18"/>
+<wire x1="0" y1="22.86" x2="2.54" y2="22.86" width="0.127" layer="18"/>
+<wire x1="2.54" y1="25.4" x2="0" y2="25.4" width="0.127" layer="18"/>
+<wire x1="0" y1="27.94" x2="2.54" y2="27.94" width="0.127" layer="18"/>
+<pad name="P$13" x="2.54" y="27.94" drill="0.9"/>
+<pad name="P$14" x="2.54" y="25.4" drill="0.9"/>
+<pad name="P$15" x="2.54" y="22.86" drill="0.9"/>
+<pad name="P$16" x="2.54" y="20.32" drill="0.9"/>
+<pad name="P$17" x="2.54" y="17.78" drill="0.9"/>
+<pad name="P$18" x="2.54" y="15.24" drill="0.9"/>
+<pad name="P$19" x="2.54" y="12.7" drill="0.9"/>
+<pad name="P$20" x="2.54" y="10.16" drill="0.9"/>
+<pad name="P$21" x="2.54" y="7.62" drill="0.9"/>
+<pad name="P$22" x="2.54" y="5.08" drill="0.9"/>
+<pad name="P$23" x="2.54" y="2.54" drill="0.9"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="25.4" width="0.127" layer="18"/>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="22.86" width="0.127" layer="18"/>
+<wire x1="2.54" y1="22.86" x2="2.54" y2="20.32" width="0.127" layer="18"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="17.78" width="0.127" layer="18"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="15.24" width="0.127" layer="18"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="12.7" width="0.127" layer="18"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="10.16" width="0.127" layer="18"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="7.62" width="0.127" layer="18"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="5.08" width="0.127" layer="18"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.127" layer="18"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.127" layer="18"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="18"/>
+<wire x1="5.08" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="18"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.127" layer="18"/>
+<wire x1="5.08" y1="10.16" x2="2.54" y2="10.16" width="0.127" layer="18"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.127" layer="18"/>
+<wire x1="5.08" y1="15.24" x2="2.54" y2="15.24" width="0.127" layer="18"/>
+<wire x1="2.54" y1="17.78" x2="5.08" y2="17.78" width="0.127" layer="18"/>
+<wire x1="5.08" y1="20.32" x2="2.54" y2="20.32" width="0.127" layer="18"/>
+<wire x1="2.54" y1="22.86" x2="5.08" y2="22.86" width="0.127" layer="18"/>
+<wire x1="5.08" y1="25.4" x2="2.54" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$24" x="2.54" y="0" drill="0.9"/>
+<wire x1="2.54" y1="27.94" x2="5.08" y2="27.94" width="0.127" layer="18"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.127" layer="18"/>
+<pad name="P$25" x="5.08" y="27.94" drill="0.9"/>
+<pad name="P$26" x="5.08" y="25.4" drill="0.9"/>
+<pad name="P$27" x="5.08" y="22.86" drill="0.9"/>
+<pad name="P$28" x="5.08" y="20.32" drill="0.9"/>
+<pad name="P$29" x="5.08" y="17.78" drill="0.9"/>
+<pad name="P$30" x="5.08" y="15.24" drill="0.9"/>
+<pad name="P$31" x="5.08" y="12.7" drill="0.9"/>
+<pad name="P$32" x="5.08" y="10.16" drill="0.9"/>
+<pad name="P$33" x="5.08" y="7.62" drill="0.9"/>
+<pad name="P$34" x="5.08" y="5.08" drill="0.9"/>
+<pad name="P$35" x="5.08" y="2.54" drill="0.9"/>
+<wire x1="5.08" y1="27.94" x2="5.08" y2="25.4" width="0.127" layer="18"/>
+<wire x1="5.08" y1="25.4" x2="5.08" y2="22.86" width="0.127" layer="18"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="20.32" width="0.127" layer="18"/>
+<wire x1="5.08" y1="20.32" x2="5.08" y2="17.78" width="0.127" layer="18"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.127" layer="18"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.127" layer="18"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="10.16" width="0.127" layer="18"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.127" layer="18"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.127" layer="18"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="2.54" width="0.127" layer="18"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.127" layer="18"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="18"/>
+<wire x1="7.62" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="18"/>
+<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.127" layer="18"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.127" layer="18"/>
+<wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.127" layer="18"/>
+<wire x1="7.62" y1="15.24" x2="5.08" y2="15.24" width="0.127" layer="18"/>
+<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.127" layer="18"/>
+<wire x1="7.62" y1="20.32" x2="5.08" y2="20.32" width="0.127" layer="18"/>
+<wire x1="5.08" y1="22.86" x2="7.62" y2="22.86" width="0.127" layer="18"/>
+<wire x1="7.62" y1="25.4" x2="5.08" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$36" x="5.08" y="0" drill="0.9"/>
+<wire x1="5.08" y1="27.94" x2="7.62" y2="27.94" width="0.127" layer="18"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.127" layer="18"/>
+<pad name="P$37" x="7.62" y="27.94" drill="0.9"/>
+<pad name="P$38" x="7.62" y="25.4" drill="0.9"/>
+<pad name="P$39" x="7.62" y="22.86" drill="0.9"/>
+<pad name="P$40" x="7.62" y="20.32" drill="0.9"/>
+<pad name="P$41" x="7.62" y="17.78" drill="0.9"/>
+<pad name="P$42" x="7.62" y="15.24" drill="0.9"/>
+<pad name="P$43" x="7.62" y="12.7" drill="0.9"/>
+<pad name="P$44" x="7.62" y="10.16" drill="0.9"/>
+<pad name="P$45" x="7.62" y="7.62" drill="0.9"/>
+<pad name="P$46" x="7.62" y="5.08" drill="0.9"/>
+<pad name="P$47" x="7.62" y="2.54" drill="0.9"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="25.4" width="0.127" layer="18"/>
+<wire x1="7.62" y1="25.4" x2="7.62" y2="22.86" width="0.127" layer="18"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="20.32" width="0.127" layer="18"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="17.78" width="0.127" layer="18"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="15.24" width="0.127" layer="18"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="12.7" width="0.127" layer="18"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="10.16" width="0.127" layer="18"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="7.62" width="0.127" layer="18"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.127" layer="18"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="2.54" width="0.127" layer="18"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.127" layer="18"/>
+<wire x1="7.62" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="18"/>
+<wire x1="10.16" y1="5.08" x2="7.62" y2="5.08" width="0.127" layer="18"/>
+<wire x1="7.62" y1="7.62" x2="10.16" y2="7.62" width="0.127" layer="18"/>
+<wire x1="10.16" y1="10.16" x2="7.62" y2="10.16" width="0.127" layer="18"/>
+<wire x1="7.62" y1="12.7" x2="10.16" y2="12.7" width="0.127" layer="18"/>
+<wire x1="10.16" y1="15.24" x2="7.62" y2="15.24" width="0.127" layer="18"/>
+<wire x1="7.62" y1="17.78" x2="10.16" y2="17.78" width="0.127" layer="18"/>
+<wire x1="10.16" y1="20.32" x2="7.62" y2="20.32" width="0.127" layer="18"/>
+<wire x1="7.62" y1="22.86" x2="10.16" y2="22.86" width="0.127" layer="18"/>
+<wire x1="10.16" y1="25.4" x2="7.62" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$48" x="7.62" y="0" drill="0.9"/>
+<wire x1="7.62" y1="27.94" x2="10.16" y2="27.94" width="0.127" layer="18"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.127" layer="18"/>
+<pad name="P$49" x="10.16" y="27.94" drill="0.9"/>
+<pad name="P$50" x="10.16" y="25.4" drill="0.9"/>
+<pad name="P$51" x="10.16" y="22.86" drill="0.9"/>
+<pad name="P$52" x="10.16" y="20.32" drill="0.9"/>
+<pad name="P$53" x="10.16" y="17.78" drill="0.9"/>
+<pad name="P$54" x="10.16" y="15.24" drill="0.9"/>
+<pad name="P$55" x="10.16" y="12.7" drill="0.9"/>
+<pad name="P$56" x="10.16" y="10.16" drill="0.9"/>
+<pad name="P$57" x="10.16" y="7.62" drill="0.9"/>
+<pad name="P$58" x="10.16" y="5.08" drill="0.9"/>
+<pad name="P$59" x="10.16" y="2.54" drill="0.9"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="25.4" width="0.127" layer="18"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="22.86" width="0.127" layer="18"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="0.127" layer="18"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="17.78" width="0.127" layer="18"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="15.24" width="0.127" layer="18"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="12.7" width="0.127" layer="18"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="10.16" width="0.127" layer="18"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="7.62" width="0.127" layer="18"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="5.08" width="0.127" layer="18"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="2.54" width="0.127" layer="18"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="0" width="0.127" layer="18"/>
+<wire x1="10.16" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="18"/>
+<wire x1="12.7" y1="5.08" x2="10.16" y2="5.08" width="0.127" layer="18"/>
+<wire x1="10.16" y1="7.62" x2="12.7" y2="7.62" width="0.127" layer="18"/>
+<wire x1="12.7" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="18"/>
+<wire x1="10.16" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="18"/>
+<wire x1="12.7" y1="15.24" x2="10.16" y2="15.24" width="0.127" layer="18"/>
+<wire x1="10.16" y1="17.78" x2="12.7" y2="17.78" width="0.127" layer="18"/>
+<wire x1="12.7" y1="20.32" x2="10.16" y2="20.32" width="0.127" layer="18"/>
+<wire x1="10.16" y1="22.86" x2="12.7" y2="22.86" width="0.127" layer="18"/>
+<wire x1="12.7" y1="25.4" x2="10.16" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$60" x="10.16" y="0" drill="0.9"/>
+<wire x1="10.16" y1="27.94" x2="12.7" y2="27.94" width="0.127" layer="18"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.127" layer="18"/>
+<pad name="P$61" x="12.7" y="27.94" drill="0.9"/>
+<pad name="P$62" x="12.7" y="25.4" drill="0.9"/>
+<pad name="P$63" x="12.7" y="22.86" drill="0.9"/>
+<pad name="P$64" x="12.7" y="20.32" drill="0.9"/>
+<pad name="P$65" x="12.7" y="17.78" drill="0.9"/>
+<pad name="P$66" x="12.7" y="15.24" drill="0.9"/>
+<pad name="P$67" x="12.7" y="12.7" drill="0.9"/>
+<pad name="P$68" x="12.7" y="10.16" drill="0.9"/>
+<pad name="P$69" x="12.7" y="7.62" drill="0.9"/>
+<pad name="P$70" x="12.7" y="5.08" drill="0.9"/>
+<pad name="P$71" x="12.7" y="2.54" drill="0.9"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="25.4" width="0.127" layer="18"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="22.86" width="0.127" layer="18"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="20.32" width="0.127" layer="18"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="17.78" width="0.127" layer="18"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="15.24" width="0.127" layer="18"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="12.7" width="0.127" layer="18"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="10.16" width="0.127" layer="18"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="7.62" width="0.127" layer="18"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="5.08" width="0.127" layer="18"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="2.54" width="0.127" layer="18"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="0" width="0.127" layer="18"/>
+<wire x1="12.7" y1="2.54" x2="15.24" y2="2.54" width="0.127" layer="18"/>
+<wire x1="15.24" y1="5.08" x2="12.7" y2="5.08" width="0.127" layer="18"/>
+<wire x1="12.7" y1="7.62" x2="15.24" y2="7.62" width="0.127" layer="18"/>
+<wire x1="15.24" y1="10.16" x2="12.7" y2="10.16" width="0.127" layer="18"/>
+<wire x1="12.7" y1="12.7" x2="15.24" y2="12.7" width="0.127" layer="18"/>
+<wire x1="15.24" y1="15.24" x2="12.7" y2="15.24" width="0.127" layer="18"/>
+<wire x1="12.7" y1="17.78" x2="15.24" y2="17.78" width="0.127" layer="18"/>
+<wire x1="15.24" y1="20.32" x2="12.7" y2="20.32" width="0.127" layer="18"/>
+<wire x1="12.7" y1="22.86" x2="15.24" y2="22.86" width="0.127" layer="18"/>
+<wire x1="15.24" y1="25.4" x2="12.7" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$72" x="12.7" y="0" drill="0.9"/>
+<wire x1="12.7" y1="27.94" x2="15.24" y2="27.94" width="0.127" layer="18"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.127" layer="18"/>
+<pad name="P$73" x="15.24" y="27.94" drill="0.9"/>
+<pad name="P$74" x="15.24" y="25.4" drill="0.9"/>
+<pad name="P$75" x="15.24" y="22.86" drill="0.9"/>
+<pad name="P$76" x="15.24" y="20.32" drill="0.9"/>
+<pad name="P$77" x="15.24" y="17.78" drill="0.9"/>
+<pad name="P$78" x="15.24" y="15.24" drill="0.9"/>
+<pad name="P$79" x="15.24" y="12.7" drill="0.9"/>
+<pad name="P$80" x="15.24" y="10.16" drill="0.9"/>
+<pad name="P$81" x="15.24" y="7.62" drill="0.9"/>
+<pad name="P$82" x="15.24" y="5.08" drill="0.9"/>
+<pad name="P$83" x="15.24" y="2.54" drill="0.9"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="25.4" width="0.127" layer="18"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="22.86" width="0.127" layer="18"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.127" layer="18"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="17.78" width="0.127" layer="18"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="15.24" width="0.127" layer="18"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="12.7" width="0.127" layer="18"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="10.16" width="0.127" layer="18"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="7.62" width="0.127" layer="18"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="5.08" width="0.127" layer="18"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="2.54" width="0.127" layer="18"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.127" layer="18"/>
+<wire x1="15.24" y1="2.54" x2="17.78" y2="2.54" width="0.127" layer="18"/>
+<wire x1="17.78" y1="5.08" x2="15.24" y2="5.08" width="0.127" layer="18"/>
+<wire x1="15.24" y1="7.62" x2="17.78" y2="7.62" width="0.127" layer="18"/>
+<wire x1="17.78" y1="10.16" x2="15.24" y2="10.16" width="0.127" layer="18"/>
+<wire x1="15.24" y1="12.7" x2="17.78" y2="12.7" width="0.127" layer="18"/>
+<wire x1="17.78" y1="15.24" x2="15.24" y2="15.24" width="0.127" layer="18"/>
+<wire x1="15.24" y1="17.78" x2="17.78" y2="17.78" width="0.127" layer="18"/>
+<wire x1="17.78" y1="20.32" x2="15.24" y2="20.32" width="0.127" layer="18"/>
+<wire x1="15.24" y1="22.86" x2="17.78" y2="22.86" width="0.127" layer="18"/>
+<wire x1="17.78" y1="25.4" x2="15.24" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$84" x="15.24" y="0" drill="0.9"/>
+<wire x1="15.24" y1="27.94" x2="17.78" y2="27.94" width="0.127" layer="18"/>
+<wire x1="15.24" y1="0" x2="17.78" y2="0" width="0.127" layer="18"/>
+<pad name="P$85" x="17.78" y="27.94" drill="0.9"/>
+<pad name="P$86" x="17.78" y="25.4" drill="0.9"/>
+<pad name="P$87" x="17.78" y="22.86" drill="0.9"/>
+<pad name="P$88" x="17.78" y="20.32" drill="0.9"/>
+<pad name="P$89" x="17.78" y="17.78" drill="0.9"/>
+<pad name="P$90" x="17.78" y="15.24" drill="0.9"/>
+<pad name="P$91" x="17.78" y="12.7" drill="0.9"/>
+<pad name="P$92" x="17.78" y="10.16" drill="0.9"/>
+<pad name="P$93" x="17.78" y="7.62" drill="0.9"/>
+<pad name="P$94" x="17.78" y="5.08" drill="0.9"/>
+<pad name="P$95" x="17.78" y="2.54" drill="0.9"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="25.4" width="0.127" layer="18"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="22.86" width="0.127" layer="18"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="20.32" width="0.127" layer="18"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="17.78" width="0.127" layer="18"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="15.24" width="0.127" layer="18"/>
+<wire x1="17.78" y1="15.24" x2="17.78" y2="12.7" width="0.127" layer="18"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="10.16" width="0.127" layer="18"/>
+<wire x1="17.78" y1="10.16" x2="17.78" y2="7.62" width="0.127" layer="18"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="5.08" width="0.127" layer="18"/>
+<wire x1="17.78" y1="5.08" x2="17.78" y2="2.54" width="0.127" layer="18"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="0" width="0.127" layer="18"/>
+<wire x1="17.78" y1="2.54" x2="20.32" y2="2.54" width="0.127" layer="18"/>
+<wire x1="20.32" y1="5.08" x2="17.78" y2="5.08" width="0.127" layer="18"/>
+<wire x1="17.78" y1="7.62" x2="20.32" y2="7.62" width="0.127" layer="18"/>
+<wire x1="20.32" y1="10.16" x2="17.78" y2="10.16" width="0.127" layer="18"/>
+<wire x1="17.78" y1="12.7" x2="20.32" y2="12.7" width="0.127" layer="18"/>
+<wire x1="20.32" y1="15.24" x2="17.78" y2="15.24" width="0.127" layer="18"/>
+<wire x1="17.78" y1="17.78" x2="20.32" y2="17.78" width="0.127" layer="18"/>
+<wire x1="20.32" y1="20.32" x2="17.78" y2="20.32" width="0.127" layer="18"/>
+<wire x1="17.78" y1="22.86" x2="20.32" y2="22.86" width="0.127" layer="18"/>
+<wire x1="20.32" y1="25.4" x2="17.78" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$96" x="17.78" y="0" drill="0.9"/>
+<wire x1="17.78" y1="27.94" x2="20.32" y2="27.94" width="0.127" layer="18"/>
+<wire x1="17.78" y1="0" x2="20.32" y2="0" width="0.127" layer="18"/>
+<pad name="P$97" x="20.32" y="27.94" drill="0.9"/>
+<pad name="P$98" x="20.32" y="25.4" drill="0.9"/>
+<pad name="P$99" x="20.32" y="22.86" drill="0.9"/>
+<pad name="P$100" x="20.32" y="20.32" drill="0.9"/>
+<pad name="P$101" x="20.32" y="17.78" drill="0.9"/>
+<pad name="P$102" x="20.32" y="15.24" drill="0.9"/>
+<pad name="P$103" x="20.32" y="12.7" drill="0.9"/>
+<pad name="P$104" x="20.32" y="10.16" drill="0.9"/>
+<pad name="P$105" x="20.32" y="7.62" drill="0.9"/>
+<pad name="P$106" x="20.32" y="5.08" drill="0.9"/>
+<pad name="P$107" x="20.32" y="2.54" drill="0.9"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="25.4" width="0.127" layer="18"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="22.86" width="0.127" layer="18"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="20.32" width="0.127" layer="18"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="17.78" width="0.127" layer="18"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="15.24" width="0.127" layer="18"/>
+<wire x1="20.32" y1="15.24" x2="20.32" y2="12.7" width="0.127" layer="18"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="10.16" width="0.127" layer="18"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="7.62" width="0.127" layer="18"/>
+<wire x1="20.32" y1="7.62" x2="20.32" y2="5.08" width="0.127" layer="18"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="2.54" width="0.127" layer="18"/>
+<wire x1="20.32" y1="2.54" x2="20.32" y2="0" width="0.127" layer="18"/>
+<wire x1="20.32" y1="2.54" x2="22.86" y2="2.54" width="0.127" layer="18"/>
+<wire x1="22.86" y1="5.08" x2="20.32" y2="5.08" width="0.127" layer="18"/>
+<wire x1="20.32" y1="7.62" x2="22.86" y2="7.62" width="0.127" layer="18"/>
+<wire x1="22.86" y1="10.16" x2="20.32" y2="10.16" width="0.127" layer="18"/>
+<wire x1="20.32" y1="12.7" x2="22.86" y2="12.7" width="0.127" layer="18"/>
+<wire x1="22.86" y1="15.24" x2="20.32" y2="15.24" width="0.127" layer="18"/>
+<wire x1="20.32" y1="17.78" x2="22.86" y2="17.78" width="0.127" layer="18"/>
+<wire x1="22.86" y1="20.32" x2="20.32" y2="20.32" width="0.127" layer="18"/>
+<wire x1="20.32" y1="22.86" x2="22.86" y2="22.86" width="0.127" layer="18"/>
+<wire x1="22.86" y1="25.4" x2="20.32" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$108" x="20.32" y="0" drill="0.9"/>
+<wire x1="20.32" y1="27.94" x2="22.86" y2="27.94" width="0.127" layer="18"/>
+<wire x1="20.32" y1="0" x2="22.86" y2="0" width="0.127" layer="18"/>
+<pad name="P$109" x="22.86" y="27.94" drill="0.9"/>
+<pad name="P$110" x="22.86" y="25.4" drill="0.9"/>
+<pad name="P$111" x="22.86" y="22.86" drill="0.9"/>
+<pad name="P$112" x="22.86" y="20.32" drill="0.9"/>
+<pad name="P$113" x="22.86" y="17.78" drill="0.9"/>
+<pad name="P$114" x="22.86" y="15.24" drill="0.9"/>
+<pad name="P$115" x="22.86" y="12.7" drill="0.9"/>
+<pad name="P$116" x="22.86" y="10.16" drill="0.9"/>
+<pad name="P$117" x="22.86" y="7.62" drill="0.9"/>
+<pad name="P$118" x="22.86" y="5.08" drill="0.9"/>
+<pad name="P$119" x="22.86" y="2.54" drill="0.9"/>
+<wire x1="22.86" y1="27.94" x2="22.86" y2="25.4" width="0.127" layer="18"/>
+<wire x1="22.86" y1="25.4" x2="22.86" y2="22.86" width="0.127" layer="18"/>
+<wire x1="22.86" y1="22.86" x2="22.86" y2="20.32" width="0.127" layer="18"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="17.78" width="0.127" layer="18"/>
+<wire x1="22.86" y1="17.78" x2="22.86" y2="15.24" width="0.127" layer="18"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.127" layer="18"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="10.16" width="0.127" layer="18"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="7.62" width="0.127" layer="18"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="5.08" width="0.127" layer="18"/>
+<wire x1="22.86" y1="5.08" x2="22.86" y2="2.54" width="0.127" layer="18"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.127" layer="18"/>
+<wire x1="22.86" y1="2.54" x2="25.4" y2="2.54" width="0.127" layer="18"/>
+<wire x1="25.4" y1="5.08" x2="22.86" y2="5.08" width="0.127" layer="18"/>
+<wire x1="22.86" y1="7.62" x2="25.4" y2="7.62" width="0.127" layer="18"/>
+<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.127" layer="18"/>
+<wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.127" layer="18"/>
+<wire x1="25.4" y1="15.24" x2="22.86" y2="15.24" width="0.127" layer="18"/>
+<wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.127" layer="18"/>
+<wire x1="25.4" y1="20.32" x2="22.86" y2="20.32" width="0.127" layer="18"/>
+<wire x1="22.86" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="18"/>
+<wire x1="25.4" y1="25.4" x2="22.86" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$120" x="22.86" y="0" drill="0.9"/>
+<wire x1="22.86" y1="27.94" x2="25.4" y2="27.94" width="0.127" layer="18"/>
+<wire x1="22.86" y1="0" x2="25.4" y2="0" width="0.127" layer="18"/>
+<pad name="P$121" x="25.4" y="27.94" drill="0.9"/>
+<pad name="P$122" x="25.4" y="25.4" drill="0.9"/>
+<pad name="P$123" x="25.4" y="22.86" drill="0.9"/>
+<pad name="P$124" x="25.4" y="20.32" drill="0.9"/>
+<pad name="P$125" x="25.4" y="17.78" drill="0.9"/>
+<pad name="P$126" x="25.4" y="15.24" drill="0.9"/>
+<pad name="P$127" x="25.4" y="12.7" drill="0.9"/>
+<pad name="P$128" x="25.4" y="10.16" drill="0.9"/>
+<pad name="P$129" x="25.4" y="7.62" drill="0.9"/>
+<pad name="P$130" x="25.4" y="5.08" drill="0.9"/>
+<pad name="P$131" x="25.4" y="2.54" drill="0.9"/>
+<wire x1="25.4" y1="27.94" x2="25.4" y2="25.4" width="0.127" layer="18"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.127" layer="18"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.127" layer="18"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="17.78" width="0.127" layer="18"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="15.24" width="0.127" layer="18"/>
+<wire x1="25.4" y1="15.24" x2="25.4" y2="12.7" width="0.127" layer="18"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="10.16" width="0.127" layer="18"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="7.62" width="0.127" layer="18"/>
+<wire x1="25.4" y1="7.62" x2="25.4" y2="5.08" width="0.127" layer="18"/>
+<wire x1="25.4" y1="5.08" x2="25.4" y2="2.54" width="0.127" layer="18"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="0" width="0.127" layer="18"/>
+<wire x1="25.4" y1="2.54" x2="27.94" y2="2.54" width="0.127" layer="18"/>
+<wire x1="27.94" y1="5.08" x2="25.4" y2="5.08" width="0.127" layer="18"/>
+<wire x1="25.4" y1="7.62" x2="27.94" y2="7.62" width="0.127" layer="18"/>
+<wire x1="27.94" y1="10.16" x2="25.4" y2="10.16" width="0.127" layer="18"/>
+<wire x1="25.4" y1="12.7" x2="27.94" y2="12.7" width="0.127" layer="18"/>
+<wire x1="27.94" y1="15.24" x2="25.4" y2="15.24" width="0.127" layer="18"/>
+<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.127" layer="18"/>
+<wire x1="27.94" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="18"/>
+<wire x1="25.4" y1="22.86" x2="27.94" y2="22.86" width="0.127" layer="18"/>
+<wire x1="27.94" y1="25.4" x2="25.4" y2="25.4" width="0.127" layer="18"/>
+<pad name="P$132" x="25.4" y="0" drill="0.9"/>
+<wire x1="25.4" y1="27.94" x2="27.94" y2="27.94" width="0.127" layer="18"/>
+<wire x1="25.4" y1="0" x2="27.94" y2="0" width="0.127" layer="18"/>
+<pad name="P$133" x="27.94" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$134" x="27.94" y="25.4" drill="0.9"/>
+<pad name="P$135" x="27.94" y="22.86" drill="0.9"/>
+<pad name="P$136" x="27.94" y="20.32" drill="0.9"/>
+<pad name="P$137" x="27.94" y="17.78" drill="0.9"/>
+<pad name="P$138" x="27.94" y="15.24" drill="0.9"/>
+<pad name="P$139" x="27.94" y="12.7" drill="0.9"/>
+<pad name="P$140" x="27.94" y="10.16" drill="0.9"/>
+<pad name="P$141" x="27.94" y="7.62" drill="0.9"/>
+<pad name="P$142" x="27.94" y="5.08" drill="0.9"/>
+<pad name="P$143" x="27.94" y="2.54" drill="0.9"/>
+<pad name="P$144" x="27.94" y="0" drill="0.9" shape="square"/>
+<wire x1="27.94" y1="27.94" x2="27.94" y2="25.4" width="0.127" layer="18"/>
+<wire x1="27.94" y1="25.4" x2="27.94" y2="22.86" width="0.127" layer="18"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="20.32" width="0.127" layer="18"/>
+<wire x1="27.94" y1="20.32" x2="27.94" y2="17.78" width="0.127" layer="18"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.127" layer="18"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.127" layer="18"/>
+<wire x1="27.94" y1="12.7" x2="27.94" y2="10.16" width="0.127" layer="18"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="7.62" width="0.127" layer="18"/>
+<wire x1="27.94" y1="7.62" x2="27.94" y2="5.08" width="0.127" layer="18"/>
+<wire x1="27.94" y1="5.08" x2="27.94" y2="2.54" width="0.127" layer="18"/>
+<wire x1="27.94" y1="2.54" x2="27.94" y2="0" width="0.127" layer="18"/>
+<wire x1="-1.27" y1="29.21" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="29.21" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="29.21" y1="-1.27" x2="29.21" y2="29.21" width="0.127" layer="21"/>
+<wire x1="29.21" y1="29.21" x2="-1.27" y2="29.21" width="0.127" layer="21"/>
+</package>
+<package name="BOARD_30.48_10.16_WRD">
+<pad name="P$577" x="0" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$578" x="0" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$579" x="0" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$580" x="0" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$581" x="0" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$582" x="0" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$583" x="0" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$584" x="0" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$585" x="0" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$586" x="0" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$587" x="0" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$588" x="0" y="0" drill="0.9" shape="square"/>
+<wire x1="0" y1="27.94" x2="0" y2="0" width="0.127" layer="18"/>
+<pad name="P$600" x="2.54" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$601" x="2.54" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$602" x="2.54" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$603" x="2.54" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$604" x="2.54" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$605" x="2.54" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$606" x="2.54" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$607" x="2.54" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$608" x="2.54" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$609" x="2.54" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$610" x="2.54" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$611" x="2.54" y="0" drill="0.9" shape="square"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="0" width="0.127" layer="18"/>
+<pad name="P$623" x="5.08" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$624" x="5.08" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$625" x="5.08" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$626" x="5.08" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$627" x="5.08" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$628" x="5.08" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$629" x="5.08" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$630" x="5.08" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$631" x="5.08" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$632" x="5.08" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$633" x="5.08" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$634" x="5.08" y="0" drill="0.9" shape="square"/>
+<wire x1="5.08" y1="27.94" x2="5.08" y2="0" width="0.127" layer="18"/>
+<pad name="P$646" x="7.62" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$647" x="7.62" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$648" x="7.62" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$649" x="7.62" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$650" x="7.62" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$651" x="7.62" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$652" x="7.62" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$653" x="7.62" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$654" x="7.62" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$655" x="7.62" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$656" x="7.62" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$657" x="7.62" y="0" drill="0.9" shape="square"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="0" width="0.127" layer="18"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="29.21" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="29.21" x2="8.89" y2="29.21" width="0.127" layer="21"/>
+<wire x1="8.89" y1="29.21" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+</package>
+<package name="BOARD_30.48_10.16_WRD_-4P">
+<pad name="P$577" x="0" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$578" x="0" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$579" x="0" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$580" x="0" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$581" x="0" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$582" x="0" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$583" x="0" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$584" x="0" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$585" x="0" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$586" x="0" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$587" x="0" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$600" x="2.54" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$601" x="2.54" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$602" x="2.54" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$603" x="2.54" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$604" x="2.54" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$605" x="2.54" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$606" x="2.54" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$607" x="2.54" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$608" x="2.54" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$609" x="2.54" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$610" x="2.54" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$623" x="5.08" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$624" x="5.08" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$625" x="5.08" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$626" x="5.08" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$627" x="5.08" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$628" x="5.08" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$629" x="5.08" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$630" x="5.08" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$631" x="5.08" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$632" x="5.08" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$633" x="5.08" y="2.54" drill="0.9" shape="square"/>
+<pad name="P$646" x="7.62" y="27.94" drill="0.9" shape="square"/>
+<pad name="P$647" x="7.62" y="25.4" drill="0.9" shape="square"/>
+<pad name="P$648" x="7.62" y="22.86" drill="0.9" shape="square"/>
+<pad name="P$649" x="7.62" y="20.32" drill="0.9" shape="square"/>
+<pad name="P$650" x="7.62" y="17.78" drill="0.9" shape="square"/>
+<pad name="P$651" x="7.62" y="15.24" drill="0.9" shape="square"/>
+<pad name="P$652" x="7.62" y="12.7" drill="0.9" shape="square"/>
+<pad name="P$653" x="7.62" y="10.16" drill="0.9" shape="square"/>
+<pad name="P$654" x="7.62" y="7.62" drill="0.9" shape="square"/>
+<pad name="P$655" x="7.62" y="5.08" drill="0.9" shape="square"/>
+<pad name="P$656" x="7.62" y="2.54" drill="0.9" shape="square"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="29.21" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="29.21" x2="8.89" y2="29.21" width="0.127" layer="21"/>
+<wire x1="8.89" y1="29.21" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="27.94" width="0.127" layer="18"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="2.54" width="0.127" layer="18"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="27.94" width="0.127" layer="18"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="2.54" width="0.127" layer="18"/>
+<text x="-0.635" y="-0.3175" size="1.27" layer="21">Sunhayato</text>
+</package>
+<package name="LED_R_3">
+<circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="1.925" x2="1.5" y2="-1.225" width="0.127" layer="21" curve="230.762633"/>
+<wire x1="0" y1="1.925" x2="1.5" y2="1.2" width="0.127" layer="21" curve="-51.340192"/>
+<wire x1="1.5" y1="1.2" x2="1.5" y2="-1.225" width="0.127" layer="21"/>
+<pad name="P$1" x="1.27" y="0" drill="0.9"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.9"/>
+</package>
+<package name="RESISTOR_4P">
+<pad name="P$1" x="0" y="5.08" drill="0.9"/>
+<pad name="P$2" x="0" y="-5.08" drill="0.9"/>
+<wire x1="-1.27" y1="2.43" x2="1.27" y2="2.43" width="0.127" layer="21" curve="-180"/>
+<wire x1="1.27" y1="2.43" x2="1" y2="1.62" width="0.127" layer="21" curve="-39.007473"/>
+<wire x1="-1.27" y1="2.43" x2="-1" y2="1.62" width="0.127" layer="21" curve="39.007473"/>
+<wire x1="1.27" y1="-2.43" x2="-1.27" y2="-2.43" width="0.127" layer="21" curve="-180"/>
+<wire x1="-1.27" y1="-2.43" x2="-1" y2="-1.62" width="0.127" layer="21" curve="-39.007473"/>
+<wire x1="1.27" y1="-2.43" x2="1" y2="-1.62" width="0.127" layer="21" curve="39.007473"/>
+<wire x1="1" y1="1.62" x2="1" y2="-1.62" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.62" x2="-1" y2="1.62" width="0.127" layer="21"/>
+<wire x1="0" y1="5.08" x2="0" y2="3.556" width="0.127" layer="21"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.556" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AVR_MEAGA48,88,168,328">
+<description>Atmel ATmega 48,88,168,328</description>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-22.86" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="-15.24" y2="17.78" width="0.254" layer="94"/>
+<pin name="GND" x="-20.32" y="15.24" length="middle"/>
+<pin name="VCC" x="-20.32" y="12.7" length="middle"/>
+<pin name="AVCC" x="-20.32" y="10.16" length="middle"/>
+<pin name="AREF" x="-20.32" y="7.62" length="middle"/>
+<pin name="PD0(RX)" x="-20.32" y="-2.54" length="middle"/>
+<pin name="PD1(TX)" x="-20.32" y="-5.08" length="middle"/>
+<pin name="PD2" x="-20.32" y="-7.62" length="middle"/>
+<pin name="PD3" x="-20.32" y="-10.16" length="middle"/>
+<pin name="PD4" x="-20.32" y="-12.7" length="middle"/>
+<pin name="PD5" x="-20.32" y="-15.24" length="middle"/>
+<pin name="PD6" x="-20.32" y="-17.78" length="middle"/>
+<pin name="PD7" x="-20.32" y="-20.32" length="middle"/>
+<pin name="PC6(RE)" x="-20.32" y="2.54" length="middle"/>
+<pin name="PC0" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="PC1" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="PC2" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="PC3" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="PC4" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="PC5" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="PB0" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB1" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB2(CS)" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB3(MOSI)" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="PB4(MISO)" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="PB5(SCK)" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="PB6(XTAL)" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="PB7(XTAL)" x="17.78" y="-20.32" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MCP2551">
+<description>MCP2551
+High-Speed CAN Transceiver</description>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND(VSS)" x="-17.78" y="2.54" length="middle"/>
+<pin name="GND(RS)" x="-17.78" y="0" length="middle"/>
+<pin name="VCC(VDD)" x="-17.78" y="-2.54" length="middle"/>
+<pin name="VREF" x="-17.78" y="-5.08" length="middle"/>
+<pin name="TXD" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="RXD" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="CANH" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="CANL" x="15.24" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MCP2515">
+<description>MCP2515
+CAN controller</description>
+<pin name="GND(VSS)" x="-22.86" y="12.7" length="middle"/>
+<pin name="VDD(VCC)" x="-22.86" y="10.16" length="middle"/>
+<pin name="RESET" x="-22.86" y="5.08" length="middle"/>
+<pin name="MOSI" x="-22.86" y="0" length="middle"/>
+<pin name="MISO" x="-22.86" y="-2.54" length="middle"/>
+<pin name="SCK" x="-22.86" y="-5.08" length="middle"/>
+<pin name="CS" x="-22.86" y="-7.62" length="middle"/>
+<pin name="TXCAN" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="RXCAN" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="CLKOUT/SOF" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="TX0RTS" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="TX1RTS" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="TX2RTS" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="RX0BF" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="RX1BF" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="INT" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="OSC1" x="-22.86" y="-12.7" length="middle"/>
+<pin name="OSC2" x="-22.86" y="-15.24" length="middle"/>
+<wire x1="-17.78" y1="15.24" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
+</symbol>
+<symbol name="FREE">
+<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="94"/>
+</symbol>
+<symbol name="XTAL">
+<description>XTAL without GND
+without C XTAL</description>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-5.08" y="-6.604" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="LED">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ATMEGA_48,88,168,328">
+<description>Atmel Atmega 48,88,168,328</description>
+<gates>
+<gate name="G$1" symbol="AVR_MEAGA48,88,168,328" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PDIP_28P3">
+<connects>
+<connect gate="G$1" pin="AREF" pad="P$8"/>
+<connect gate="G$1" pin="AVCC" pad="P$9"/>
+<connect gate="G$1" pin="GND" pad="P$7 P$21"/>
+<connect gate="G$1" pin="PB0" pad="P$15"/>
+<connect gate="G$1" pin="PB1" pad="P$14"/>
+<connect gate="G$1" pin="PB2(CS)" pad="P$13"/>
+<connect gate="G$1" pin="PB3(MOSI)" pad="P$12"/>
+<connect gate="G$1" pin="PB4(MISO)" pad="P$11"/>
+<connect gate="G$1" pin="PB5(SCK)" pad="P$10"/>
+<connect gate="G$1" pin="PB6(XTAL)" pad="P$20"/>
+<connect gate="G$1" pin="PB7(XTAL)" pad="P$19"/>
+<connect gate="G$1" pin="PC0" pad="P$6"/>
+<connect gate="G$1" pin="PC1" pad="P$5"/>
+<connect gate="G$1" pin="PC2" pad="P$4"/>
+<connect gate="G$1" pin="PC3" pad="P$3"/>
+<connect gate="G$1" pin="PC4" pad="P$2"/>
+<connect gate="G$1" pin="PC5" pad="P$1"/>
+<connect gate="G$1" pin="PC6(RE)" pad="P$28"/>
+<connect gate="G$1" pin="PD0(RX)" pad="P$27"/>
+<connect gate="G$1" pin="PD1(TX)" pad="P$26"/>
+<connect gate="G$1" pin="PD2" pad="P$25"/>
+<connect gate="G$1" pin="PD3" pad="P$24"/>
+<connect gate="G$1" pin="PD4" pad="P$23"/>
+<connect gate="G$1" pin="PD5" pad="P$18"/>
+<connect gate="G$1" pin="PD6" pad="P$17"/>
+<connect gate="G$1" pin="PD7" pad="P$16"/>
+<connect gate="G$1" pin="VCC" pad="P$22"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2551">
+<description>MCP2551
+High-Speed CAN Transceiver</description>
+<gates>
+<gate name="G$1" symbol="MCP2551" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PDIP/SOIC_8P">
+<connects>
+<connect gate="G$1" pin="CANH" pad="P$2"/>
+<connect gate="G$1" pin="CANL" pad="P$3"/>
+<connect gate="G$1" pin="GND(RS)" pad="P$1"/>
+<connect gate="G$1" pin="GND(VSS)" pad="P$6"/>
+<connect gate="G$1" pin="RXD" pad="P$8"/>
+<connect gate="G$1" pin="TXD" pad="P$5"/>
+<connect gate="G$1" pin="VCC(VDD)" pad="P$7"/>
+<connect gate="G$1" pin="VREF" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2515">
+<description>MCP2515
+CAN controller</description>
+<gates>
+<gate name="G$1" symbol="MCP2515" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PDIP/SOIC_18P">
+<connects>
+<connect gate="G$1" pin="CLKOUT/SOF" pad="P$7"/>
+<connect gate="G$1" pin="CS" pad="P$3"/>
+<connect gate="G$1" pin="GND(VSS)" pad="P$8"/>
+<connect gate="G$1" pin="INT" pad="P$15"/>
+<connect gate="G$1" pin="MISO" pad="P$9"/>
+<connect gate="G$1" pin="MOSI" pad="P$10"/>
+<connect gate="G$1" pin="OSC1" pad="P$18"/>
+<connect gate="G$1" pin="OSC2" pad="P$17"/>
+<connect gate="G$1" pin="RESET" pad="P$2"/>
+<connect gate="G$1" pin="RX0BF" pad="P$16"/>
+<connect gate="G$1" pin="RX1BF" pad="P$4"/>
+<connect gate="G$1" pin="RXCAN" pad="P$6"/>
+<connect gate="G$1" pin="SCK" pad="P$13"/>
+<connect gate="G$1" pin="TX0RTS" pad="P$11"/>
+<connect gate="G$1" pin="TX1RTS" pad="P$12"/>
+<connect gate="G$1" pin="TX2RTS" pad="P$14"/>
+<connect gate="G$1" pin="TXCAN" pad="P$5"/>
+<connect gate="G$1" pin="VDD(VCC)" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_SOCKET_28P">
+<description>IC socket 28 pin</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1179FN1-28N">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD_95_72">
+<description>Board 95*72mm</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOARD_95_72">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD_72_47.5">
+<description>Board 72*47.5mm</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOARD_72_47.5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HUSG_8,16,20HZ">
+<description>XTAL 8,16,20 Hz
+only XTAL, without C</description>
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HUS">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD_UB-WRD01_FULL">
+<description>wired board full size
+12*12*4+12*4+11*4</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOARD_71.12_60.96_WRD">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD_UB-WRD01_12*12">
+<description>wired board 1/4 size
+12*12</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOARD_30.48_30.48_WRD">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD_UB-WRD01_4*12">
+<description>wired board small size
+4*12</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOARD_30.48_10.16_WRD">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOARD_UB-WRD01_4*11">
+<description>wired board small size -4 pin
+4*11</description>
+<gates>
+<gate name="G$1" symbol="FREE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BOARD_30.48_10.16_WRD_-4P">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSUB3131A">
+<description>LED blue 3mm round</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_R_3">
+<connects>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="C" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR_4P">
+<description>resistor 4P space</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESISTOR_4P">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
